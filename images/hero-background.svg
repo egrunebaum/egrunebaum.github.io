@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="783px" viewBox="0 0 1280 783" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1280" height="783"></rect>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FDF5F3" xlink:href="#path-1"></use>
+            <path d="M1451,1120 C1866.31813,1120 1467.58183,815.749231 1467.58183,676.297331 C1467.58183,591.550298 1528.76941,159.244133 1338,113.446326 C1270.91592,97.3415233 1051.66959,439.648821 741.786548,549.229972 C482.831674,640.801852 113.750071,612.143504 39.5818322,612.143504 C-375.7363,612.143504 -36.4181678,536.845432 -36.4181678,676.297331 C-36.4181678,763.450882 -74.0182645,1062.62314 126,1108 C246.02523,1135.22935 1295.24413,1120 1451,1120 Z" fill="#FEE9E1" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

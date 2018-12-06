@@ -1,0 +1,39 @@
+.assemble-case-study{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 100rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    grid-gap: 5rem;
+}
+.explanation {
+
+}
+.assemble-screens{
+  max-width: 1rem;
+}
+
+.contact-section p{
+  text-align: center;
+  color: #4C829A;
+}
+
+.contact-section .section{
+    background-color: #FDF5F3;
+    max-width: 100rem;
+
+}
+.contact-section-background {
+display: grid;
+/* grid-template-columns: 2fr 4fr; */
+padding: 3rem 0;
+width: 100%;
+margin: auto;
+justify-content: center;
+background-color: #FEE9E1;
+}
+
+.contact-btns {
+float: center;
+}

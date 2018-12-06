@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1140px" height="1158px" viewBox="0 0 1140 1158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assemble-case-study" transform="translate(-150.000000, -2873.000000)">
+            <g id="Group-13" transform="translate(150.000000, 2873.000000)">
+                <g id="Group-14">
+                    <rect id="Rectangle" fill="#333333" x="0" y="0" width="1140" height="1158"></rect>
+                    <g id="Group-90" transform="translate(597.000000, 489.000000)">
+                        <rect id="Rectangle" stroke="#FDF5F3" x="0.5" y="0.5" width="491" height="553"></rect>
+                        <g id="Group-111" transform="translate(20.000000, 20.000000)" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" line-spacing="30">
+                            <g id="Group-112">
+                                <text id="User-preferences-on">
+                                    <tspan x="0" y="297" fill="#6DAD95">User preferences on features</tspan>
+                                    <tspan x="271.8" y="297" fill="#FFFFFF"> </tspan>
+                                    <tspan x="277.72" y="297" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">from most </tspan>
+                                    <tspan x="0" y="327" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">important to least important:</tspan>
+                                    <tspan x="0" y="357" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="357" fill="#FFFFFF">1.  </tspan>
+                                    <tspan x="57.6" y="357" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Upload files</tspan>
+                                    <tspan x="0" y="387" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="387" fill="#FFFFFF">2.  </tspan>
+                                    <tspan x="57.6" y="387" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Organize files</tspan>
+                                    <tspan x="0" y="417" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="417" fill="#FFFFFF">3.  </tspan>
+                                    <tspan x="57.6" y="417" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Collaborate on files</tspan>
+                                    <tspan x="0" y="447" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="447" fill="#FFFFFF">4.  </tspan>
+                                    <tspan x="57.6" y="447" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Create new files</tspan>
+                                    <tspan x="0" y="477" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="477" fill="#FFFFFF">5. </tspan>
+                                    <tspan x="51.68" y="477" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"> See who was looking at their file in real-time</tspan>
+                                    <tspan x="0" y="507" fill="#FFFFFF">	6.  </tspan>
+                                    <tspan x="57.6" y="507" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Be able to directly message a user</tspan>
+                                </text>
+                                <text id="User-preferences-on">
+                                    <tspan x="0" y="20" fill="#6DAD95">User preferences on organizing files</tspan>
+                                    <tspan x="337.4" y="20" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"> from most </tspan>
+                                    <tspan x="0" y="50" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">likely to least likely:</tspan>
+                                    <tspan x="0" y="80" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="80" fill="#FFFFFF">1. </tspan>
+                                    <tspan x="51.68" y="80" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Folders</tspan>
+                                    <tspan x="0" y="110" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="110" fill="#FFFFFF">2.  </tspan>
+                                    <tspan x="57.6" y="110" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Date edited</tspan>
+                                    <tspan x="0" y="140" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="140" fill="#FFFFFF">3. </tspan>
+                                    <tspan x="51.68" y="140" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"> Alphabetically</tspan>
+                                    <tspan x="0" y="170" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="170" fill="#FFFFFF">4. </tspan>
+                                    <tspan x="51.68" y="170" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"> Dated created</tspan>
+                                    <tspan x="0" y="200" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="200" fill="#FFFFFF">5.  </tspan>
+                                    <tspan x="57.6" y="200" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">Date opened</tspan>
+                                    <tspan x="0" y="230" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	</tspan>
+                                    <tspan x="28" y="230" fill="#FFFFFF">6. </tspan>
+                                    <tspan x="51.68" y="230" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"> File size</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-91" transform="translate(57.000000, 489.000000)">
+                        <g id="Group-88">
+                            <text id="Frustrations-partici" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" line-spacing="30">
+                                <tspan x="20" y="40.4428044" fill="#6DAD95">Frustrations participants experience when using </tspan>
+                                <tspan x="20" y="70.4428044" fill="#6DAD95">their cloud storage app of choice:</tspan>
+                                <tspan x="336.64" y="70.4428044" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF"></tspan>
+                                <tspan x="20" y="100.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  File organization was not intuitive or robust </tspan>
+                                <tspan x="20" y="130.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	    enough.</tspan>
+                                <tspan x="20" y="160.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  Subscription fees (mainly from Dropbox </tspan>
+                                <tspan x="20" y="190.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	    users).</tspan>
+                                <tspan x="20" y="220.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  Low discoverability when trying to find </tspan>
+                                <tspan x="20" y="250.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	    documents associated with different </tspan>
+                                <tspan x="20" y="280.442804" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	    projects/accounts.</tspan>
+                            </text>
+                            <rect id="Rectangle-Copy" stroke="#FDF5F3" x="0.5" y="0.5" width="491" height="553"></rect>
+                            <text id="What-participants-li" font-family="Avenir-Heavy, Avenir" font-size="20" font-weight="600" line-spacing="30">
+                                <tspan x="20" y="363.439114" fill="#6DAD95">What participants like most about their cloud </tspan>
+                                <tspan x="20" y="393.439114" fill="#6DAD95">storage app of choice: </tspan>
+                                <tspan x="235.88" y="393.439114" fill="#FFFFFF"></tspan>
+                                <tspan x="20" y="423.439114" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  The ability to access files anywhere, on any </tspan>
+                                <tspan x="20" y="453.439114" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	    device. </tspan>
+                                <tspan x="20" y="483.439114" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  The ability to create new documents.</tspan>
+                                <tspan x="20" y="513.439114" font-family="Avenir-Book, Avenir" font-weight="normal" fill="#FFFFFF">	•  Ability to collaborate on projects.</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-26" transform="translate(194.000000, 149.000000)">
+                        <g id="Group-86">
+                            <g id="Group-4" transform="translate(0.000000, 8.000000)">
+                                <text id="100%-of-participants" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" line-spacing="28">
+                                    <tspan x="0" y="193" fill="#EE6868">100%</tspan>
+                                    <tspan x="82.74" y="198.630035" font-size="25" fill="#FFFFFF"> </tspan>
+                                    <tspan x="98.05" y="202.780212" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#FFFFFF">of participants used a </tspan>
+                                    <tspan x="13.5" y="230.780212" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#FFFFFF">cloud storage application for both </tspan>
+                                    <tspan x="13.5" y="258.780212" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#FFFFFF">professional and personal use.</tspan>
+                                </text>
+                                <circle id="Oval" stroke="#EE6868" stroke-width="100" cx="142" cy="50" r="50"></circle>
+                                <text id="100%" font-family="Avenir-Heavy, Avenir" font-size="16" font-weight="600" fill="#FFFFFF">
+                                    <tspan x="123" y="104">100%</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-44" transform="translate(420.000000, 0.000000)">
+                                <g id="Group-64" transform="translate(109.000000, 0.000000)" stroke-width="100">
+                                    <circle id="Oval" stroke="#FDF5F3" cx="58" cy="58" r="50"></circle>
+                                    <path d="M57.9227965,107.922797 C85.537034,107.922797 107.922797,85.537034 107.922797,57.9227965 C107.922797,30.308559 85.537034,7.92279653 57.9227965,7.92279653 C30.308559,7.92279653 7.92279653,30.308559 7.92279653,57.9227965 C7.92279653,85.537034 30.308559,107.922797 57.9227965,107.922797 Z" id="Oval-Copy-3" stroke="#EE6868" stroke-dasharray="298.2999877929688,298.2999877929688" transform="translate(57.922797, 57.922797) rotate(100.000000) translate(-57.922797, -57.922797) "></path>
+                                </g>
+                                <text id="95%" font-family="Avenir-Heavy, Avenir" font-size="16" font-weight="600" fill="#FFFFFF">
+                                    <tspan x="150" y="112">95%</tspan>
+                                </text>
+                                <text id="95%-of-participants" font-family="Avenir-Heavy, Avenir" font-size="30" font-weight="600" line-spacing="28">
+                                    <tspan x="0" y="201" fill="#EE6868">95%</tspan>
+                                    <tspan x="72.055" y="210.780212" font-family="Avenir-Book, Avenir" font-size="25" font-weight="normal" fill="#FFFFFF"> </tspan>
+                                    <tspan x="79.84" y="210.780212" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#FFFFFF">of participants were current </tspan>
+                                    <tspan x="13.5" y="238.780212" font-family="Avenir-Book, Avenir" font-size="20" font-weight="normal" fill="#FFFFFF">cloud storage users.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

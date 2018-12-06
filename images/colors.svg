@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="802px" height="123px" viewBox="0 0 802 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 65</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assemble-case-study" transform="translate(-489.000000, -10085.000000)">
+            <g id="Group-65" transform="translate(490.000000, 10086.000000)">
+                <circle id="Oval" stroke="#333333" stroke-width="0.5" fill="#2183E2" cx="50" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-5" stroke="#333333" stroke-width="0.5" fill="#E6F1FC" cx="166" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-6" stroke="#333333" stroke-width="0.5" fill="#2EA263" cx="283" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-7" stroke="#333333" stroke-width="0.5" fill="#2FA565" cx="400" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-8" stroke="#333333" stroke-width="0.5" fill="#956DD5" cx="517" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-9" stroke="#333333" stroke-width="0.5" fill="#434446" cx="634" cy="50" r="50"></circle>
+                <circle id="Oval-Copy-10" stroke="#333333" stroke-width="0.5" fill="#FFFFFF" cx="750" cy="50" r="50"></circle>
+                <text id="#2183E2" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="20" y="121">#2183E2</tspan>
+                </text>
+                <text id="#E6F1FC" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="135" y="121">#E6F1FC</tspan>
+                </text>
+                <text id="#288F57" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="254" y="121">#288F57</tspan>
+                </text>
+                <text id="#2FA565" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="368" y="121">#2FA565</tspan>
+                </text>
+                <text id="#956DD5" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="484" y="121">#956DD5</tspan>
+                </text>
+                <text id="#434446" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="605" y="121">#434446</tspan>
+                </text>
+                <text id="#FFFFFF" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
+                    <tspan x="719" y="121">#FFFFFF</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

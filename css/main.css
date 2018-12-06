@@ -1,0 +1,216 @@
+
+html {
+  font-size: 10px;
+}
+/* Typography */
+project-name {
+ color: #333333;
+ font-family: 'Playfair Display', serif;
+ font-size: 6em;
+ line-height: 1rem;
+}
+
+h1 {
+ color: #333333;
+ font-family: 'nunito', sans-serif;
+ font-size: 2.5rem;
+ line-height: 1.5rem;
+ font-weight: 300;
+ text-transform: uppercase;
+}
+
+h3 {
+ color: #4C829A;
+ font-family: 'Nunito', sans-serif;
+ font-size: 1.8rem;
+ text-transform: uppercase;
+ font-weight: 100;
+ padding: 0 0 .7rem 0;
+}
+
+h2 {
+ color: #333333;
+ font-family: 'Playfair Display', serif;
+ font-size: 2.6rem;
+ line-height: normal;
+}
+
+h4 {
+  color: #f76252;
+  /*
+ color: #EE6868;*/
+ font-size: 3rem;
+ line-height: 2rem;
+}
+
+h2, h3, h4 {
+ /*max-width: 300px;*/
+ margin: 0 0 0 0;
+}
+
+p, ul, ol {
+ color: #333333;
+ font-family: 'Nunito', sans-serif;
+ font-size: 1.8rem;
+ font-weight: 300;
+ max-width: 800px;
+ line-height: 3rem;
+}
+/* Buttons */
+
+a {
+  text-decoration: none;
+}
+
+.button, .cs-button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1.5rem 0;
+  width: 22.7rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  white-space: nowrap;
+  background-color: #f76252;
+  border: 0.2rem solid #f76252;
+  border-radius: 4rem;
+  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+
+.button:hover {
+  background-color: #f76252;
+  transition: 0.3s ease-in-out;
+}
+
+.proj-btn {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 2rem 0;
+  width: 22.7rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  /*.text-transform: uppercase;*/
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: .5rem;
+  border: 0.2rem solid #FFFFFF;
+  transition: 0.3s ease-in-out;
+}
+
+.proj-btn:hover {
+  background-color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+}
+
+#sphere:hover {
+  color: #f76252;
+  transition: 0.3s ease-in-out;
+}
+
+#assemble:hover {
+  color: #f76252;
+  transition: 0.3s ease-in-out;
+}
+
+.cs-button {
+  display: inline-block;
+  width: 35%;
+  margin: 3rem;
+}
+
+.cs-button:hover, #intro-btn2:hover {
+  background-color: #f76252;
+  color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+  border-color: #f76252;
+  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+button {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  white-space: nowrap;
+  background-color: #f76252;
+  border-radius: .5rem;
+  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #f76252;
+  color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+  border-color: #f76252;
+}
+
+@media screen and (min-width:768px) {
+
+.button, .cs-button {
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+}
+
+
+.cs-button {
+  background-color: transparent;
+  color: #f76252;
+  box-shadow: none;
+}
+.proj-btn {
+  padding: 2.2rem 0;
+  font-size: 1.8rem;
+}
+}
+
+/* NO MEDIA QUERIES FOR TABLET */
+
+
+@media screen and (min-width:1224px) {
+
+button {
+  font-size: 1.8rem;
+  height: 7rem;
+  width: 21.7rem;
+}
+
+.proj-btn {
+  padding: 2.5rem 0;
+}
+}
+
+/* END Buttons */
+
+
+/*containers*/
+.container {
+ /*height: 100vh;*/
+ margin: 0 auto;
+ width: 100%;
+}
+
+
+
+
+.paragraph {
+ display: block;
+ float: left;
+}
+.section {
+ display: grid;
+ /*grid-template-columns: 2fr 4fr;*/
+ padding: 3rem 0;
+ max-width: 120rem;
+ margin: auto;
+ justify-content: center;
+}
