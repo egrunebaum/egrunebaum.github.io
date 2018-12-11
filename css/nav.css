@@ -1,7 +1,7 @@
+/*NAVIGATION START*/
 /* Sticky Navigation - Outside Grid Wrapper */
 header {
   padding: 1.5rem 0.4rem;
-  background-color: ##2183E2;
   border-top: 0.6rem solid #FDF5F3;
   /*box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.05), 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);*/
   display: flex;
@@ -22,10 +22,14 @@ header {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  width: 12%;
+  margin-left: 10rem;
 }
 
 .eg-logo {
-  width: 60%;
+    width: 5rem;
+    margin-right: .6rem;
+
 }
 
 /* Hamburger Menu */
@@ -155,11 +159,11 @@ Animations
     text-decoration: none;
     color: #FFF;
     transition: 0.3s ease-in-out;
-    font-weight: 100;
+    font-weight: 300;
   }
 
   .nav-link.a {
-    color: #333333;
+    color: #FFF;
     font-weight: 900;
   }
 
@@ -173,6 +177,7 @@ Animations
     font-size: 1.7rem;
     font-weight: 600;
     transition: 0.1s /*ease-in-out*/;
+    margin-right:10rem;
   }
 
   .nav-links li {
@@ -180,11 +185,12 @@ Animations
   }
 
   .nav-link:hover {
-    color: #EE6868;
-    font-weight: 400;
-    cursor: pointer;
-    transition: 0.1s /*ease-in-out*/;
-  }
+      color: #6DAD95;
+      -webkit-transition: ease-in-out .5s;
+      -moz-transition: ease-in-out .5s;
+      -o-transition: ease-in-out .5s;
+      transition: ease-in-out .5s;
+    }
 
 
 
@@ -193,7 +199,13 @@ Animations
   }
 
   a {
-    text-decoration: none;
+  display: inline-block;
+width: 25%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
   }
 }
 
@@ -204,7 +216,7 @@ Animations
 
   .nav-links {
     margin-right: 10rem;
-  }
+
 }
 
-/* END NAVIGATION STYLES and MEDIA QUERIES */
+/*UNDERLINING NAV MENU*/

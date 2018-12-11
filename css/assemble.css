@@ -16,40 +16,21 @@ body {
  margin: auto;
  justify-content: center;
 }
-/*TOP NAVIGATION
-.navigation-bar {
-    margin: auto;
-    height: 8rem;
-    background-color: #FFFFFF;
-    max-width: 120rem;
-    float: center;
-    border: .5 #FEE9E1;
+
+.design-roles {
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+max-width: 100rem;
+grid-gap: 5rem;
 
 }
-.logo {
-    display: inline-block;
-    width: 5rem;
-    margin-left: 5rem;
 
-}
-a {
-color: #333333;
-font-family: 'nunito', sans-serif;
-font-weight: 100;
-font-size: 1.6rem;
-text-decoration: none;
-    display: inline-block;
-    float: right;
-    margin-right: 5rem;
-    height: 8rem;        /* if you want it to take the full height of the bar
-    line-height: 8rem;    /* if you want it vertically middle of the navbar
-}
-END TOP NAV*/
 
 .gradient {
   width: 100%;
   padding-bottom: 1rem;
   background-color: #2183E2;
+  margin: 0 0 10rem 0;
 /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
 
 }
@@ -84,7 +65,7 @@ END TOP NAV*/
 }
 
 .top-section {
-  padding: 5rem 0 5rem 0;
+  padding: 3rem 0 8rem 0;
   display: block;
   /*grid-template-columns: 2fr 4fr;*/
   max-width: 100rem;
@@ -108,6 +89,11 @@ text-align: center;
   max-width: 800px;
 }
 
+.competitive-analysis-img {
+  align-items: center;
+  justify-content: center;
+
+}
 
 /*USER STORIES*/
 .user-stories{
@@ -155,7 +141,7 @@ text-align: center;
 #persona-name {
   display: block;
   justify-content: center;
-  text-align: center;
+
 }
 
 #david {
@@ -167,6 +153,19 @@ text-align: center;
 #sara {
   /*border: .1rem solid #6DAD95;*/
   padding: 2rem 2rem 2rem 2rem;
+}
+
+.quote {
+  border-left: 2px
+  solid #f76252;
+  padding-left: 2rem;
+  color: #f76252;
+  font-weight:600;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.8rem;
+  max-width: 800px;
+  line-height: 3rem;
+  margin: 0 0 2rem;
 }
 
 .persona-titles {
@@ -188,20 +187,19 @@ text-align: center;
 /*SURVEYS*/
 
 .surveys {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  width: 100rem;
-  grid-gap: 5rem;
-  align-items: center;
-  justify-content: center;
+  max-width: 100rem;
+  margin: 3rem;
   background-color: #333333;
-  margin: auto;
 }
 
 .text-box {
-  border: .1rem solid #6DAD95;
-  padding: 2rem 2rem 2rem 2rem;;
+  border: .1rem solid #FDE8E5;
+  padding: 2rem;
+  width:90%;
+align-items: center;
+justify-content: center;
+margin: auto;
+
 
 }
 
@@ -217,18 +215,45 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100rem;
-  grid-gap: 5rem;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  margin: 0 0 4rem 0;
+}
+
+.text-section1{
+  display: block;
+  width: 60rem;
   align-items: center;
   justify-content: center;
   background-color: #333333;
   margin: auto;
 }
 
-.design-roles {
+.pie-chart1 {
+  width: 50%;
+  margin: 0 10rem 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pie-charts{
   display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-max-width: 100rem;
-grid-gap: 5rem;
-float: center;
+  grid-template-columns: 1fr 1fr ;
+  width: 50%;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+margin: 4rem 10rem 0 10rem;
+
+  align-content: stretch;
+}
+.pie-chart-text p{
+  color: #FFF;
 
 }
+
+.test {
+align: center;
