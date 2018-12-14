@@ -12,7 +12,7 @@ body {
  display: grid;
  /*grid-template-columns: 2fr 4fr;*/
  padding: 3rem 0;
- max-width: 120rem;
+ max-width: 100rem;
  margin: auto;
  justify-content: center;
 }
@@ -276,10 +276,45 @@ align-items: center;
  .golden-ratio img{
   display: grid;
   grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
-  justify-content: center;
+
  align-content: center;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+/*USABILITY TESTING*/
+.usability-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+justify-content: center;
+ grid-gap: 4rem;
+    margin: auto;
+    max-width: 100rem;
+}
+.usability-1-2-img{
+margin:auto;
+
+}
+
+.uploading-file{
+  display: grid;
+  grid-template-columns: 1fr .5fr 1fr;
+align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100rem;
+}
+.uploading-file img{
+display: grid;
+grid-template-columns: 1fr .5fr 1fr;
+justify-content: center;
+align-content: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
