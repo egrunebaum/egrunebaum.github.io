@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Grunebaum | Product Designer</title>
+
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+
+   <body>
+  <header class="header">
+        <div class="logo-container"> <!-- Centers logo in header -->
+          <a href="index.html"><img class="cd-logo" src="images/site-logo.svg" alt="Cody Dennis Product Design"></a>
+        </div>
+      <!-- Wraps mobile and tablet/desktop navs -->
+      <nav>
+
+      <!-- Divs to make hamburger button -->
+        <input id="toggle" type="checkbox"><!-- Enables hamburger menu to be clicked -->
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+
+        <!-- Hamburger menu -->
+      <div class="nav"><!-- Wraps entire mobile menu -->
+      <div class="nav-wrapper"><!-- Wraps menu links -->
+      <div class="menu"><!-- Menu -->
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="images/codydennis_resume.pdf" target="_blank"><i class="far fa-file-pdf"></i>Resume</a></li>
+         </ul>
+      </div><!-- END menu -->
+    </div><!-- END menu links wrap-->
+  </div><!-- END entire mobile menu wrap -->
+
+      <!-- tablet and desktop navigation -->
+      <div class="nav-links">
+          <ul>
+            <li><a class="nav-link" href="index.html">Work</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link a" href="contact.html">Contact</a></li>
+            <li><a class="nav-link" href="images/emmagrunebaum_resume.pdf" target="_blank"><i class="far fa-file-pdf"></i>Resume</a></li>
+          </ul>
+      </div>
+    </nav><!-- END all Navigation -->
+</header>
+
+
+<div class="grid-wrapper"> <!-- CSS Grid wrapper START-->
+
+  <div class="say-hello">
+            <h1 class="contact-header">Say <span class="intro-h1">hello</span></h1>
+            <p>I'd love to hear from you! To get in touch, fill out the form or email me at <a href="malito:hello@iamemma.design">hello@iamemma.design</a>.</p>
+          </div>
+
+          <div class="contactForm">
+              <form action="https://formspree.io/hello@iamemma.design" method="POST">
+                <div>
+                  <input type="text" name="name" placeholder="Your name" autocomplete="off">
+                </div>
+                <div>
+                  <input type="email" name="_replyto" placeholder="Your email" autocomplete="off">
+                </div>
+                <div class="letterForm">
+                  <textarea name="message" placeholder="Your message" ></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="contact-button">Send Message</button>
+                </div>
+              </form>
+            </div>
+
+          </div> <!--CSS grid wrapper end -->
+
+          <!-- Footer -->
+
+          <!-- Issue with Grid not interpreting the form well. Took footer out of
+          grid wrapper and stuck it to the bottom using position absolute and does not cover content on
+          mobile -->
+
+
+          <!--FOOTER-->
+          <footer>
+                <div class="footer-info"><!-- To wrap all content inside the footer -->
+                <div class="social-links"><!-- Font Awesome social media links -->
+                  <a href="https://www.linkedin.com/in/egrunebaum/" target="_blank">
+                    <i class="fab fa-linkedin-square fa-4x"></i></a>
+                  <a href="https://github.com/egrunebaum/" target="_blank">
+                    <i class="fab fa-git-square fa-4x"></i></a>
+
+               </div>
+               <div>
+                  <p><i class="far fa-copyright"></i> 2018 | Designed & Developed by Emma Grunebaum</p>
+               </div><!-- end Social Links-->
+               </div><!-- End wrapping all content in footer -->
+          </footer>
+
+
+  </body>
+  </html>

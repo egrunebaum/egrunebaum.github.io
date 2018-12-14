@@ -165,9 +165,9 @@ button {
 
 /*containers*/
 .container {
- /*height: 100vh;*/
+ height: 100vh;
  margin: 0 auto;
- width: 100%;
+ width: 100rem;
 }
 
 
@@ -224,5 +224,130 @@ footer {
   margin: 0 10rem;
 }
 
-
 /* End Footer */
+
+
+/**** CONTACT PAGE ****/
+.say-hello {
+  margin: 12rem 2rem 1rem 2rem;
+  text-align: left;
+}
+
+.say-hello p {
+  text-align: left;
+}
+
+.contactForm {
+  margin-bottom: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Style to just this footer fixing issue on contact page
+where the grid wasn't interpeting the form well causing the footer
+to bounce around. Effective across browsers */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+input {
+  font-family: "ff-real-text-pro", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border: 0.2rem solid #DBE2F4;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  height: 4rem;
+}
+
+input:focus {
+  border: 0.2rem solid #0B23FF;
+}
+
+.contactForm div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  width: 100%;
+}
+
+/* Styles for button on contact page */
+button {
+height: 6rem;
+ width: 25rem;
+ border-radius: .5rem;
+ border: 0;
+ box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+ background-color: #EE7676;
+ font-size: 1.5rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ color: #fff;
+}
+
+textarea {
+  font-family: "ff-real-text-pro", Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border: 0.2rem solid #DBE2F4;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 12rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  resize: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
+textarea:focus {
+  border: .2rem solid #0B23FF;
+}
+
+
+@media screen and (min-width:768px) {
+
+.say-hello {
+  grid-column: 2 / 6;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.say-hello h1 {
+  font-size: 4.4rem;
+  text-align: center;
+}
+
+.say-hello p {
+    text-align: center;
+}
+
+.contactForm {
+  grid-column: 2 / 6;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+}
+@media screen and (min-width:1224px) {
+
+.say-hello {
+  grid-column: 5 / 11;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 14rem;
+}
+
+.contactForm {
+  grid-column: 5 / 11;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+}
