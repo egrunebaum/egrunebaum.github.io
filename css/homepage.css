@@ -2,7 +2,7 @@
 /* Sticky Navigation - Outside Grid Wrapper */
 header {
   padding: 1.5rem 0.4rem;
-  background-color: #FDE8E5;
+  background-color: #FFF;
   border-top: 0.6rem solid #FDF5F3;
   /*box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.05), 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);*/
   display: flex;
@@ -27,7 +27,7 @@ header {
 }
 
 .eg-logo {
-  width: 5rem;
+  width: 6rem;
   margin-right: .6rem;
 }
 
@@ -50,6 +50,7 @@ header {
   margin-top: 0.5rem;
   transition: all 0.4s ease-in-out;
 }
+
 
 /* NAV STYLES - Hamburger Menu  */
 .nav {
@@ -201,6 +202,7 @@ a {
   margin-right: 10rem;
 }
 
+
 /* END NAVIGATION STYLES and MEDIA QUERIES */
 .assemble-case-study {
   display: grid;
@@ -243,7 +245,7 @@ a {
   width: 100%;
   margin: auto;
   justify-content: center;
-  background-color: #6DAD95;
+  background-color: #579C9E;
 }
 
 .contact-btns {
@@ -255,22 +257,26 @@ a {
   padding: 3rem 0 5rem 0;
   max-width: 80rem;
   margin: auto;
+  text-align: center;
 }
 
 .I-am-Emma p {
-  line-height: 2;
+  line-height: 1.5;
   font-size: 2.2rem;
+text-align: center;
 }
 
 .top-section {
   width: 100%;
-  background-image: linear-gradient(#FDE8E5, #FFFFFF);
-  padding: 4rem 0 5rem 0;
+  background-color: #FFF;
+  padding: 10rem 0 5rem 0;
 }
 
 .hi {
   font-family: 'Playfair Display', serif;
-  font-size: 5rem;
+  font-size: 8rem;
+  color: #333333;
+
 }
 
 .work-link {
@@ -280,15 +286,23 @@ a {
 }
 
 .see-work {
-  margin-top: 12rem;
+  margin-top: 16rem;
   text-align: center;
 }
 
 .see-work i {
-  color: #FB7E6C;
+  color: #EE7676;
   width: 5rem;
 }
-
+.section {
+ display: grid;
+ /*grid-template-columns: 2fr 4fr;*/
+ width: 100%;
+ padding: 3rem 0;
+ margin: auto;
+ justify-content: center;
+ background-color: #E6F1FC;
+}
 /*ANIMATIONS*/
 @-webkit-keyframes fadeInDown {
   from {
@@ -375,3 +389,5 @@ a {
   -webkit-animation: bounce2 6s infinite;
   animation: bounce2 6s infinite;
 }
+
+/*ANIMATION DONE*/

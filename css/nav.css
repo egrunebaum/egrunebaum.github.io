@@ -12,6 +12,7 @@ header {
   justify-content: space-between;
 }
 
+
 #navbar {
   background-color: #FDF5F3;
 }
@@ -27,7 +28,7 @@ header {
 }
 
 .eg-logo {
-    width: 5rem;
+    width: 6rem;
     margin-right: .6rem;
 
 }

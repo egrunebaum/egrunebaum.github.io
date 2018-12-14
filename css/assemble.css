@@ -28,8 +28,11 @@ grid-gap: 5rem;
 
 .gradient {
   width: 100%;
+  height: auto;
   padding-bottom: 1rem;
-  background-color: #2183E2;
+
+background-color: #2183E2;
+  /*background: url("../images/assemble-background.jpg");*/
   margin: 0 0 10rem 0;
 /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
 
@@ -48,9 +51,8 @@ grid-gap: 5rem;
 .competitive-analysis{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 100rem;
+  max-width: 80rem;
   grid-gap: 5rem;
-  align-items: center;
   justify-content: center;
   padding: 0rem 0 3rem; 0;
   margin: auto;
@@ -65,7 +67,7 @@ grid-gap: 5rem;
 }
 
 .top-section {
-  padding: 3rem 0 8rem 0;
+  padding: 3rem 0 10rem 0;
   display: block;
   /*grid-template-columns: 2fr 4fr;*/
   max-width: 100rem;
@@ -101,7 +103,6 @@ text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 80rem;
   grid-gap: 5rem;
-  align-items: center;
   justify-content: center;
   padding: 3rem 0 0 0;
 }
@@ -157,9 +158,9 @@ text-align: center;
 
 .quote {
   border-left: 2px
-  solid #f76252;
+  solid #EE7676;
   padding-left: 2rem;
-  color: #f76252;
+  color: #EE7676;
   font-weight:600;
   font-family: 'Nunito', sans-serif;
   font-size: 1.8rem;
@@ -195,12 +196,9 @@ text-align: center;
 .text-box {
   border: .1rem solid #FDE8E5;
   padding: 2rem;
-  width:90%;
 align-items: center;
 justify-content: center;
-margin: auto;
-
-
+margin: 0 4rem 4rem 4rem;
 }
 
 .text-color p{
@@ -215,7 +213,7 @@ margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100rem;
-  grid-gap: 1rem;
+  grid-gap: 3rem;
   align-items: center;
   justify-content: center;
   background-color: #333333;
@@ -230,24 +228,28 @@ margin: auto;
   background-color: #333333;
   margin: auto;
 }
-
-.pie-chart1 {
-  width: 50%;
-  margin: 0 10rem 0 0;
-  justify-content: center;
-  align-items: center;
+.percent-text {
+  display: block;
+  width: 50%
 }
 
+.pie-charts img  {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.competitive-analysis-img  {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .pie-charts{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-  width: 50%;
-  grid-gap: 1rem;
-  align-items: center;
-  justify-content: center;
-margin: 4rem 10rem 0 10rem;
-
+  grid-template-columns: 50% 50% ;
+  grid-gap: 5rem;
+margin: 4rem 10rem 2rem; 10rem;
+justify-content: stretch;
   align-content: stretch;
 }
 .pie-chart-text p{
@@ -255,5 +257,29 @@ margin: 4rem 10rem 0 10rem;
 
 }
 
-.test {
-align: center;
+.survey-percent {
+  color: #EE6868;
+  font-size: 3rem;
+
+}
+
+.golden-ratio {
+  display: grid;
+  grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+ .golden-ratio img{
+  display: grid;
+  grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+  justify-content: center;
+ align-content: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
