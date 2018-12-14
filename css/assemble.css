@@ -160,7 +160,7 @@ text-align: center;
   border-left: 2px
   solid #EE7676;
   padding-left: 2rem;
-  color: #EE7676;
+  color: #gi;
   font-weight:600;
   font-family: 'Nunito', sans-serif;
   font-size: 1.8rem;
@@ -258,7 +258,7 @@ justify-content: stretch;
 }
 
 .survey-percent {
-  color: #EE6868;
+  color: #579C9E;
   font-size: 3rem;
 
 }

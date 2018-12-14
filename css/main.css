@@ -13,7 +13,7 @@ project-name {
 h1 {
  color: #333333;
  font-family: 'nunito', sans-serif;
- font-size: 3.5rem;
+ font-size: 3.7rem;
  line-height: 1.5rem;
  font-weight: 300;
  text-transform: uppercase;
@@ -67,108 +67,73 @@ a {
   text-decoration: none;
 }
 
-.button, .cs-button {
+.button {
   display: inline-block;
   cursor: pointer;
-  padding: 1.5rem 0;
-  width: 22.7rem;
+  width: 45%;
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 700;
-  /*text-transform: uppercase;*/
+  font-weight: 600;
   white-space: nowrap;
   background-color: #EE7676;
   border: 0.2rem solid #EE7676;
   border-radius: 4rem;
-  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: 0.3s ease-in-out;
+  margin-right: 2rem;
+  font-family: 'nunito', sans-serif;
+  letter-spacing: .08rem;
 }
 
 
 .button:hover {
+  color: #FFF;
   background-color: #EE7676;
   transition: 0.3s ease-in-out;
 }
 
-.proj-btn {
+.contact-button {
   display: inline-block;
   cursor: pointer;
-  margin-top: 1rem;
-  padding: 2rem 0;
-  width: 22.7rem;
-  color: #FFF;
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  /*.text-transform: uppercase;*/
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: .5rem;
-  border: 0.2rem solid #FFFFFF;
-  transition: 0.3s ease-in-out;
-}
-
-.proj-btn:hover {
-  background-color: #FFFFFF;
-  transition: 0.3s ease-in-out;
-}
-
-#sphere:hover {
-  color: #EE7676;
-  transition: 0.3s ease-in-out;
-}
-
-#assemble:hover {
-  color: #EE7676;
-  transition: 0.3s ease-in-out;
-}
-
-.cs-button {
-  display: inline-block;
-  width: 35%;
-  margin: 3rem;
-  font-family: 'nunito', sans-serif;
-}
-
-.cs-button:hover, #intro-btn2:hover {
-  background-color: #EE7676;
-  color: #FFFFFF;
-  transition: 0.5s ease-in-out;
-  border-color: #EE7676;
-  box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
-}
-
-button {
-  color: #FFF;
+  width: 30rem;
+  color: #F2C57C;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 700;
-  /*text-transform: uppercase;*/
+  font-weight: 600;
   white-space: nowrap;
-  background-color: #EE7676;
-  border-radius: .5rem;
+  background-color: transparent;
+  border: 0.2rem solid #F2C57C;
+  border-radius: 4rem;
+  /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
+  transition: 0.3s ease-in-out;
+  margin: 2rem;
+  font-family: 'nunito', sans-serif;
+  letter-spacing: .08rem;
+}
+
+.contact-button:hover {
+  background-color: #F2C57C;
+  color: #FFF;
+  transition: 0.5s ease-in-out;
+  border-color: #F2C57C;
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
-  transition: 0.3s ease-in-out;
-
+}
+.center-btns{
+  text-align: center;
 }
 
-button:hover {
-  background-color: #EE7676;
-  color: #FFFFFF;
-  transition: 0.3s ease-in-out;
-  border-color: #EE7676;
-}
+
 
 @media screen and (min-width:768px) {
 
-.button, .cs-button {
+.button, .contact-button {
   padding: 1.5rem 0;
   font-size: 1.8rem;
 }
 
 
-.cs-button {
+.button {
   background-color: transparent;
   color: #EE7676;
   box-shadow: none;
