@@ -19,7 +19,7 @@ header {
 .logo-container {
   margin-left: 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
   justify-content: center;
   align-items: center;
   width: 12%;
@@ -31,25 +31,7 @@ header {
   margin-right: .6rem;
 }
 
-/* Hamburger Menu */
-.hamburger {
-  position: absolute;
-  top: 1.9rem;
-  right: 3.5rem;
-  width: 2rem;
-  height: 4.5rem;
-  z-index: 2;
-}
 
-.hamburger div {
-  position: relative;
-  width: 3rem;
-  height: .4rem;
-  border-radius: 0.1rem;
-  background-color: #4C829A;
-  margin-top: 0.5rem;
-  transition: all 0.4s ease-in-out;
-}
 
 
 /* NAV STYLES - Hamburger Menu  */
@@ -116,34 +98,11 @@ header {
   transition: 0.3s ease all;
 }
 
-#toggle {
-  display: none;
-}
 
 /**
 Animations
 **/
-#toggle:checked+.hamburger .top-bun {
-  transform: rotate(-45deg);
-  margin-top: 2.5rem;
-  background-color: white;
-}
 
-#toggle:checked+.hamburger .bottom-bun {
-  opacity: 0;
-  transform: rotate(45deg);
-}
-
-#toggle:checked+.hamburger .meat {
-  transform: rotate(45deg);
-  margin-top: -0.45rem;
-  background-color: white
-}
-
-#toggle:checked+.hamburger+.nav {
-  top: 0;
-  transform: scale(1);
-}
 
 .nav-links {
   display: none;
@@ -208,22 +167,32 @@ a {
 .assemble-case-study {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  max-width: 60rem;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
   grid-gap: 4rem;
+  background-color: #E6F1FC;
+}
+.assemble-screens{
+  width: 20%;
 }
 
-.background {
-  /*background-color: #E6F1FC;*/
-  width: 100%;
+.section {
+  display: grid;
+/*grid-template-columns: 2fr 4fr;*/
+padding: 8rem 0 0rem 0;
+max-width: 64rem;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-left: 3rem;
+margin-right: 3rem;
+margin: auto;
+justify-content: center;
 }
 
-.explanation {
-  width: 50rem;
-}
+
 
 .contact-section p {
   text-align: center;
@@ -295,15 +264,7 @@ text-align: center;
   color: #EE7676;
   width: 5rem;
 }
-.section {
- display: grid;
- /*grid-template-columns: 2fr 4fr;*/
- width: 100%;
- padding: 3rem 0;
- margin: auto;
- justify-content: center;
- background-color: #E6F1FC;
-}
+
 /*ANIMATIONS*/
 @-webkit-keyframes fadeInDown {
   from {
@@ -390,5 +351,22 @@ text-align: center;
   -webkit-animation: bounce2 6s infinite;
   animation: bounce2 6s infinite;
 }
+.top-section img{
+  padding-bottom:4rem;
+}
 
 /*ANIMATION DONE*/
+
+@media screen and (max-width:840px){
+  .section{
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+  }
+  .assemble-case-study {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+}

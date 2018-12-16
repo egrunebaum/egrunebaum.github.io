@@ -14,9 +14,11 @@ h1 {
  color: #333333;
  font-family: 'nunito', sans-serif;
  font-size: 3.7rem;
- line-height: 1.5rem;
  font-weight: 300;
  text-transform: uppercase;
+ letter-spacing: .06rem;
+ padding:2rem 0 0 0;
+
 }
 
 h3 {
@@ -26,7 +28,7 @@ h3 {
  text-transform: uppercase;
  font-weight: 300;
  padding: 0 0 .7rem 0;
- margin: 10rem 0 0 0;
+
  letter-spacing: .08rem;
 }
 
@@ -70,7 +72,7 @@ a {
 .button {
   display: inline-block;
   cursor: pointer;
-  width: 45%;
+  width: 75%;
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
@@ -96,7 +98,7 @@ a {
 .contact-button {
   display: inline-block;
   cursor: pointer;
-  width: 30rem;
+  width: 45%;
   color: #F2C57C;
   text-align: center;
   font-size: 1.5rem;
@@ -107,7 +109,7 @@ a {
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: 0.3s ease-in-out;
-  margin: 2rem;
+  margin: 1rem;
   font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
 }
@@ -121,11 +123,13 @@ a {
 }
 .center-btns{
   text-align: center;
+
+  padding-bottom: 2rem;
 }
 
 
 
-@media screen and (min-width:768px) {
+
 
 .button, .contact-button {
   padding: 1.5rem 0;
@@ -135,48 +139,14 @@ a {
 
 .button {
   background-color: transparent;
-  color: #EE7676;
+color: #EE7676;
   box-shadow: none;
 }
-.proj-btn {
-  padding: 2.2rem 0;
-  font-size: 1.8rem;
-}
-}
+
+
 
 /* NO MEDIA QUERIES FOR TABLET */
 
-
-@media screen and (min-width:1224px) {
-
-button {
-  font-size: 1.8rem;
-  height: 7rem;
-  width: 21.7rem;
-}
-
-.proj-btn {
-  padding: 2.5rem 0;
-}
-}
-
-/* END Buttons */
-
-
-/*containers*/
-.container {
- height: 100vh;
- margin: 0 auto;
- width: 100rem;
-}
-
-
-
-
-.paragraph {
- display: block;
- float: left;
-}
 
 
 
@@ -212,10 +182,6 @@ footer p {
 
 {
 
-footer {
-  grid-column: 1 / -1;
-  padding: 2rem 0;
-}
 
 .footer-info {
   display: flex;
@@ -226,128 +192,14 @@ footer {
 
 /* End Footer */
 
-
-/**** CONTACT PAGE ****/
-.say-hello {
-  margin: 12rem 2rem 1rem 2rem;
-  text-align: left;
+@media screen and(max-width:650px){
+  .button{
+    width:200%;
+  }
 }
 
-.say-hello p {
-  text-align: left;
-}
-
-.contactForm {
-  margin-bottom: 20rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-/* Style to just this footer fixing issue on contact page
-where the grid wasn't interpeting the form well causing the footer
-to bounce around. Effective across browsers */
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-input {
-  font-family: "ff-real-text-pro", Helvetica, sans-serif;
-  font-size: 1.5rem;
-  border: 0.2rem solid #DBE2F4;
-  border-radius: 0.5rem;
-  padding-left: 1rem;
-  height: 4rem;
-}
-
-input:focus {
-  border: 0.2rem solid #0B23FF;
-}
-
-.contactForm div {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-
-.contact-button {
-  width: 100%;
-}
-
-/* Styles for button on contact page */
-button {
-height: 6rem;
- width: 25rem;
- border-radius: .5rem;
- border: 0;
- box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
- background-color: #EE7676;
- font-size: 1.5rem;
- font-weight: 600;
- text-transform: uppercase;
- color: #fff;
-}
-
-textarea {
-  font-family: "ff-real-text-pro", Helvetica, sans-serif;
-  font-size: 1.5rem;
-  border: 0.2rem solid #DBE2F4;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  height: 12rem;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  resize: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  overflow: auto;
-}
-
-textarea:focus {
-  border: .2rem solid #0B23FF;
-}
-
-
-@media screen and (min-width:768px) {
-
-.say-hello {
-  grid-column: 2 / 6;
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.say-hello h1 {
-  font-size: 4.4rem;
-  text-align: center;
-}
-
-.say-hello p {
-    text-align: center;
-}
-
-.contactForm {
-  grid-column: 2 / 6;
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-}
-@media screen and (min-width:1224px) {
-
-.say-hello {
-  grid-column: 5 / 11;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 14rem;
-}
-
-.contactForm {
-  grid-column: 5 / 11;
-  margin-left: 0;
-  margin-right: 0;
-}
-
+@media screen and (max-widht:715px){
+  .contact-button{
+    margin: 1rem;
+  }
 }

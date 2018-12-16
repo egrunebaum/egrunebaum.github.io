@@ -2,7 +2,7 @@
 /* Sticky Navigation - Outside Grid Wrapper */
 header {
   padding: 1.5rem 0.4rem;
-  border-top: 0.6rem solid #FDF5F3;
+  border-top: 0.6rem solid #FEEEE8;
   /*box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.05), 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);*/
   display: flex;
   align-items: center;
@@ -33,25 +33,7 @@ header {
 
 }
 
-/* Hamburger Menu */
-.hamburger {
-  position: absolute;
-  top: 1.9rem;
-  right: 3.5rem;
-  width: 2rem;
-  height: 4.5rem;
-  z-index: 2;
-}
 
-.hamburger div {
-  position: relative;
-  width: 3rem;
-  height: .4rem;
-  border-radius: 0.1rem;
-  background-color: #4C829A;
-  margin-top: 0.5rem;
-  transition: all 0.4s ease-in-out;
-}
 
 /* NAV STYLES - Hamburger Menu  */
 .nav {
@@ -192,12 +174,6 @@ Animations
       -o-transition: ease-in-out .5s;
       transition: ease-in-out .5s;
     }
-
-
-
-  #toggle, .nav, .hamburger {
-    display: none;
-  }
 
   a {
   display: inline-block;
