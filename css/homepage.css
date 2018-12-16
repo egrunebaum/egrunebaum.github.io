@@ -357,7 +357,7 @@ text-align: center;
 
 /*ANIMATION DONE*/
 
-@media screen and (max-width:840px){
+@media screen and (-width:840px){
   .section{
     margin-right: 2rem;
     margin-left: 2rem;
@@ -368,5 +368,8 @@ text-align: center;
     grid-template-columns: 1fr;
 
   }
-
+  .contact-button {
+    margin: 1rem;
+    width:125%;
+  }
 }

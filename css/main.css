@@ -98,7 +98,7 @@ a {
 .contact-button {
   display: inline-block;
   cursor: pointer;
-  width: 45%;
+  width: 70%;
   color: #F2C57C;
   text-align: center;
   font-size: 1.5rem;
@@ -181,25 +181,28 @@ footer p {
 @media screen and (min-width:1224px)
 
 {
-
-
 .footer-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 10rem;
 }
-
+}
 /* End Footer */
 
-@media screen and(max-width:650px){
-  .button{
-    width:200%;
+
+
+@media screen and (min-width:530px){
+  .contact-button {
+    margin: 1rem;
+    width:45%;
   }
+
 }
 
-@media screen and (max-widht:715px){
-  .contact-button{
-    margin: 1rem;
+@media screen and (max-width:750px){
+  .contact-section p {
+  line-height:4rem;
   }
+
 }

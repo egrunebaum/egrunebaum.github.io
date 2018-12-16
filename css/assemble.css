@@ -14,8 +14,8 @@ body {
   max-width: 64rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin: auto;
   justify-content: center;
 }
@@ -394,11 +394,11 @@ body {
   }
   .section {
 
-    padding:1rem 3rem 0 3rem;
+    padding:1rem 2rem 0 2rem;
   }
   /*SURVEYS*/
   .surveys {
-    margin: auto auto 8rem auto;
+    margin-bottom:8rem;
   }
 
   .competitive-analysis-img {
@@ -411,6 +411,12 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
   }
+.uploading-file{
+  <img src="images/uploading-file1.svg">
+  <i class='fas fa-arrow-right' style='font-size:48px;color:#333;margin:0 2rem 0 2rem;'></i>
+  <img src="images/uploading-file2.svg">
+}
+}
 
   /*END SURVEY*/
 }
@@ -433,10 +439,7 @@ body {
 
 
   }
-.section-wide{
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
+
 .competitive-analysis {
   display: grid;
   grid-template-columns: 1fr;
