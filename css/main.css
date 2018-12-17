@@ -24,7 +24,7 @@ h1 {
 h3 {
  color: #579C9E;
  font-family: 'Nunito', sans-serif;
- font-size: 2rem;
+ font-size: 2.4rem;
  text-transform: uppercase;
  font-weight: 300;
  padding: 0 0 .7rem 0;
@@ -35,7 +35,7 @@ h3 {
 h2 {
  color: #333333;
  font-family: 'Playfair Display', serif;
- font-size: 3.5rem;
+ font-size: 3.7rem;
  line-height: normal;
  letter-spacing: .08rem;
 }
@@ -62,6 +62,14 @@ font-size: 1.8rem;
  line-height: 3rem;
  letter-spacing: .06rem;
 
+}
+
+.sub-section-title{
+  font-weight:400;
+  font-size: 2.2rem;
+  color:#EE7676;
+  text-transform: uppercase;
+  line-height: 3rem;
 }
 /* Buttons */
 
@@ -196,13 +204,6 @@ footer p {
   .contact-button {
     margin: 1rem;
     width:45%;
-  }
-
-}
-
-@media screen and (max-width:750px){
-  .contact-section p {
-  line-height:4rem;
   }
 
 }

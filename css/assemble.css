@@ -9,24 +9,30 @@ body {
 
 .section {
   display: grid;
-  /*grid-template-columns: 2fr 4fr;*/
   padding: 8rem 0 0rem 0;
+  max-width: 60rem;
+
+  margin: auto;
+  /*justify-content: center;*/
+}
+.section-title {
+  display: grid;
   max-width: 64rem;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   margin: auto;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 .section-wide {
   display: grid;
-
   padding: 3rem 0 0 0;
   max-width: 100rem;
   margin: auto;
   align-items: center;
+
 }
 
 .section-less-padding {
@@ -299,7 +305,7 @@ body {
 /*END SURVEY*/
 .golden-ratio {
   display: grid;
-  grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+  grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
   align-items: center;
   margin: auto;
   margin-left: auto;
@@ -321,7 +327,7 @@ body {
 .usability-1-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  align-items: center;
   grid-gap: 4rem;
   margin: auto;
   max-width: 100rem;
@@ -344,30 +350,34 @@ body {
   max-width: 100rem;
 }
 
-.uploading-file img {
+
+
+.before-after-with-arrow {
   display: grid;
-  grid-template-columns: 1fr .5fr 1fr;
-  justify-content: center;
-  align-content: center;
+  grid-template-rows: 1fr .3fr .5fr;
+  align-items: center;
   margin: auto;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.visual-elments-background {
-  border: solid .1rem;
-  color: #333;
-  padding: 4rem;
-  margin-bottom: 1rem;
-}
+
+
+
+
+/*END USABILITY TESTING*/
+
 
 @media screen and (max-width:1000px) {
 
+.uploading-file {
+    padding-bottom: 4rem;
+  }
   .usability-1-2 {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
+    align-items: center;
     grid-gap: 4rem;
     margin: auto;
     max-width: 100rem;
@@ -396,6 +406,17 @@ body {
 
     padding:1rem 2rem 0 2rem;
   }
+  .section-title {
+
+    padding:1rem 2rem 0 2rem;
+
+  }
+  .section-wide {
+
+    padding:1rem 2rem 0 2rem;
+    margin: auto;
+
+  }
   /*SURVEYS*/
   .surveys {
     margin-bottom:8rem;
@@ -410,16 +431,21 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+
   }
-.uploading-file{
-  <img src="images/uploading-file1.svg">
-  <i class='fas fa-arrow-right' style='font-size:48px;color:#333;margin:0 2rem 0 2rem;'></i>
-  <img src="images/uploading-file2.svg">
+}
+
+@media screen and (min-width:1000px) {
+.before-after-with-arrow {
+  display: grid;
+  grid-template-columns: 1fr .5fr 1fr;
 }
 }
 
-  /*END SURVEY*/
-}
+
+
+
+
 @media screen and (max-width: 850px){
 .assemble-screens{
   display: grid;
@@ -428,7 +454,41 @@ body {
 }
 
 }
+@media screen and (max-width:650px) {
+  #arrow-down {display: block;}
+  #arrow-right {display: none;}
 
+  .golden-ratio {
+    display: grid;
+    grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
+
+
+  }
+}
+@media screen and (min-width:651px) {
+  #arrow-down {display: none;}
+  #arrow-right {display: block;}
+
+  .golden-ratio {
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr .5fr 1fr;
+
+
+  }
+}
+@media screen and (max-width: 1000px) {
+  .before-after-with-arrow{
+    #arrow-right
+    {display: none;}
+    #arrow-down
+    {display: block;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      margin:auto;
+
+    }
+}
+}
 
 @media screen and (max-width:600px) {
   .design-roles {
