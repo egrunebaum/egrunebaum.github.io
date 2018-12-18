@@ -66,10 +66,13 @@ font-size: 1.8rem;
 
 .sub-section-title{
   font-weight:400;
-  font-size: 2.2rem;
-  color:#EE7676;
-  text-transform: uppercase;
+  color: #333333;
+  font-family: 'Nunito', sans-serif;
+ font-size: 1.8rem;
+  font-weight: 300;
+  max-width: 800px;
   line-height: 3rem;
+  letter-spacing: .06rem;
 }
 
 .section-wide {
@@ -207,7 +210,7 @@ footer p {
 }
 /* End Footer */
 
- 
+
 
 @media screen and (min-width:530px){
   .contact-button {
