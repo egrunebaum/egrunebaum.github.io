@@ -71,6 +71,15 @@ font-size: 1.8rem;
   text-transform: uppercase;
   line-height: 3rem;
 }
+
+.section-wide {
+  display: grid;
+  padding: 3rem 0 0 0;
+  max-width: 100rem;
+  margin: auto;
+  align-items: center;
+
+}
 /* Buttons */
 
 a {
@@ -107,13 +116,13 @@ a {
   display: inline-block;
   cursor: pointer;
   width: 70%;
-  color: #F2C57C;
+  color: #579C9E;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
   white-space: nowrap;
   background-color: transparent;
-  border: 0.2rem solid #F2C57C;
+  border: 0.2rem solid #579C9E;
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: 0.3s ease-in-out;
@@ -123,10 +132,10 @@ a {
 }
 
 .contact-button:hover {
-  background-color: #F2C57C;
+  background-color: #579C9E;
   color: #FFF;
   transition: 0.5s ease-in-out;
-  border-color: #F2C57C;
+  border-color: #579C9E;
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 .center-btns{
