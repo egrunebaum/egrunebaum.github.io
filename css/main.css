@@ -89,7 +89,7 @@ a {
 .button {
   display: inline-block;
   cursor: pointer;
-  width: 75%;
+  width: 30rem;
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
@@ -212,7 +212,7 @@ footer p {
 @media screen and (min-width:530px){
   .contact-button {
     margin: 1rem;
-    width:45%;
+    width:30rem;
   }
 
 }
