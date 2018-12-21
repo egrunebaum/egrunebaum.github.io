@@ -146,7 +146,7 @@ Animations
 }
 
 .nav-link:hover {
-  color: #333;
+  color: #EE7676;
   font-weight: 300;
 }
 
@@ -165,7 +165,7 @@ a {
 
 /* END NAVIGATION STYLES and MEDIA QUERIES */
 .assemble-background {
-  background-color: #E6F1FC;
+  /*background-color: #E6F1FC;*/
   width: 100%;
 }
 .assemble-case-study {
@@ -175,7 +175,7 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
   grid-gap: 5rem;
   margin: auto;
   padding-left: 2rem;
@@ -199,19 +199,16 @@ a {
 
 .contact-section p {
   text-align: center;
-  color: #FFF;
+  color: #333;
   padding-left: 2rem;
   padding-right: 2rem;
   line-height: 3rem;
 }
 
-.contact-section .section {
-  background-color: #333;
-  width: 100%;
-}
+
 
 .contact-section {
-  padding: 8rem 0 4rem 0;
+  padding: 6rem 0 6rem 0;
 }
 
 .contact-section-background {
@@ -221,7 +218,7 @@ a {
   width: 100%;
   margin: auto;
   justify-content: center;
-  background-color: #333;
+  background-color: #FDF5F3;
 }
 
 .contact-btns {
@@ -269,7 +266,7 @@ padding-left: 2rem;
 }
 
 .see-work i {
-  color: #EE7676;
+  color: var(--coral);
   width: 5rem;
 }
 
@@ -381,4 +378,9 @@ padding-left: 2rem;
     margin: 1rem;
     width:125%;
   }
+}
+/*GLOBAL COLORS*/
+:root {
+  --coral: #EE7676;
+
 }

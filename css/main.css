@@ -24,7 +24,7 @@ h1 {
 h3 {
  color: #579C9E;
  font-family: 'Nunito', sans-serif;
- font-size: 2.4rem;
+ font-size: 2.1rem;
  text-transform: uppercase;
  font-weight: 300;
  padding: 0 0 .7rem 0;
@@ -35,16 +35,15 @@ h3 {
 h2 {
  color: #333333;
  font-family: 'Playfair Display', serif;
- font-size: 3.7rem;
+ font-size: 3.8rem;
  line-height: normal;
  letter-spacing: .08rem;
 }
-
 h4 {
   color: #EE7676;
   /*
  color: #EE6868;*/
- font-size: 3rem;
+ font-size: 3.1rem;
  line-height: 2rem;
 }
 
@@ -82,6 +81,7 @@ font-size: 1.8rem;
   margin: auto;
   align-items: center;
 
+
 }
 /* Buttons */
 
@@ -102,7 +102,7 @@ a {
   border: 0.2rem solid #EE7676;
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
-  transition: 0.3s ease-in-out;
+  transition: .7s ease-in-out;
   margin-right: 2rem;
   font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
@@ -112,33 +112,33 @@ a {
 .button:hover {
   color: #FFF;
   background-color: #EE7676;
-  transition: 0.3s ease-in-out;
+  transition: .7s ease-in-out;
 }
 
 .contact-button {
   display: inline-block;
   cursor: pointer;
   width: 70%;
-  color: #579C9E;
+  color: #EE7676;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
   white-space: nowrap;
   background-color: transparent;
-  border: 0.2rem solid #579C9E;
+  border: 0.2rem solid #EE7676;
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
-  transition: 0.3s ease-in-out;
+  transition: .7s ease-in-out;
   margin: 1rem;
   font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
 }
 
 .contact-button:hover {
-  background-color: #579C9E;
+  background-color: #EE7676;
   color: #FFF;
   transition: 0.5s ease-in-out;
-  border-color: #579C9E;
+  border-color: #EE7676;
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 .center-btns{
@@ -161,6 +161,7 @@ a {
   background-color: transparent;
 color: #EE7676;
   box-shadow: none;
+  margin: 1rem;
 }
 
 
@@ -171,7 +172,7 @@ color: #EE7676;
 
 
 footer {
-  background-color: #EE7676;
+  background-color: #579C9E;
   grid-column: 1 / -1;
   margin: 0;
   padding: 4rem;
@@ -189,7 +190,7 @@ footer p {
 }
 
 .social-links a:hover {
-  color: #0015D1;
+  color: #EE7676;
   transition: 0.3s ease-in-out;
 }
 
@@ -209,7 +210,6 @@ footer p {
 }
 }
 /* End Footer */
-
 
 
 @media screen and (min-width:530px){

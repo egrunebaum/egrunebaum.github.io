@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1109px" height="540px" viewBox="0 0 1109 540" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sitemap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-50.000000, -24.000000)">
+            <g id="Group" transform="translate(50.000000, 24.000000)">
+                <g id="Flowchart/Connector" transform="translate(245.000000, 233.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="8.8" y="2.5">Click "Add" </tspan>
+                        <tspan x="20.67" y="16.5">button</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(582.000000, 233.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="8.275" y="2.5">Choose way </tspan>
+                        <tspan x="13.82" y="16.5">to upload</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(582.000000, 86.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="6.115" y="2.5">Select "Link"</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(688.000000, 0.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="16.595" y="2.5">Create a </tspan>
+                        <tspan x="6.325" y="16.5">name for the </tspan>
+                        <tspan x="22.425" y="30.5">folder</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(688.000000, 86.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="9.38" y="2.5">Choose link </tspan>
+                        <tspan x="21.04" y="16.5">to add</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(688.000000, 381.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="13.455" y="2.5">New note </tspan>
+                        <tspan x="22.34" y="16.5">opens</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(688.000000, 464.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="25.67" y="2.5">New </tspan>
+                        <tspan x="7.705" y="16.5">spreadsheet </tspan>
+                        <tspan x="22.34" y="30.5">opens</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(810.000000, 185.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="14.74" y="2.5">Drag and </tspan>
+                        <tspan x="16.59" y="16.5">drop file</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(810.000000, 282.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="23.445" y="2.5">Open </tspan>
+                        <tspan x="13.91" y="16.5">computer </tspan>
+                        <tspan x="27.145" y="30.5">files</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(916.000000, 185.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="10.94" y="2.5">Upload file</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(916.000000, 282.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="9.55" y="2.5">File file you </tspan>
+                        <tspan x="18.545" y="16.5">want to </tspan>
+                        <tspan x="20.295" y="30.5">upload</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(794.000000, 43.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="25.48" y="2.5">Save</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(582.000000, 0.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="22.235" y="2.5">Select </tspan>
+                        <tspan x="16.125" y="16.5">"Folder"</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(582.000000, 467.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="22.235" y="2.5">Select </tspan>
+                        <tspan x="7.055" y="16.5">"spreadshee</tspan>
+                        <tspan x="34.555" y="30.5">t</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(582.000000, 381.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="22.235" y="2.5">Select </tspan>
+                        <tspan x="20.575" y="16.5">"note"</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Terminator" transform="translate(0.000000, 245.000000)">
+                    <rect id="Background" stroke="#DFC52F" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" x="1" y="1" width="85" height="48" rx="24"></rect>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="17.95" y="7">Dashboard</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Terminator" transform="translate(1022.000000, 245.000000)">
+                    <rect id="Background" stroke="#DFC52F" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" x="1" y="1" width="85" height="48" rx="24"></rect>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="17.95" y="7">Dashboard </tspan>
+                        <tspan x="22.205" y="21">with new </tspan>
+                        <tspan x="25.54" y="35">content</tspan>
+                    </text>
+                </g>
+                <path d="M165.207107,228.12132 C164.816582,227.730796 164.183418,227.730796 163.792893,228.12132 L123.12132,268.792893 C122.730796,269.183418 122.730796,269.816582 123.12132,270.207107 L163.792893,310.87868 C164.183418,311.269204 164.816582,311.269204 165.207107,310.87868 L205.87868,270.207107 C206.269204,269.816582 206.269204,269.183418 205.87868,268.792893 L165.207107,228.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="146.12" y="240">Want to </tspan>
+                    <tspan x="142.32" y="254">upload or </tspan>
+                    <tspan x="146.11" y="268">create a </tspan>
+                    <tspan x="155.27" y="282">file?</tspan>
+                </text>
+                <path d="M505.207107,228.12132 C504.816582,227.730796 504.183418,227.730796 503.792893,228.12132 L463.12132,268.792893 C462.730796,269.183418 462.730796,269.816582 463.12132,270.207107 L503.792893,310.87868 C504.183418,311.269204 504.816582,311.269204 505.207107,310.87868 L545.87868,270.207107 C546.269204,269.816582 546.269204,269.183418 545.87868,268.792893 L505.207107,228.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="483.89" y="240">Upload a </tspan>
+                    <tspan x="481.565" y="254">file/image </tspan>
+                    <tspan x="481.955" y="268">from your </tspan>
+                    <tspan x="479.815" y="282">computer?</tspan>
+                </text>
+                <path d="M505.207107,132.12132 C504.816582,131.730796 504.183418,131.730796 503.792893,132.12132 L463.12132,172.792893 C462.730796,173.183418 462.730796,173.816582 463.12132,174.207107 L503.792893,214.87868 C504.183418,215.269204 504.816582,215.269204 505.207107,214.87868 L545.87868,174.207107 C546.269204,173.816582 546.269204,173.183418 545.87868,172.792893 L505.207107,132.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="478.695" y="143">Add a link?</tspan>
+                </text>
+                <path d="M734.207107,180.12132 C733.816582,179.730796 733.183418,179.730796 732.792893,180.12132 L692.12132,220.792893 C691.730796,221.183418 691.730796,221.816582 692.12132,222.207107 L732.792893,262.87868 C733.183418,263.269204 733.816582,263.269204 734.207107,262.87868 L774.87868,222.207107 C775.269204,221.816582 775.269204,221.183418 774.87868,220.792893 L734.207107,180.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="711.24" y="192">Drag and </tspan>
+                    <tspan x="719.11" y="206">drop?</tspan>
+                </text>
+                <path d="M734.207107,277.12132 C733.816582,276.730796 733.183418,276.730796 732.792893,277.12132 L692.12132,317.792893 C691.730796,318.183418 691.730796,318.816582 692.12132,319.207107 L732.792893,359.87868 C733.183418,360.269204 733.816582,360.269204 734.207107,359.87868 L774.87868,319.207107 C775.269204,318.816582 775.269204,318.183418 774.87868,317.792893 L734.207107,277.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="716.055" y="289">Upload </tspan>
+                    <tspan x="721.895" y="303">from </tspan>
+                    <tspan x="710.41" y="317">computer</tspan>
+                </text>
+                <path d="M505.207107,35.1213203 C504.816582,34.7307961 504.183418,34.7307961 503.792893,35.1213203 L463.12132,75.7928932 C462.730796,76.1834175 462.730796,76.8165825 463.12132,77.2071068 L503.792893,117.87868 C504.183418,118.269204 504.816582,118.269204 505.207107,117.87868 L545.87868,77.2071068 C546.269204,76.8165825 546.269204,76.1834175 545.87868,75.7928932 L505.207107,35.1213203 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="485.095" y="46">Create a </tspan>
+                    <tspan x="477.13" y="60">new folder?</tspan>
+                </text>
+                <path d="M505.207107,325.12132 C504.816582,324.730796 504.183418,324.730796 503.792893,325.12132 L463.12132,365.792893 C462.730796,366.183418 462.730796,366.816582 463.12132,367.207107 L503.792893,407.87868 C504.183418,408.269204 504.816582,408.269204 505.207107,407.87868 L545.87868,367.207107 C546.269204,366.816582 546.269204,366.183418 545.87868,365.792893 L505.207107,325.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="485.095" y="337">Create a </tspan>
+                    <tspan x="480.47" y="351">new note?</tspan>
+                </text>
+                <path d="M505.207107,422.12132 C504.816582,421.730796 504.183418,421.730796 503.792893,422.12132 L463.12132,462.792893 C462.730796,463.183418 462.730796,463.816582 463.12132,464.207107 L503.792893,504.87868 C504.183418,505.269204 504.816582,505.269204 505.207107,504.87868 L545.87868,464.207107 C546.269204,463.816582 546.269204,463.183418 545.87868,462.792893 L505.207107,422.12132 Z" id="Background" stroke="#720BA8" stroke-width="2" fill="#FFFFFF"></path>
+                <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                    <tspan x="485.095" y="434">Create a </tspan>
+                    <tspan x="495.28" y="448">new </tspan>
+                    <tspan x="478.15" y="462">spreadshee</tspan>
+                    <tspan x="500.46" y="476">t?</tspan>
+                </text>
+                <g id="Arrow" transform="translate(104.500000, 270.500000) scale(1, -1) translate(-104.500000, -270.500000) translate(87.000000, 270.000000)">
+                    <g id="⚙️/Solid/L/Left-Down">
+                        <path d="M-2.77555756e-16,1 L-2.77555756e-16,1 C-3.45191131e-16,0.44771525 0.44771525,-5.89375127e-15 1,-5.99520433e-15 L35,-6.21724894e-15" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -3.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(31.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(208.000000, 268.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(355.000000, 233.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="22.15" y="2.5">List of </tspan>
+                        <tspan x="18.915" y="16.5">options </tspan>
+                        <tspan x="19.09" y="30.5">expand</tspan>
+                    </text>
+                </g>
+                <g id="Arrow" transform="translate(318.000000, 268.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(654.000000, 34.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(654.000000, 121.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(775.000000, 220.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(883.000000, 220.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(952.000000, 270.000000) scale(1, -1) rotate(90.000000) translate(-952.000000, -270.000000) translate(940.000000, 268.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L24,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(20.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(883.000000, 318.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(775.000000, 318.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(654.000000, 418.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(654.000000, 505.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(428.000000, 275.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L39,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(35.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(447.500000, 263.000000) scale(-1, 1) translate(-447.500000, -263.000000) translate(428.000000, 261.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L39,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(35.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(547.000000, 268.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(438.500000, 207.500000) scale(1, -1) translate(-438.500000, -207.500000) translate(415.000000, 173.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L11.9022911,3.55271368e-15 C18.5297081,2.33527693e-15 23.9022911,5.372583 23.9022911,12 L23.9022911,57 C23.9022911,63.627417 29.2748741,69 35.9022911,69 L47,69" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(43.000000, 65.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(565.000000, 151.500000) scale(1, -1) translate(-565.000000, -151.500000) translate(548.000000, 130.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,3.55271368e-15 C11.9184361,2.33527693e-15 17.2910191,5.372583 17.2910191,12 L17.2910191,31 C17.2910191,37.627417 22.6636021,43 29.2910191,43 L34,43" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 39.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(777.000000, 104.000000) scale(1, -1) translate(-777.000000, -104.000000) translate(760.000000, 85.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,1.77635684e-15 C11.9184361,5.58920087e-16 17.2910191,5.372583 17.2910191,12 L17.2910191,26 C17.2910191,32.627417 22.6636021,38 29.2910191,38 L34,38" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 34.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(671.500000, 245.000000) scale(1, -1) translate(-671.500000, -245.000000) translate(654.000000, 222.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.79957848,1.77635684e-15 C12.4269955,5.58920087e-16 17.7995785,5.372583 17.7995785,12 L17.7995785,34 C17.7995785,40.627417 23.1721615,46 29.7995785,46 L35,46" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, 42.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(654.000000, 268.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L6.30813786,1.77635684e-15 C12.9355549,5.58920087e-16 18.3081379,5.372583 18.3081379,12 L18.3081379,39 C18.3081379,45.627417 23.6807209,51 30.3081379,51 L36,51" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(32.000000, 47.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(565.000000, 53.500000) scale(1, -1) translate(-565.000000, -53.500000) translate(548.000000, 32.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,3.55271368e-15 C11.9184361,2.33527693e-15 17.2910191,5.372583 17.2910191,12 L17.2910191,31 C17.2910191,37.627417 22.6636021,43 29.2910191,43 L34,43" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 39.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(548.000000, 465.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,3.55271368e-15 C11.9184361,2.33527693e-15 17.2910191,5.372583 17.2910191,12 L17.2910191,31 C17.2910191,37.627417 22.6636021,43 29.2910191,43 L34,43" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 39.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(548.000000, 367.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,3.55271368e-15 C11.9184361,2.33527693e-15 17.2910191,5.372583 17.2910191,12 L17.2910191,31 C17.2910191,37.627417 22.6636021,43 29.2910191,43 L34,43" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 39.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(760.000000, 34.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,1.77635684e-15 C11.9184361,5.58920087e-16 17.2910191,5.372583 17.2910191,12 L17.2910191,26 C17.2910191,32.627417 22.6636021,38 29.2910191,38 L34,38" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 34.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(440.000000, 136.000000) scale(-1, 1) translate(-440.000000, -136.000000) translate(375.000000, 34.000000)">
+                    <g id="⚙️/Solid/L/Right-Down">
+                        <path d="M0,0 L118,0 C124.627417,-1.21743675e-15 130,5.372583 130,12 L130,204" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Down" transform="translate(126.000000, 200.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 4 8 8 2.66453526e-15"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(375.500000, 121.500000) scale(1, -1) translate(-375.500000, -121.500000) translate(370.000000, 116.000000)">
+                    <g id="⚙️/NO">
+                        <rect id="Rectangle-3" fill="#FF5B5D" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <path d="M5.5,4.35714286 L8.35714286,1.5 L9.5,2.64285714 L6.64285714,5.5 L9.5,8.35714286 L8.35714286,9.5 L5.5,6.64285714 L2.64285714,9.5 L1.5,8.35714286 L4.35714286,5.5 L1.5,2.64285714 L2.64285714,1.5 L5.5,4.35714286 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(990.000000, 222.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,3.55271368e-15 C11.9184361,2.33527693e-15 17.2910191,5.372583 17.2910191,12 L17.2910191,31 C17.2910191,37.627417 22.6636021,43 29.2910191,43 L34,43" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 39.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(440.000000, 404.000000) scale(-1, -1) translate(-440.000000, -404.000000) translate(375.000000, 302.000000)">
+                    <g id="⚙️/Solid/L/Right-Down">
+                        <path d="M0,0 L118,0 C124.627417,-1.21743675e-15 130,5.372583 130,12 L130,204" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Down" transform="translate(126.000000, 200.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 4 8 8 2.66453526e-15"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(414.000000, 298.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L11.9022911,3.55271368e-15 C18.5297081,2.33527693e-15 23.9022911,5.372583 23.9022911,12 L23.9022911,57 C23.9022911,63.627417 29.2748741,69 35.9022911,69 L47,69" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(43.000000, 65.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(447.500000, 321.500000) scale(-1, -1) translate(-447.500000, -321.500000) translate(424.000000, 287.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L11.9022911,3.55271368e-15 C18.5297081,2.33527693e-15 23.9022911,5.372583 23.9022911,12 L23.9022911,57 C23.9022911,63.627417 29.2748741,69 35.9022911,69 L47,69" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(43.000000, 65.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(447.500000, 217.500000) scale(-1, 1) translate(-447.500000, -217.500000) translate(424.000000, 183.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L11.9022911,3.55271368e-15 C18.5297081,2.33527693e-15 23.9022911,5.372583 23.9022911,12 L23.9022911,57 C23.9022911,63.627417 29.2748741,69 35.9022911,69 L47,69" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(43.000000, 65.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(427.500000, 155.000000) scale(1, -1) translate(-427.500000, -155.000000) translate(392.000000, 76.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L24.1077163,7.10542736e-15 C30.7351333,5.88799061e-15 36.1077163,5.372583 36.1077163,12 L36.1077163,146 C36.1077163,152.627417 41.4802993,158 48.1077163,158 L71,158" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(67.000000, 154.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(392.000000, 306.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L24.1077163,7.10542736e-15 C30.7351333,5.88799061e-15 36.1077163,5.372583 36.1077163,12 L36.1077163,146 C36.1077163,152.627417 41.4802993,158 48.1077163,158 L71,158" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(67.000000, 154.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(423.000000, 375.000000)">
+                    <g id="⚙️/YES">
+                        <rect id="Rectangle-3" fill="#40E7A6" fill-rule="evenodd" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <polygon id="Path-3" fill="#FFFFFF" fill-rule="nonzero" points="4.23877613 7.18740365 1.63503169 4.62319387 0.5 5.7409915 4.31696441 9.5 10.5 2.54096709 9.29198104 1.5"></polygon>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(432.000000, 329.000000)">
+                    <g id="⚙️/YES">
+                        <rect id="Rectangle-3" fill="#40E7A6" fill-rule="evenodd" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <polygon id="Path-3" fill="#FFFFFF" fill-rule="nonzero" points="4.23877613 7.18740365 1.63503169 4.62319387 0.5 5.7409915 4.31696441 9.5 10.5 2.54096709 9.29198104 1.5"></polygon>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(445.000000, 270.000000)">
+                    <g id="⚙️/YES">
+                        <rect id="Rectangle-3" fill="#40E7A6" fill-rule="evenodd" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <polygon id="Path-3" fill="#FFFFFF" fill-rule="nonzero" points="4.23877613 7.18740365 1.63503169 4.62319387 0.5 5.7409915 4.31696441 9.5 10.5 2.54096709 9.29198104 1.5"></polygon>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(433.000000, 203.000000)">
+                    <g id="⚙️/YES">
+                        <rect id="Rectangle-3" fill="#40E7A6" fill-rule="evenodd" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <polygon id="Path-3" fill="#FFFFFF" fill-rule="nonzero" points="4.23877613 7.18740365 1.63503169 4.62319387 0.5 5.7409915 4.31696441 9.5 10.5 2.54096709 9.29198104 1.5"></polygon>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(423.000000, 152.000000)">
+                    <g id="⚙️/YES">
+                        <rect id="Rectangle-3" fill="#40E7A6" fill-rule="evenodd" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <polygon id="Path-3" fill="#FFFFFF" fill-rule="nonzero" points="4.23877613 7.18740365 1.63503169 4.62319387 0.5 5.7409915 4.31696441 9.5 10.5 2.54096709 9.29198104 1.5"></polygon>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(867.000000, 75.000000)">
+                    <g id="⚙️/Solid/L/Right-Down">
+                        <path d="M0,0 L187,0 C193.627417,-1.21743675e-15 199,5.372583 199,12 L199,170" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Down" transform="translate(195.000000, 166.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 4 8 8 2.66453526e-15"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(794.000000, 427.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="26.59" y="2.5">Add </tspan>
+                        <tspan x="16.595" y="16.5">content/</tspan>
+                        <tspan x="23.725" y="30.5">name </tspan>
+                        <tspan x="12.985" y="44.5">document</tspan>
+                    </text>
+                </g>
+                <g id="Flowchart/Connector" transform="translate(900.000000, 427.000000)">
+                    <circle id="Background" stroke="#2D71C1" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" cx="36.5" cy="36.5" r="35.5"></circle>
+                    <text id="↪-Text" font-family="Avenir-Heavy, Avenir" font-size="10" font-weight="600" fill="#0A3039">
+                        <tspan x="25.48" y="2.5">Save</tspan>
+                    </text>
+                </g>
+                <g id="Arrow" transform="translate(777.000000, 487.000000) scale(1, -1) translate(-777.000000, -487.000000) translate(760.000000, 468.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,1.77635684e-15 C11.9184361,5.58920087e-16 17.2910191,5.372583 17.2910191,12 L17.2910191,26 C17.2910191,32.627417 22.6636021,38 29.2910191,38 L34,38" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 34.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(760.000000, 418.000000)">
+                    <g id="⚙️/Solid/Z/Right-Down-Right">
+                        <path d="M0,0 L5.29101909,1.77635684e-15 C11.9184361,5.58920087e-16 17.2910191,5.372583 17.2910191,12 L17.2910191,26 C17.2910191,32.627417 22.6636021,38 29.2910191,38 L34,38" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(30.000000, 34.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(1019.500000, 380.000000) scale(1, -1) translate(-1019.500000, -380.000000) translate(973.000000, 295.000000)">
+                    <g id="⚙️/Solid/L/Right-Down">
+                        <path d="M0,0 L81,0 C87.627417,-1.21743675e-15 93,5.372583 93,12 L93,170" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Down" transform="translate(89.000000, 166.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 4 8 8 2.66453526e-15"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -4.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(370.000000, 412.000000)">
+                    <g id="⚙️/NO">
+                        <rect id="Rectangle-3" fill="#FF5B5D" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <path d="M5.5,4.35714286 L8.35714286,1.5 L9.5,2.64285714 L6.64285714,5.5 L9.5,8.35714286 L8.35714286,9.5 L5.5,6.64285714 L2.64285714,9.5 L1.5,8.35714286 L4.35714286,5.5 L1.5,2.64285714 L2.64285714,1.5 L5.5,4.35714286 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(434.000000, 256.000000)">
+                    <g id="⚙️/NO">
+                        <rect id="Rectangle-3" fill="#FF5B5D" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <path d="M5.5,4.35714286 L8.35714286,1.5 L9.5,2.64285714 L6.64285714,5.5 L9.5,8.35714286 L8.35714286,9.5 L5.5,6.64285714 L2.64285714,9.5 L1.5,8.35714286 L4.35714286,5.5 L1.5,2.64285714 L2.64285714,1.5 L5.5,4.35714286 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(441.000000, 304.000000)">
+                    <g id="⚙️/NO">
+                        <rect id="Rectangle-3" fill="#FF5B5D" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <path d="M5.5,4.35714286 L8.35714286,1.5 L9.5,2.64285714 L6.64285714,5.5 L9.5,8.35714286 L8.35714286,9.5 L5.5,6.64285714 L2.64285714,9.5 L1.5,8.35714286 L4.35714286,5.5 L1.5,2.64285714 L2.64285714,1.5 L5.5,4.35714286 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Arrow" transform="translate(866.000000, 464.000000)">
+                    <g id="⚙️/Solid/I/Right">
+                        <path d="M0,2 L35,2" id="Line" stroke="#0A3039" stroke-width="1"></path>
+                        <g id="⚙️/Arrow-Right" transform="translate(31.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <polygon id="Rectangle" points="0 0 8 4 0 8"></polygon>
+                        </g>
+                        <g id="⚙️/Circle" transform="translate(-4.000000, -2.000000)" fill="#0A3039" fill-rule="evenodd">
+                            <circle id="Circle" cx="4" cy="4" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="Annotate/Answer" transform="translate(442.000000, 228.000000)">
+                    <g id="⚙️/NO">
+                        <rect id="Rectangle-3" fill="#FF5B5D" x="0" y="0" width="11" height="11" rx="5.5"></rect>
+                        <path d="M5.5,4.35714286 L8.35714286,1.5 L9.5,2.64285714 L6.64285714,5.5 L9.5,8.35714286 L8.35714286,9.5 L5.5,6.64285714 L2.64285714,9.5 L1.5,8.35714286 L4.35714286,5.5 L1.5,2.64285714 L2.64285714,1.5 L5.5,4.35714286 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
