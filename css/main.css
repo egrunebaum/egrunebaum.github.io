@@ -49,10 +49,9 @@ h2 {
 
 h4 {
   color: var(--gold);
-  /*
- color: var(--gold);*/
-  font-size: 3.1rem;
+  font-size: 4rem;
   line-height: 2rem;
+padding-bottom: .7rem;
 }
 
 h2, h3, h4 {
@@ -68,6 +67,7 @@ p{
   max-width: 800px;
   line-height: 3.4rem;
   letter-spacing: .06rem;
+  margin: 1.5rem 0 1.5rem 0;
 }
 ul, ol {
   color: var(--black);
@@ -77,6 +77,12 @@ ul, ol {
   max-width: 800px;
   line-height: 2.85rem;
   letter-spacing: .06rem;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 5rem;
+}
+li{
+  margin-top:1rem;
 }
 
 .img-caption {
@@ -102,6 +108,15 @@ ul, ol {
 /* Buttons */
 a {
   text-decoration: none;
+}
+.image-description p{
+  font-size:1.8rem;
+  weight:600;
+  max-width: 100rem;
+  font-style: italic;
+  margin: auto;
+  text-align: center;
+  color: var(--black)
 }
 
 .button {

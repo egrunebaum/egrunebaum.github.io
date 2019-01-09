@@ -4,12 +4,11 @@
 
 .bonbids-background {
   background: var(--nude);
-  border-bottom: .1rem solid #512A5A;
   width: 100%;
 }
 .assemble-background {
   background: var(--nude);
-  border-bottom: .1rem solid #E6F1FC;
+
   width: 100%;
 }
 .assemble-case-study {
@@ -99,11 +98,22 @@ padding-left: 2rem;
 }
 
 .work-link {
+  position: relative;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
 }
-
+.work-link::after{
+  position: absolute;
+  content: "";
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 1rem 1rem 0 1rem;
+border-color: var(--navy) transparent transparent transparent;
+bottom: -2.5rem;
+left: calc(50% - 1rem);
+}
 .see-work {
   margin-top: 16rem;
   text-align: center;

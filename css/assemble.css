@@ -186,7 +186,6 @@ background-color: #2183E2;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 3rem;
-  background-color: var(--nude2);
 
 }
 
@@ -207,9 +206,9 @@ background-color: #2183E2;
 }
 
 .survey-percent {
-  color: var(--gold);
+  color: var(--navy);
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .text-box {
@@ -259,9 +258,12 @@ background-color: #2183E2;
   margin-left: auto;
   width: 40%;
 }
-/*.nude2-background{
-  width:100%;
-  background-color: var(--nude2);*/
+.nude2-background{
+  max-width:100rem;
+  background-color: var(--nude2);
+  margin:auto;
+  margin-top:5rem;
+
 }
 
 
@@ -460,9 +462,10 @@ background-color: #2183E2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
-  max-width: 100rem;
+  max-width: 90rem;
   padding: 2rem 0 5rem 0;
-  background-color: var(--nude2)
+  margin: auto;
+
 }
 
 @media screen and (min-width:1000px) {
