@@ -1,19 +1,27 @@
 html {
   font-size: 10px;
 }
+/*GLOBAL COLORS*/
+:root {
+  --navy: #2E5266;
+  --black: #2A2E30;
+--gold: #D28C0F;
+--nude: #FFF9F7;
+--nude2: #F9E8DE;
 
+}
 /* Typography */
 project-name {
-  color: #333333;
+  color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 6em;
+  font-size: 7em;
   line-height: 1rem;
 }
 
 h1 {
-  color: #333333;
+  color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 3.7rem;
+  font-size: 3.9rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -21,27 +29,28 @@ h1 {
 }
 
 h3 {
-  color: #579C9E;
-  font-family: 'Nunito', sans-serif;
-  font-size: 2.1rem;
+  color: var(--navy);
+  font-family: 'nunito', sans-serif;
+  font-size: 2.3rem;
   text-transform: uppercase;
   font-weight: 300;
   padding: 0 0 .7rem 0;
   letter-spacing: .08rem;
+  line-height: 1.4;
 }
 
 h2 {
-  color: #333333;
+  color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 3.8rem;
+  font-size: 4rem;
   line-height: normal;
   letter-spacing: .08rem;
 }
 
 h4 {
-  color: #EE7676;
+  color: var(--gold);
   /*
- color: #EE6868;*/
+ color: var(--gold);*/
   font-size: 3.1rem;
   line-height: 2rem;
 }
@@ -51,19 +60,28 @@ h2, h3, h4 {
   margin: 0 0 0 0;
 }
 
-p, ul, ol {
-  color: #333333;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.8rem;
+p{
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  font-size: 2rem;
   font-weight: 300;
   max-width: 800px;
-  line-height: 3rem;
+  line-height: 3.4rem;
+  letter-spacing: .06rem;
+}
+ul, ol {
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  max-width: 800px;
+  line-height: 2.85rem;
   letter-spacing: .06rem;
 }
 
 .img-caption {
-  color: #333333;
-  font-family: 'Nunito', sans-serif;
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 3rem;
@@ -78,6 +96,7 @@ p, ul, ol {
   max-width: 100rem;
   margin: auto;
   align-items: center;
+
 }
 
 /* Buttons */
@@ -94,8 +113,8 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
   white-space: nowrap;
-  background-color: #EE7676;
-  border: 0.2rem solid #EE7676;
+  background-color: var(--gold);
+  border: 0.2rem solid var(--gold);
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
@@ -106,7 +125,7 @@ a {
 
 .button:hover {
   color: #FFF;
-  background-color: #EE7676;
+  background-color: var(--gold);
   transition: .7s ease-in-out;
 }
 
@@ -114,13 +133,13 @@ a {
   display: inline-block;
   cursor: pointer;
   width: 70%;
-  color: #EE7676;
+  color: var(--gold);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
   white-space: nowrap;
   background-color: transparent;
-  border: 0.2rem solid #EE7676;
+  border: 0.2rem solid var(--gold);
   border-radius: 4rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
@@ -130,10 +149,10 @@ a {
 }
 
 .contact-button:hover {
-  background-color: #EE7676;
+  background-color: var(--gold);
   color: #FFF;
   transition: 0.5s ease-in-out;
-  border-color: #EE7676;
+  border-color: var(--gold);
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
@@ -144,19 +163,19 @@ a {
 
 .button, .contact-button {
   padding: 1.5rem 0;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .button {
   background-color: transparent;
-  color: #EE7676;
+  color: var(--gold);
   box-shadow: none;
   margin: 1rem;
 }
 
 /* NO MEDIA QUERIES FOR TABLET */
 footer {
-  background-color: #579C9E;
+  background-color: var(--navy);
   grid-column: 1 / -1;
   margin: 0;
   padding: 4rem;
@@ -174,7 +193,7 @@ footer p {
 }
 
 .social-links a:hover {
-  color: #EE7676;
+  color: var(--gold);
   transition: 0.3s ease-in-out;
 }
 
@@ -182,7 +201,7 @@ footer p {
   font-size: 1.7rem
 }
 
-@media screen and (min-width:1224px) {
+@media screen and (min-width:800px) {
   .footer-info {
     display: flex;
     justify-content: space-between;

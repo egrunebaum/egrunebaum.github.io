@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
     <title>Group 6</title>
     <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-62.0%" y="-62.0%" width="224.0%" height="224.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-306.000000, -3769.000000)" id="Group-14" stroke="#EE7676" stroke-width="100">
+        <g transform="translate(-302.000000, -3767.000000)" id="Group-14" stroke="#D28C0F" stroke-width="100">
             <g transform="translate(70.000000, 3625.000000)">
                 <g id="Group-26" transform="translate(194.000000, 186.000000)">
                     <g id="Group-86">
                         <g id="Group-4" transform="translate(0.000000, 8.000000)">
-                            <g id="Group-6" transform="translate(92.000000, 0.000000)">
+                            <g id="Group-6" filter="url(#filter-1)" transform="translate(92.000000, 0.000000)">
                                 <circle id="Oval" cx="50" cy="50" r="50"></circle>
                             </g>
                         </g>

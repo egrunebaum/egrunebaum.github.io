@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="28px" height="27px" viewBox="0 0 28 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="23px" height="21px" viewBox="0 0 23 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 82</title>
+    <title>Group 82 Copy</title>
     <desc>Created with Sketch.</desc>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Assemble-case-study-Copy" transform="translate(-500.000000, -12529.000000)">
-            <g id="Group-17" transform="translate(146.000000, 12476.000000)">
-                <g id="Group-16">
-                    <g id="Group-82" transform="translate(354.000000, 53.000000)">
-                        <g id="Group-55" transform="translate(0.000000, 0.038043)" fill="#EE7676">
-                            <ellipse id="Oval" cx="14" cy="13.3786232" rx="14" ry="13.3152174"></ellipse>
-                        </g>
-                        <text id="2" font-family="Avenir-Heavy, Avenir" font-size="16" font-weight="600" fill="#FFFFFF">
-                            <tspan x="8.96" y="18.4166667">2</tspan>
-                        </text>
-                    </g>
+        <g id="Assemble-case-study-Copy" transform="translate(-788.000000, -12703.000000)">
+            <g id="Group-82-Copy" transform="translate(788.000000, 12702.000000)">
+                <g id="Group-55" transform="translate(0.000000, 0.950000)" fill="#D28C0F">
+                    <ellipse id="Oval" cx="11.5" cy="10.55" rx="11.5" ry="10.5"></ellipse>
                 </g>
+                <text id="2" font-family="Avenir-Heavy, Avenir" font-size="16" font-weight="600" fill="#FFFFFF">
+                    <tspan x="7" y="16">2</tspan>
+                </text>
             </g>
         </g>
     </g>

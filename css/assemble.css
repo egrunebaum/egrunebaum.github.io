@@ -3,15 +3,15 @@
 }
 
 body {
-  /* margin: 0 auto; */
-  font-family: 'Nunito', sans-serif;
-  background: #FEFBFA;
+ margin: 0 auto;
+  font-family: 'nunito', sans-serif;
+  background: var(--nude);
 }
 
 .section {
   display: grid;
   padding: 4rem 0 0rem 0;
-  max-width: 60rem;
+  max-width: 80rem;
   margin: auto;
   /*justify-content: center;*/
 }
@@ -39,18 +39,22 @@ body {
   /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
 }
 
-.assemble-screens {
+.case-study-screens {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   justify-content: center;
   align-items: center;
   grid-gap: .5rem;
+  max-width: 120rem;
+}
+.case-study-screens img{
+  width: 100%;
 }
 
 .titles {
   display: block;
-  color: #333333;
+  color: var(--black);
   font-family: 'nunito', sans-serif;
   max-width: 100rem;
   margin: auto;
@@ -60,8 +64,6 @@ body {
 
 .competitive-analysis {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 80rem;
   grid-gap: 5rem;
   padding: 0rem 2rem 0rem 2rem;
   margin: auto;
@@ -76,11 +78,12 @@ body {
 }
 
 .top-section {
-  padding: 0rem 0 8rem 0;
+  padding: 8rem 0 8rem 0;
   display: block;
-  /*grid-template-columns: 2fr 4fr;*/
-  max-width: 100rem;
+background-color: #2183E2;
+ width: 100%;
   margin: auto;
+  margin-bottom: 4rem;
 }
 
 .hero {
@@ -99,7 +102,11 @@ body {
   text-align: center;
   max-width: 800px;
 }
-
+.competitive-analysis-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 /*USER STORIES*/
 .user-stories {
   display: grid;
@@ -146,11 +153,11 @@ body {
 }
 
 .quote {
-  border-left: 2px solid #EE7676;
+  border-left: 2px solid var(--gold);
   padding-left: 2rem;
-  color: #EE7676;
+  color: var(--gold);
   font-weight: 600;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'nunito', sans-serif;
   font-size: 1.8rem;
   max-width: 800px;
   line-height: 3rem;
@@ -158,8 +165,8 @@ body {
 }
 
 .persona-titles {
-  color: #333333;
-  font-family: 'Nunito', sans-serif;
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -171,7 +178,6 @@ body {
   grid-template-columns: 1fr 1fr;
   max-width: 100rem;
   margin: auto;
-  justify-content: center;
 }
 
 .persona-section {
@@ -180,35 +186,36 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 3rem;
-  margin: auto;
-  justify-content: center;
+  background-color: var(--nude2);
+
 }
 
 /*SURVEYS*/
 .surveys {
-  background-color: #333;
+  background-color: var(--nude2);
 }
 
 .pie-charts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   grid-gap: 5rem;
   margin: 4rem 7rem 2rem;
 }
 
 .pie-chart-text p {
-  color: #FFF;
+  color: var(--black);
 }
 
 .survey-percent {
-  color: #EE7676;
+  color: var(--gold);
   font-size: 3rem;
+  font-weight: 300;
 }
 
 .text-box {
   display: grid;
   grid-template-columns: 1fr (repeat 7);
-  border: .1rem solid #579C9E;
+  border: .1rem solid var(--navy);
   padding: 2rem;
   align-items: center;
   justify-content: center;
@@ -216,11 +223,11 @@ body {
 }
 
 .text-color p {
-  color: #FFF;
+  color: var(--black);
 }
 
 .text-color li {
-  color: #333;
+  color: var(--black);
 }
 
 .text-section {
@@ -234,10 +241,10 @@ body {
 .text-section1 {
   display: grid;
   grid-template-columns: 1fr;
-  max-width: 60rem;
+  max-width: 80rem;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: var(--nude2);
   margin: auto;
 }
 
@@ -250,13 +257,14 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 40%;
+}
+/*.nude2-background{
+  width:100%;
+  background-color: var(--nude2);*/
 }
 
-.competitive-analysis-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 /*END SURVEY*/
 /*BRANDING*/
@@ -269,8 +277,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding:2rem;
+  background-color: var(--nude2);
 }
 
 .creating-logo-steps {
@@ -398,8 +406,9 @@ body {
   .section-personas {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .persona-section{
     margin: auto;
-    justify-content: center;
   }
 
   .user-stories {
@@ -417,20 +426,17 @@ body {
   }
 
   .section-wide {
-    padding: 1rem 2rem 0 2rem;
     margin: auto;
   }
 
   /*SURVEYS*/
   .surveys {
     margin-bottom: 8rem;
+
   }
 
-  .competitive-analysis-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
+
+
 
   .usability-1-2 {
     display: grid;
@@ -450,6 +456,14 @@ body {
     padding-right: 2rem;
   }
 }
+.wireframes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  max-width: 100rem;
+  padding: 2rem 0 5rem 0;
+  background-color: var(--nude2)
+}
 
 @media screen and (min-width:1000px) {
   #arrow-down {
@@ -459,6 +473,7 @@ body {
   #arrow-right {
     display: none;
   }
+
 }
 
 @media screen and (max-width:850px) {
@@ -474,7 +489,8 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 5rem;
-    max-width: 100rem;
+
+
   }
 
   .golden-ratio {
@@ -483,7 +499,7 @@ body {
     margin: auto;
   }
 
-  .assemble-screens {
+  .case-study-screens {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
@@ -502,7 +518,6 @@ body {
 
   .creating-logo {
     display: grid;
-    grid-template-rows: .2fr .2fr 1fr;
     grid-template-columns: 1fr;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -526,12 +541,10 @@ body {
     display: block;
   }
 
-  .wireframes {
+  .competitive-analysis {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
-    max-width: 100rem;
-  }
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
   .golden-ratio {
     display: grid;
@@ -564,9 +577,10 @@ body {
   .deliverables {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-    border-right: .1rem solid #333;
-    border-left: .1rem solid #333;
+    border-right: .1rem solid var(--black);
+    border-left: .1rem solid var(--black);
   }
+
 }
 
 @media screen and (max-width:600px) {
@@ -578,14 +592,7 @@ body {
     text-align: center;
   }
 
-  .competitive-analysis {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 80rem;
-    grid-gap: 5rem;
-    padding: 0rem 2rem 3rem 2rem;
-    margin: auto;
-  }
+
 
   .pie-charts {
     display: grid;
