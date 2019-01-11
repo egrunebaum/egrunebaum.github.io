@@ -3,11 +3,11 @@ html {
 }
 /*GLOBAL COLORS*/
 :root {
-  --navy: #2E5266;
-  --black: #2A2E30;
---gold: #D28C0F;
---nude: #FFF9F7;
---nude2: #F9E8DE;
+  --navy: #06244f;
+  --black: #1C1C1C;
+--gold: #D87A74;
+--nude: #fdf9f7;
+--nude2: #F9ECE5;
 
 }
 /* Typography */
@@ -21,7 +21,7 @@ project-name {
 h1 {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 3.9rem;
+  font-size: 4.6rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -34,7 +34,6 @@ h3 {
   font-size: 2.3rem;
   text-transform: uppercase;
   font-weight: 300;
-  padding: 0 0 .7rem 0;
   letter-spacing: .08rem;
   line-height: 1.4;
 }
@@ -42,16 +41,17 @@ h3 {
 h2 {
   color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 4rem;
+  font-size: 4.4rem;
   line-height: normal;
   letter-spacing: .08rem;
 }
 
 h4 {
   color: var(--gold);
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 2rem;
 padding-bottom: .7rem;
+letter-spacing: .7rem;
 }
 
 h2, h3, h4 {

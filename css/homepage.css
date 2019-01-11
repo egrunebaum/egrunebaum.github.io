@@ -3,11 +3,10 @@
 
 
 .bonbids-background {
-  background: var(--nude);
+
   width: 100%;
 }
 .assemble-background {
-  background: var(--nude);
 
   width: 100%;
 }
@@ -86,7 +85,7 @@ padding-left: 2rem;
 
 .top-section {
   width: 100%;
-  background-color: var(--nude);
+  background-image: linear-gradient(var(--nude), white);;
   padding: 10rem 0 5rem 0;
 }
 

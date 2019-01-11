@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="209px" height="209px" viewBox="0 0 209 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-59.0%" y="-59.8%" width="218.8%" height="219.7%" filterUnits="objectBoundingBox" id="filter-1">
+        <filter x="-22.0%" y="-19.0%" width="144.4%" height="137.9%" filterUnits="objectBoundingBox" id="filter-1">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -13,16 +13,26 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
+        <ellipse id="path-2" cx="58.9227965" cy="58.2612613" rx="50.2184489" ry="50.0068065"></ellipse>
+        <filter x="-51.8%" y="-52.0%" width="203.5%" height="204.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
     </defs>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-310.000000, -4398.000000)" stroke-width="100">
-            <g id="Group-2" transform="translate(90.000000, 4358.000000)">
-                <g id="Group-117" transform="translate(160.000000, 84.000000)">
+        <g id="Desktop-HD" transform="translate(-506.000000, -4146.000000)">
+            <g id="Group-2" transform="translate(90.000000, 4190.000000)">
+                <g id="Group-117" transform="translate(160.000000, 0.000000)">
                     <g id="Group-7-Copy-2">
                         <g id="Group-5" filter="url(#filter-1)" transform="translate(106.000000, 0.000000)">
-                            <g id="Group-4">
-                                <ellipse id="Oval-Copy" stroke="#D28C0F" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) " cx="58.9227965" cy="58.2612613" rx="50.2184489" ry="50.0068065"></ellipse>
-                                <path d="M58.8842808,108.268053 C86.6191559,108.246781 109.119959,85.8407337 109.14123,58.2227455 C109.162502,30.6047572 86.6961875,8.23319821 58.9613123,8.25446989 C31.2264371,8.27574157 8.72563436,30.6817888 8.70436268,58.299777 C8.683091,85.9177653 31.1494056,108.289324 58.8842808,108.268053 Z" id="Oval-Copy-2" stroke="#2E5266" stroke-dasharray="300.7999877929688,300.7999877929688" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) "></path>
+                            <g id="Group-4" transform="translate(196.000000, 0.000000)">
+                                <ellipse id="Oval-Copy" stroke="#2E5266" stroke-width="100" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) " cx="58.9227965" cy="58.2612613" rx="50.2184489" ry="50.0068065"></ellipse>
+                                <g id="Oval-Copy-2" stroke-dasharray="300.7999877929688,300.7999877929688" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) ">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use stroke="#EE7676" stroke-width="100" xlink:href="#path-2"></use>
+                                </g>
                             </g>
                         </g>
                     </g>

@@ -5,7 +5,6 @@
 body {
  margin: 0 auto;
   font-family: 'nunito', sans-serif;
-  background: var(--nude);
 }
 
 .section {
@@ -152,16 +151,17 @@ background-color: #2183E2;
   padding: 2rem 2rem 0rem 2rem;
 }
 
-.quote {
+.quote p{
   border-left: 2px solid var(--gold);
   padding-left: 2rem;
   color: var(--gold);
   font-weight: 600;
   font-family: 'nunito', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   max-width: 800px;
-  line-height: 3rem;
-  margin: 0 0 2rem;
+  line-height: 2.85rem;
+  margin: 2rem 0 2rem;
+  font-style: italic;
 }
 
 .persona-titles {
@@ -183,15 +183,13 @@ background-color: #2183E2;
 .persona-section {
   display: grid;
   max-width: 64rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 3rem;
+  padding: 3rem 2rem 5rem 2rem;
 
 }
 
 /*SURVEYS*/
 .surveys {
-  background-color: var(--nude2);
+  background-color: var(--nude);
 }
 
 .pie-charts {
@@ -206,7 +204,7 @@ background-color: #2183E2;
 }
 
 .survey-percent {
-  color: var(--navy);
+  color: var(--gold);
   font-size: 3rem;
   font-weight: 400;
 }
@@ -243,7 +241,7 @@ background-color: #2183E2;
   max-width: 80rem;
   align-items: center;
   justify-content: center;
-  background-color: var(--nude2);
+  background-color: var(--nude);
   margin: auto;
 }
 
@@ -260,7 +258,7 @@ background-color: #2183E2;
 }
 .nude2-background{
   max-width:100rem;
-  background-color: var(--nude2);
+  background-color: var(--nude);
   margin:auto;
   margin-top:5rem;
 
@@ -280,7 +278,7 @@ background-color: #2183E2;
   margin-right: auto;
   text-align: center;
   padding:2rem;
-  background-color: var(--nude2);
+  background-color: var(--nude);
 }
 
 .creating-logo-steps {
