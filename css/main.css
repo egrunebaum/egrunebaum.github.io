@@ -3,11 +3,10 @@ html {
 }
 /*GLOBAL COLORS*/
 :root {
-  --navy: #06244f;
-  --black: #1C1C1C;
---gold: #D87A74;
---nude: #fdf9f7;
---nude2: #F9ECE5;
+  --navy: #2E5266;
+  --black: #383A3F;
+--gold: #D28C0F;
+--nude: #FBF5F1;
 
 }
 /* Typography */
@@ -43,7 +42,7 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 4.4rem;
   line-height: normal;
-  letter-spacing: .08rem;
+  letter-spacing: .06rem;
 }
 
 h4 {
@@ -66,7 +65,7 @@ p{
   font-weight: 300;
   max-width: 800px;
   line-height: 3.4rem;
-  letter-spacing: .06rem;
+  letter-spacing: .02rem;
   margin: 1.5rem 0 1.5rem 0;
 }
 ul, ol {

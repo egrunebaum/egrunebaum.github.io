@@ -490,10 +490,11 @@ background-color: #2183E2;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 5rem;
-
-
   }
 
+.mind-mapping{
+  grid-gap: 0;
+}
   .golden-ratio {
     display: grid;
     grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
@@ -525,12 +526,15 @@ background-color: #2183E2;
   }
 
   .logo-sketches img {
-    height: 70rem;
+    max-height: 70rem;
   }
 
   .mind-mapping img {
-    height: 70rem;
+    max-height: 70rem;
   }
+}
+.ab-testing {
+  width: 100%;
 }
 
 @media screen and (min-width:851px) {

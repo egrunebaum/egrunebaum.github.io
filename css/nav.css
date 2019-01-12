@@ -10,7 +10,6 @@
 }
 
 .eg-logo {
-  width: 6em;
   margin-right: .6rem;
 }
 
@@ -109,10 +108,8 @@ Animations
 .nav-link {
   padding: 2.2rem;
   text-decoration: none;
-  color: var(--black);
+  color: var(--navy);
   transition: 0.3s ease-in-out;
-  font-weight: 400;
-  text-transform: capitalize;
   font-size: 1.8rem;
 }
 
@@ -155,6 +152,10 @@ a {
 .nav-links {
   margin-right: 10rem;
 }
-
+@media screen and (max-width:650px) {
+  header{
+flex-direction: column;
+}
+}
 
 /* END NAVIGATION STYLES and MEDIA QUERIES */
