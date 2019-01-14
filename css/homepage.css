@@ -94,6 +94,7 @@ padding-left: 2rem;
   font-size: 8rem;
   color: var(--navy);
 
+
 }
 
 .work-link {
@@ -199,19 +200,8 @@ left: calc(50% - 1rem);
   animation-delay: 4s;
 }
 
-.bounce-work {
-  -webkit-animation-name: bounce2;
-  animation-name: bounce2;
-  z-index: 1;
-  animation-timing-function: ease-in-out;
-  transition-duration: 4s;
-  -moz-animation: bounce2 6s infinite;
-  -webkit-animation: bounce2 6s infinite;
-  animation: bounce2 6s infinite;
-}
-.top-section img{
-  padding-bottom:4rem;
-}
+
+
 
 /*ANIMATION DONE*/
 
@@ -231,4 +221,5 @@ left: calc(50% - 1rem);
     margin: 1rem;
     width:125%;
   }
+  body, html { margin:0; padding:0; }
 }
