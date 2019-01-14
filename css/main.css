@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
 }
+
 /*GLOBAL COLORS*/
 :root {
   --navy: #2E5266;
@@ -120,11 +121,11 @@ li{
   display: grid;
   padding: 6rem 0 0rem 0;
   max-width: 80rem;
-  margin: auto;
+  margin:auto;
   /*justify-content: center;*/
 }
 .section-wide {
-  padding: 3rem 0 0rem 0;
+  padding: 3rem 2rem 0rem 2rem;
   max-width: 100rem;
   margin: auto;
   align-items: center;
@@ -244,7 +245,12 @@ footer p {
   font-size: 1.7rem
 }
 
-
+@media screen and (max-width:909px) {
+  .nude2-background{
+    margin-right:2rem;
+    margin-left: 2rem;
+  }
+}
 @media screen and (min-width:800px) {
   .footer-info {
     display: flex;
@@ -252,6 +258,11 @@ footer p {
     align-items: center;
     margin: 0 10rem;
   }
+}
+@media screen and (max-width:800px) {
+.section{
+  margin:0 2rem 0 2rem;
+}
 }
 
 /* End Footer */
