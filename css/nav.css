@@ -111,12 +111,10 @@ Animations
   color: var(--navy);
   transition: 0.3s ease-in-out;
   font-size: 1.8rem;
+  font-weight: 400;
 }
 
-.nav-link.a {
-  color: var(--black);
-  font-weight: 900;
-}
+
 
 .nav-link:active {
   color: var(--gold);
