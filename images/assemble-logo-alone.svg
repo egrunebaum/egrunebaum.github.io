@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="182px" height="106px" viewBox="0 0 182 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 15</title>
+<svg width="183px" height="106px" viewBox="0 0 183 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
     <desc>Created with Sketch.</desc>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Assemble-case-study" transform="translate(-1258.000000, -9410.000000)">
-            <g id="Group-127" transform="translate(813.000000, 9403.000000)">
-                <g id="Group-15" transform="translate(447.000000, 9.000000)">
-                    <g id="Group-3" transform="translate(51.000000, 0.000000)" fill="#2183E2">
-                        <ellipse id="Circle-3" cx="37.4773968" cy="54.6618809" rx="37.3712037" ry="37.4002343"></ellipse>
-                        <ellipse id="Circle-1" stroke="#FFFFFF" stroke-width="3" cx="38.4608495" cy="10.548784" rx="10.81798" ry="10.548784"></ellipse>
-                    </g>
-                    <ellipse id="Circle-2" fill="#2183E2" transform="translate(28.681405, 65.998633) scale(-1, 1) rotate(8.000000) translate(-28.681405, -65.998633) " cx="28.6814048" cy="65.998633" rx="24.979319" ry="24.4048508"></ellipse>
-                    <ellipse id="Circle-2" fill="#FFFFFF" transform="translate(34.232644, 75.037009) scale(-1, 1) rotate(8.000000) translate(-34.232644, -75.037009) " cx="34.2326444" cy="75.0370086" rx="24.979319" ry="24.4048508"></ellipse>
-                    <circle id="Circle-1" stroke="#FFFFFF" stroke-width="3" fill="#2183E2" cx="10" cy="41" r="10"></circle>
-                    <ellipse id="Circle-2" fill="#2183E2" transform="translate(148.809799, 66.189140) rotate(5.000000) translate(-148.809799, -66.189140) " cx="148.809799" cy="66.18914" rx="24.9800845" ry="24.4040991"></ellipse>
-                    <ellipse id="Circle-3" fill="#FFFFFF" cx="88" cy="66.5" rx="37" ry="37.5"></ellipse>
-                    <ellipse id="Circle-2" fill="#FFFFFF" transform="translate(142.688737, 76.845697) rotate(5.000000) translate(-142.688737, -76.845697) " cx="142.688737" cy="76.845697" rx="24.9800845" ry="24.4040991"></ellipse>
-                    <ellipse id="Circle-1" stroke="#FFFFFF" stroke-width="3" fill="#2183E2" transform="translate(168.621876, 41.878400) scale(-1, 1) rotate(-3.000000) translate(-168.621876, -41.878400) " cx="168.621876" cy="41.8783998" rx="10.1772" ry="9.9422843"></ellipse>
-                    <path d="M26.8209415,81.3844374 C58.4628245,80.4805467 124.688058,81.3497977 152.796268,82.1527444 C171.535074,82.6880423 171.732476,83.6371275 153.388473,85 L26.8209415,85 C5.72635283,83.1922187 5.72635283,81.9870311 26.8209415,81.3844374 Z" id="Rectangle-17" fill="#2183E2"></path>
+        <g transform="translate(-369.000000, -166.000000)" id="Group-3">
+            <g transform="translate(371.000000, 168.000000)">
+                <g id="Group">
+                    <ellipse id="Circle-3" fill="#383A3F" cx="88.4773968" cy="54.6618809" rx="37.3712037" ry="37.4002343"></ellipse>
+                    <ellipse id="Circle-1" stroke="#FFF9F7" stroke-width="3" fill="#383A3F" cx="89.4608495" cy="10.548784" rx="10.81798" ry="10.548784"></ellipse>
+                    <ellipse id="Circle-2" fill="#383A3F" transform="translate(28.681405, 65.998633) scale(-1, 1) rotate(8.000000) translate(-28.681405, -65.998633) " cx="28.6814048" cy="65.998633" rx="24.979319" ry="24.4048508"></ellipse>
+                    <ellipse id="Circle-2" fill="#FFF9F7" transform="translate(34.232644, 75.037009) scale(-1, 1) rotate(8.000000) translate(-34.232644, -75.037009) " cx="34.2326444" cy="75.0370086" rx="24.979319" ry="24.4048508"></ellipse>
+                    <circle id="Circle-1" stroke="#FFF9F7" stroke-width="3" fill="#383A3F" cx="10" cy="41" r="10"></circle>
+                    <ellipse id="Circle-2" fill="#383A3F" transform="translate(148.809799, 66.189140) rotate(5.000000) translate(-148.809799, -66.189140) " cx="148.809799" cy="66.18914" rx="24.9800845" ry="24.4040991"></ellipse>
+                    <ellipse id="Circle-3" fill="#FFF9F7" cx="88" cy="66.5" rx="37" ry="37.5"></ellipse>
+                    <ellipse id="Circle-2" fill="#FFF9F7" transform="translate(142.688737, 76.845697) rotate(5.000000) translate(-142.688737, -76.845697) " cx="142.688737" cy="76.845697" rx="24.9800845" ry="24.4040991"></ellipse>
+                    <ellipse id="Circle-1" stroke="#FFF9F7" stroke-width="3" fill="#383A3F" transform="translate(168.621876, 41.878400) scale(-1, 1) rotate(-3.000000) translate(-168.621876, -41.878400) " cx="168.621876" cy="41.8783998" rx="10.1772" ry="9.9422843"></ellipse>
+                    <path d="M26.8209415,81.3844374 C58.4628245,80.4805467 124.688058,81.3497977 152.796268,82.1527444 C171.535074,82.6880423 171.732476,83.6371275 153.388473,85 L26.8209415,85 C5.72635283,83.1922187 5.72635283,81.9870311 26.8209415,81.3844374 Z" id="Rectangle-17" fill="#383A3F"></path>
                 </g>
             </g>
         </g>

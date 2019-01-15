@@ -1,32 +1,30 @@
 
 .logo-container {
-  margin-left: 1.5rem;
   display: grid;
-
   justify-content: center;
   align-items: center;
-  width: 12%;
-  margin-left: 10rem;
+
 }
 
-.eg-logo {
-  margin-right: .6rem;
-}
 
 header {
-  padding: 2rem 0.4rem 0 .4rem;
+  padding: 2rem 10rem 0 10rem;
+  margin: auto;
+  max-width:120rem;
   background-color: var(--nude);
   /*border-bottom: 0.1rem solid var(--navy);*/
   /*box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.05), 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);*/
   display: flex;
   align-items: center;
-  z-index: 1;
+
   /*position: fixed;*/
   justify-content: space-between;
 }
 
 
-/* NAV STYLES - Hamburger Menu  */
+.eg-logo{
+  width:7rem;
+}
 .nav {
   position: fixed;
   width: 100%;
@@ -96,18 +94,13 @@ Animations
 **/
 
 
-.nav-links {
-  display: none;
-  margin-right: 10rem;
-}
 
-/*@media screen and (min-width:768px) {
-  header {
-    padding: 1.7rem 0rem;
-  }*/
+
+
 .nav-link {
   padding: 2.2rem;
   text-decoration: none;
+  text-transform: capitalize;
   color: var(--navy);
   transition: 0.3s ease-in-out;
   font-size: 1.8rem;
@@ -139,21 +132,21 @@ Animations
   font-weight: 400;
 }
 
-#toggle, .nav, .hamburger {
-  display: none;
-}
+
 
 a {
   text-decoration: none;
 }
 
-.nav-links {
-  margin-right: 10rem;
-}
+
 @media screen and (max-width:650px) {
   header{
 flex-direction: column;
+padding: 2rem 0rem 0 0rem;
 }
+.nav-links{
+  padding-top:2rem;
+
 }
 
 /* END NAVIGATION STYLES and MEDIA QUERIES */

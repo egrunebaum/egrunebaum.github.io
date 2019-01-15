@@ -18,8 +18,8 @@
   max-width: 100rem;
   align-items: center;
   justify-content: center;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   grid-gap: 5rem;
   margin: auto;
   padding-left: 2rem;
@@ -34,7 +34,12 @@
 
 
 }
+.section-wide {
+  max-width: 100rem;
+  margin: auto;
+  align-items: center;
 
+}
 .assemble-explanation-section{
 
   margin: auto;
@@ -60,7 +65,7 @@
   /* grid-template-columns: 2fr 4fr; */
   padding: 3rem 0;
   width: 100%;
-  margin: auto;
+  margin-top:11rem;
   justify-content: center;
   background-color: var(--nude);
 }
@@ -103,7 +108,7 @@ padding-left: 2rem;
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .work-link::after{
   position: absolute;
@@ -219,9 +224,6 @@ left: calc(50% - 1rem);
   .assemble-explanation-section{
     width:100%;
   }
-  .contact-button {
-    margin: 1rem;
-    width:125%;
-  }
+
   body, html { margin:0; padding:0; }
 }

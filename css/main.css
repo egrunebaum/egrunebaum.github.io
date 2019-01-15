@@ -101,7 +101,8 @@ ul, ol {
   letter-spacing: .06rem;
   list-style-type: disc;
   list-style-position: outside;
-  margin-left: 5rem;
+
+
 }
 li{
   margin-top:1rem;
@@ -124,13 +125,7 @@ li{
   margin:auto;
   /*justify-content: center;*/
 }
-.section-wide {
-  padding: 3rem 2rem 0rem 2rem;
-  max-width: 100rem;
-  margin: auto;
-  align-items: center;
 
-}
 
 
 /* Buttons */
