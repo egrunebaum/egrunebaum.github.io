@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="209px" height="209px" viewBox="0 0 209 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="208px" height="208px" viewBox="0 0 208 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+    <title>Group 64</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-22.0%" y="-19.0%" width="144.4%" height="137.9%" filterUnits="objectBoundingBox" id="filter-1">
+        <filter x="-60.3%" y="-60.3%" width="220.7%" height="220.7%" filterUnits="objectBoundingBox" id="filter-1">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -13,26 +13,16 @@
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <ellipse id="path-2" cx="58.9227965" cy="58.2612613" rx="50.2184489" ry="50.0068065"></ellipse>
-        <filter x="-51.8%" y="-52.0%" width="203.5%" height="204.0%" filterUnits="objectBoundingBox" id="filter-3">
-            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
     </defs>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-506.000000, -4146.000000)">
-            <g id="Group-2" transform="translate(90.000000, 4190.000000)">
-                <g id="Group-117" transform="translate(160.000000, 0.000000)">
-                    <g id="Group-7-Copy-2">
-                        <g id="Group-5" filter="url(#filter-1)" transform="translate(106.000000, 0.000000)">
-                            <g id="Group-4" transform="translate(196.000000, 0.000000)">
-                                <ellipse id="Oval-Copy" stroke="#2E5266" stroke-width="100" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) " cx="58.9227965" cy="58.2612613" rx="50.2184489" ry="50.0068065"></ellipse>
-                                <g id="Oval-Copy-2" stroke-dasharray="300.7999877929688,300.7999877929688" transform="translate(58.922797, 58.261261) rotate(100.000000) translate(-58.922797, -58.261261) ">
-                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                                    <use stroke="#EE7676" stroke-width="100" xlink:href="#path-2"></use>
-                                </g>
+        <g transform="translate(-747.000000, -3767.000000)" id="Group-14" stroke-width="100">
+            <g transform="translate(70.000000, 3625.000000)">
+                <g id="Group-26" transform="translate(194.000000, 186.000000)">
+                    <g id="Group-86">
+                        <g id="Group-44" transform="translate(420.000000, 0.000000)">
+                            <g id="Group-64" filter="url(#filter-1)" transform="translate(109.000000, 0.000000)">
+                                <circle id="Oval" stroke="#2E5266" cx="58" cy="58" r="50"></circle>
+                                <path d="M57.9227965,107.922797 C85.537034,107.922797 107.922797,85.537034 107.922797,57.9227965 C107.922797,30.308559 85.537034,7.92279653 57.9227965,7.92279653 C30.308559,7.92279653 7.92279653,30.308559 7.92279653,57.9227965 C7.92279653,85.537034 30.308559,107.922797 57.9227965,107.922797 Z" id="Oval-Copy-3" stroke="#D28C0F" stroke-dasharray="298.2999877929688,298.2999877929688" transform="translate(57.922797, 57.922797) rotate(100.000000) translate(-57.922797, -57.922797) "></path>
                             </g>
                         </g>
                     </g>
