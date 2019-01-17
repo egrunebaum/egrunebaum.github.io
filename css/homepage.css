@@ -1,6 +1,8 @@
 /*NAVIGATION START*/
 /* Sticky Navigation - Outside Grid Wrapper */
-
+.nav-links li{
+  margin-top:1rem;
+}
 .wrapper-I-am-Emma{
   width:100%;
 }
@@ -221,12 +223,15 @@ left: calc(50% - 1rem);
     padding-right: 2rem;
 
   }
+
   .case-study-text{
-    position: 1
+    order: 2;
   }
   .assemble-explanation-section{
     width:100%;
   }
+.bonbids-case-study .section-wide{
+  order:1;
+}
 
-  body, html { margin:0; padding:0; }
 }

@@ -139,13 +139,14 @@ a {
 }
 
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:800px) {
   header{
 flex-direction: column;
 padding: 2rem 0rem 0 0rem;
 }
 .nav-links{
   padding-top:2rem;
+}
 
 }
 

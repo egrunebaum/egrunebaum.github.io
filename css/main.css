@@ -10,6 +10,10 @@ html {
 --nude: #FFF9F7;
 
 }
+.body {
+ margin: 0 2rem 0 2rem;
+  font-family: 'nunito', sans-serif;
+}
 .link{
   color: var(--black);
   font-weight: 400;
@@ -45,8 +49,7 @@ h1 {
   font-family: 'nunito', sans-serif;
   max-width: 120rem;
   margin: auto;
-  padding: 2rem;
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 h3 {
@@ -86,7 +89,6 @@ p{
   font-family: 'nunito', sans-serif;
   font-size: 2rem;
   font-weight: 300;
-  max-width: 900rem;
   line-height: 3rem;
   letter-spacing: .02rem;
   margin: auto;
@@ -105,9 +107,10 @@ ul, ol {
 
 
 }
-li{
+.body li{
   margin-top:1rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
+
 }
 
 .img-caption {
@@ -122,11 +125,12 @@ li{
 }
 .section {
   display: grid;
-  padding: 6rem 0 0rem 0;
+  padding-top:8rem;
   max-width: 90rem;
   margin:auto;
   /*justify-content: center;*/
 }
+
 
 
 
@@ -136,7 +140,7 @@ a {
 }
 .image-description p{
   font-size:1.8rem;
-  weight:600;
+  weight:400;
   max-width: 120rem;
   font-style: italic;
   margin: auto;
@@ -152,11 +156,11 @@ a {
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
   white-space: nowrap;
   background-color: var(--gold);
   border: 0.2rem solid var(--gold);
-  border-radius: 4rem;
+  border-radius: 1rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin-right: 2rem;
@@ -177,11 +181,11 @@ a {
   color: var(--gold);
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   white-space: nowrap;
   background-color: transparent;
   border: 0.2rem solid var(--gold);
-  border-radius: 4rem;
+  border-radius: 1rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin: 1rem;
@@ -221,7 +225,7 @@ footer {
   margin: 0;
   padding: 4rem;
   text-align: center;
-  margin-top:5rem;
+
 }
 
 footer p {
@@ -257,11 +261,7 @@ footer p {
     margin: 0 10rem;
   }
 }
-@media screen and (max-width:800px) {
-.section{
-  margin:0 2rem 0 2rem;
-}
-}
+
 
 /* End Footer */
 @media screen and (min-width:530px) {

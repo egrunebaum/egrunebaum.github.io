@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="602px" height="346px" viewBox="0 0 602 346" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="918px" height="150px" viewBox="0 0 918 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 3</title>
+    <title>Group 4</title>
     <desc>Created with Sketch.</desc>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-259.000000, -175.000000)">
-            <g id="Group-3" transform="translate(259.000000, 175.000000)">
-                <g id="Group" transform="translate(163.000000, 0.000000)">
+        <g id="Artboard" transform="translate(-221.000000, -829.000000)">
+            <g id="Group-4" transform="translate(221.000000, 829.000000)">
+                <g id="Group">
                     <rect id="Rectangle" stroke="#979797" fill="#2183E2" x="0.5" y="0.5" width="127" height="127" rx="8"></rect>
                     <text id="#2183E2" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
                         <tspan x="35" y="149">#2183E2</tspan>
                     </text>
                 </g>
-                <g id="Group-2" transform="translate(321.000000, 0.000000)">
+                <g id="Group-2" transform="translate(158.000000, 0.000000)">
                     <rect id="Rectangle-Copy-3" stroke="#979797" fill="#E6F1FC" x="0.5" y="0.5" width="127" height="127" rx="8"></rect>
                     <text id="#E6F1FC" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
                         <tspan x="32" y="149">#E6F1FC</tspan>
                     </text>
                 </g>
-                <rect id="Rectangle-Copy" stroke="#979797" fill="#2EA263" x="0.5" y="196.5" width="127" height="127" rx="8"></rect>
+                <rect id="Rectangle-Copy" stroke="#979797" fill="#2EA263" x="316.5" y="0.5" width="127" height="127" rx="8"></rect>
                 <text id="#2EA263" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
-                    <tspan x="32" y="345">#2EA263</tspan>
+                    <tspan x="348" y="149">#2EA263</tspan>
                 </text>
-                <rect id="Rectangle-Copy-2" stroke="#979797" fill="#956DD5" x="158.5" y="196.5" width="127" height="127" rx="8"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#979797" fill="#956DD5" x="474.5" y="0.5" width="127" height="127" rx="8"></rect>
                 <text id="#956DD5" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
-                    <tspan x="190" y="345">#956DD5</tspan>
+                    <tspan x="506" y="149">#956DD5</tspan>
                 </text>
-                <rect id="Rectangle-Copy-5" stroke="#979797" fill="#434446" x="316.5" y="196.5" width="127" height="127" rx="8"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#979797" fill="#434446" x="632.5" y="0.5" width="127" height="127" rx="8"></rect>
                 <text id="#4344446" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
-                    <tspan x="348" y="345">#4344446</tspan>
+                    <tspan x="664" y="149">#4344446</tspan>
                 </text>
-                <rect id="Rectangle-Copy-4" stroke="#979797" fill="#FFFFFF" x="474.5" y="196.5" width="127" height="127" rx="8"></rect>
+                <rect id="Rectangle-Copy-4" stroke="#979797" fill="#FFFFFF" x="790.5" y="0.5" width="127" height="127" rx="8"></rect>
                 <text id="#FFFFFF" fill="#414042" font-family="Avenir-Light, Avenir" font-size="16" font-weight="300">
-                    <tspan x="506" y="345">#FFFFFF</tspan>
+                    <tspan x="822" y="149">#FFFFFF</tspan>
                 </text>
             </g>
         </g>
