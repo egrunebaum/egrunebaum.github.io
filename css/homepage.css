@@ -24,10 +24,10 @@
   padding-bottom: 5rem;
   grid-gap: 5rem;
   margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
-
+.assemble-case-study img{
+  width:100%;
+}
 .assemble-screen-section{
   display:block;
   height:100%;
@@ -219,8 +219,7 @@ left: calc(50% - 1rem);
   .assemble-case-study {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 2rem;
-    padding-right: 2rem;
+
 
   }
 
