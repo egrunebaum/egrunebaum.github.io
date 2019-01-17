@@ -1,6 +1,12 @@
+header {
+  background-color: var(--nude);
+}
 .top-section {
   width: 100%;
   background-image: linear-gradient(var(--nude), white);;
+}
+.nav-link {
+color: var(--navy);
 }
 .section-aboutme{
   display: grid;

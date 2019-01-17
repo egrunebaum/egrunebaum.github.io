@@ -8,16 +8,9 @@
 
 
 header {
-  padding: 2rem 10rem 0 10rem;
-  margin: auto;
-  max-width:120rem;
-  background-color: var(--nude);
-  /*border-bottom: 0.1rem solid var(--navy);*/
-  /*box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.05), 0 0 0.5rem 0 rgba(0, 0, 0, 0.1);*/
+  padding: 2rem 8rem 0 8rem;
   display: flex;
   align-items: center;
-
-  /*position: fixed;*/
   justify-content: space-between;
 }
 
@@ -101,7 +94,6 @@ Animations
   padding: 2.2rem;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--navy);
   transition: 0.3s ease-in-out;
   font-size: 1.8rem;
   font-weight: 400;
@@ -116,7 +108,7 @@ Animations
 
 .nav-links {
   display: block;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600;
   transition: 0.1s
     /*ease-in-out*/

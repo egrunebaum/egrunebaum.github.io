@@ -7,11 +7,13 @@
   max-width: 120rem;
   margin: auto;
   align-items: center;
-
-
 }
-/*  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-*/
+header {
+  background-color: #2183E2;
+}
+.nav-link {
+color: #FFF;
+}
 .background-assemble-header {
   background-color: #2183E2;
   width: 100%;
