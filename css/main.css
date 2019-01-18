@@ -156,7 +156,7 @@ a {
 .button {
   display: inline-block;
   cursor: pointer;
-  width: 37rem;
+  width: 35rem;
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
@@ -182,7 +182,7 @@ a {
 .contact-button {
   display: inline-block;
   cursor: pointer;
-  width: 37rem;
+  width: 35rem;
   color: var(--gold);
   text-align: center;
   font-weight: 500;

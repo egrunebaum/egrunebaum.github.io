@@ -1,8 +1,6 @@
 /*NAVIGATION START*/
 /* Sticky Navigation - Outside Grid Wrapper */
-.nav-links li{
-  margin-top:1rem;
-}
+
 .nav-link {
 color: var(--navy);
 }
