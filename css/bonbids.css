@@ -1,0 +1,186 @@
+.bonbid-bullet{
+  padding-left: 5rem;
+  padding-bottom:.5rem;
+}
+
+.section-wide {
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+}
+header {
+  background-color: #4c2d57;
+}
+.nav-link {
+color: #FFF;
+}
+.top-section {
+  padding: 1rem 0 6rem 0;
+  display: block;
+background-color: #4c2d57;
+ width: 100%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr;*/
+  grid-gap: 2rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-bottom: 10rem;*/
+  justify-content: center;
+}
+
+.background-assemble-header {
+  background-color: #4c2d57;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+  /*background: url("../images/assemble-background.jpg");*/
+  margin: 0 0 4rem 0;
+  /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
+}
+
+.case-study-screens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: .5rem;
+  max-width: 90rem;
+}
+.case-study-screens img{
+  width: 100%;
+}
+
+
+.design-roles{
+  padding: 3rem;
+  background-color: var(--nude);
+  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
+  border-radius:1rem;
+}
+.design-role-title{
+  font-weight:400;
+  color: var(--navy);
+  font-size: 2.3rem;
+}
+.competitive-analysis {
+  display: grid;
+  grid-gap: 5rem;
+  padding: 3rem;
+  margin: auto;
+}
+.competitive-analysis-img {
+  max-width: 31rem;
+}
+.nude2-background{
+  width: 100%;
+  background-color: var(--nude);
+  margin:auto;
+  margin-top:5rem;
+
+  border-radius:1rem;
+box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
+}
+.section-wide {
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+}
+/*PERSONAS*/
+#persona-name {
+  display: block;
+  justify-content: center;
+}
+
+#david {
+
+  padding: 3rem;
+  background-color: var(--nude);
+  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
+  border-radius:1rem;
+}
+#david li{
+  margin-left: 5rem;
+}
+
+
+.persona-titles {
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  /*text-decoration: underline;*/
+}
+
+.section-personas {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 90rem;
+  margin: auto;
+  grid-gap: 5rem;
+}
+
+.persona-section {
+  padding-bottom:5rem;
+  padding-top:3em;
+}
+.words{
+  text-align:center;
+}
+.persona-titles {
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom:1rem;
+  /*text-decoration: underline;*/
+}
+#persona-name {
+  font-size: 2.8rem;
+  font-weight:500;
+  padding-bottom:1rem;
+}
+/*MEDIA QUERIES*/
+@media screen and (min-width:851px) {
+
+
+  .competitive-analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media screen and (min-width:651px) {
+  .design-roles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 120rem;
+    grid-gap: 2.5rem;
+    text-align: center;
+  }
+
+  .deliverables {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+  }
+
+
+}
+@media screen and (max-width:650px) {
+  .design-roles {
+    display: grid;
+    grid-template-rows: .5fr 1fr .5fr;
+    margin: auto;
+    grid-gap: 5rem;
+    text-align: center;
+  }
+}

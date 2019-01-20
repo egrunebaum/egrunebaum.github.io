@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+/*main case study stylings*/
 
 
 .section-wide {
@@ -13,6 +11,28 @@ header {
 }
 .nav-link {
 color: #FFF;
+}
+.top-section {
+  padding: 1rem 0 6rem 0;
+  display: block;
+background-color: #2183E2;
+ width: 100%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr;*/
+  grid-gap: 2rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-bottom: 10rem;*/
+  justify-content: center;
+}
+.body li{
+  padding-bottom: .5rem;
 }
 .background-assemble-header {
   background-color: #2183E2;
@@ -55,28 +75,10 @@ color: #FFF;
   padding: 3rem;
   margin: auto;
 }
+/*END MAIN STYLINGS*/
 
 
 
-.top-section {
-  padding: 8rem 0 8rem 0;
-  display: block;
-background-color: #2183E2;
- width: 100%;
-  margin: auto;
-  margin-bottom: 4rem;
-}
-
-.hero {
-  display: grid;
-  /*grid-template-columns: 1fr 1fr;*/
-  grid-gap: 2rem;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  /*margin-bottom: 10rem;*/
-  justify-content: center;
-}
 
 .words {
   display: block;
@@ -84,11 +86,7 @@ background-color: #2183E2;
   max-width: 90rem;
   margin:0 2rem 0 2rem;
 }
-.competitive-analysis-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 /*USER STORIES*/
 .user-stories {
   display: grid;
@@ -167,9 +165,10 @@ background-color: #2183E2;
 .persona-titles {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: 300;
   text-transform: uppercase;
+  padding-bottom:1rem;
   /*text-decoration: underline;*/
 }
 
@@ -187,7 +186,11 @@ background-color: #2183E2;
 
 
 }
-
+#persona-name{
+  font-size: 2.8rem;
+  font-weight:500;
+  padding-bottom:1rem;
+}
 /*SURVEYS*/
 .surveys {
   background-color: var(--nude);
