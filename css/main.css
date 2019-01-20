@@ -14,6 +14,9 @@ html {
  margin: 0 2rem 0 2rem;
   font-family: 'nunito', sans-serif;
 }
+.body li{
+  margin-left: 5rem;
+}
 .link{
   color: var(--black);
   font-weight: 400;
@@ -39,10 +42,11 @@ h1 {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
-  line-height: 7rem;
+  line-height: normal;
   padding: 2rem 0 0rem 0;
   border-bottom: .02rem solid var(--gold);
 }
+
 .titles {
   display: block;
   color: var(--black);
@@ -84,7 +88,7 @@ h2, h3, h4 {
   margin: 0 0 0 0;
 }
 
-p{
+p {
   color: var(--black);
   font-family: 'nunito', sans-serif;
   font-size: 2rem;
@@ -92,7 +96,7 @@ p{
   line-height: 3rem;
   letter-spacing: .02rem;
   margin: auto;
-  padding: 1.5rem 0 0 0;
+  padding: 1.5rem 0 1rem 0;
 }
 ul, ol {
   color: var(--black);
@@ -110,11 +114,6 @@ ul{
 }
 ol{
   list-style-type: decimal;
-}
-.body li{
-  margin-top:1rem;
-  margin-left: 3rem;
-
 }
 
 .img-caption {
@@ -135,7 +134,13 @@ ol{
   /*justify-content: center;*/
 }
 
-
+.section-padding-change {
+  display: grid;
+  padding-top:3.5rem;
+  max-width: 90rem;
+  margin:auto;
+  /*justify-content: center;*/
+}
 
 
 /* Buttons */
@@ -157,6 +162,8 @@ a {
   display: inline-block;
   cursor: pointer;
   width: 35rem;
+
+
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;

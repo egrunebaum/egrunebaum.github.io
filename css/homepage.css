@@ -7,9 +7,7 @@ color: var(--navy);
 header {
   background-color: var(--nude);
 }
-.wrapper-I-am-Emma{
-  width:100%;
-}
+
 .bonbids-background {
 
   width: 100%;
@@ -83,7 +81,7 @@ header {
 .I-am-Emma {
   display: block;
   padding: 3rem 0 5rem 0;
-  max-width: 90rem;
+  max-width: 70rem;
   margin: auto;
   text-align: center;
 }
@@ -99,7 +97,7 @@ padding-left: 2rem;
 .top-section {
   width: 100%;
   background-image: linear-gradient(var(--nude), white);;
-  padding: 10rem 0 5rem 0;
+  padding: 2rem 0 5rem 0;
 }
 
 .hi {
