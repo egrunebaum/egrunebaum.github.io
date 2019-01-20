@@ -261,7 +261,9 @@ background-color: #2183E2;
 .survey-percent5, .survey-percent7{
   margin: 0 2rem 0 2rem;
 }
-
+.ab-testing img{
+  width: 100%;
+}
 
 .percent-text {
   display: block;
@@ -367,8 +369,7 @@ margin-left: 5rem;
   align-items: center;
   margin: auto;
   text-align: center;
-
-
+  max-width: 120rem;
 }
 
 .before-after-with-arrow-justify {
@@ -469,9 +470,7 @@ width: 100%;
 
 
 
-.ab-testing img{
-  width: 100%;
-}
+
 
 
 
@@ -532,8 +531,11 @@ width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 5rem;
-  }
 
+  }
+.before-after-with-arrow-justify img{
+  width:100%;
+}
   .creating-logo {
     display: grid;
     grid-template-columns: 1fr;
