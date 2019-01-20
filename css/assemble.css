@@ -240,7 +240,7 @@ background-color: #2183E2;
   max-width: 110rem;
   justify-content: center;
   padding-top:3rem;
-  margin: auto;
+  margin: 0 2rem 0 2rem;
   text-align:center;
 
 
@@ -251,10 +251,12 @@ background-color: #2183E2;
   grid-gap:5rem;
   max-width: 82.5rem;
   justify-content: center;
-  margin: auto;
   padding:4rem 0 3rem 0;
   text-align:center;
-
+  margin: auto;
+}
+.survey-percent5, .survey-percent7{
+  margin: 0 2rem 0 2rem;
 }
 
 
@@ -264,8 +266,7 @@ background-color: #2183E2;
 }
 .text-box {
   border: .1rem solid var(--navy);
-  max-width: 104rem;
-  margin:auto;
+  margin:0 3rem 0 3rem;
 }
 .pie-charts img {
   display: block;
@@ -646,7 +647,7 @@ width: 100%;
 .percent-section-block{
   display: grid;
   grid-template-columns: 1fr;
-  padding: 2rem 2rem 0 2rem;
+  margin-bottom:2rem;
 }
 .percent-section-block2{
   display: grid;

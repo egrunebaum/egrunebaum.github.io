@@ -16,18 +16,18 @@ header {
 
   width: 100%;
 }
-.assemble-case-study {
+.case-study-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 120rem;
   align-items: center;
   justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   grid-gap: 5rem;
   margin: auto;
 }
-.assemble-case-study img{
+.case-study-section img{
   width:100%;
 }
 .assemble-screen-section{
@@ -69,7 +69,7 @@ header {
   /* grid-template-columns: 2fr 4fr; */
   padding: 3rem 0;
   width: 100%;
-  margin-top:11rem;
+  margin-top:6rem;
   justify-content: center;
   background-color: var(--nude);
 }
@@ -80,7 +80,7 @@ header {
 
 .I-am-Emma {
   display: block;
-  padding: 3rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
   max-width: 70rem;
   margin: auto;
   text-align: center;
@@ -126,7 +126,7 @@ bottom: -2.5rem;
 left: calc(50% - 1rem);
 }
 .see-work {
-  margin-top: 16rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
@@ -218,7 +218,7 @@ left: calc(50% - 1rem);
 
 @media screen and (max-width:840px){
 
-  .assemble-case-study {
+  .case-study-section {
     display: grid;
     grid-template-columns: 1fr;
 

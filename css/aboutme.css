@@ -12,7 +12,7 @@ color: var(--navy);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
   margin: auto;
   max-width: 120rem;
   padding: 5rem 0 5rem 0;
@@ -30,27 +30,34 @@ padding-left: 2rem;
 }
 
 .hi-glad {
-  padding-top:2rem;
   font-family: 'Playfair Display', serif;
   font-size: 7.5rem;
   color: var(--navy);
   margin-left: 2rem;
   margin-right: 2rem;
+  line-height: 7.3rem;
+
 
 }
 .hi-story {
-  padding-top:4rem;
+  padding-top:2rem;
   font-family: 'Playfair Display', serif;
   font-size: 7.5rem;
   color: var(--gold);
 
 }
-
+.me-pic{
+  margin-right:2rem;
+  margin-left:2rem;
+}
 .I-am-Emma p{
   font-size: 3rem;
 }
 
-
+.tldr {
+  margin-right:2rem;
+  margin-left:2rem;
+}
 @media screen and (max-width:910px) {
   .hi-glad {
     font-size: 6.5rem;
