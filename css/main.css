@@ -15,7 +15,7 @@ html {
   font-family: 'nunito', sans-serif;
 }
 .body li{
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .link{
   color: var(--black);
