@@ -92,7 +92,7 @@ p {
   font-family: 'nunito', sans-serif;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.8rem;
+  line-height: 2.7rem;
   letter-spacing: .02rem;
   margin: auto;
   padding: 1.5rem 0 1rem 0;
@@ -161,8 +161,6 @@ a {
   display: inline-block;
   cursor: pointer;
   width: 34.5rem;
-
-
   color: #FFF;
   text-align: center;
   font-size: 1.5rem;
@@ -170,13 +168,14 @@ a {
   white-space: nowrap;
   background-color: var(--gold);
   border: 0.2rem solid var(--gold);
-  border-radius: 1rem;
+  border-radius: 3rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin-right: 2rem;
   font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
   align-items: center;
+  padding:2rem;
 }
 
 .button:hover {
@@ -195,7 +194,7 @@ a {
   white-space: nowrap;
   background-color: transparent;
   border: 0.2rem solid var(--gold);
-  border-radius: 1rem;
+  border-radius: 3rem;
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin: 1rem;
