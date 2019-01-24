@@ -18,6 +18,9 @@ header {
 .eg-logo{
   width:5rem;
 }
+.nav-link .eg-logo{
+  padding-top: .2rem;
+}
 .nav {
   position: fixed;
   width: 100%;
