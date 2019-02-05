@@ -102,7 +102,7 @@ padding-left: 2rem;
 
 .hi {
   font-family: 'Playfair Display', serif;
-  font-size: 8rem;
+  font-size: 7.5rem;
   color: var(--navy);
 
 
@@ -206,9 +206,15 @@ left: calc(50% - 1rem);
   animation-delay: 2s;
 }
 
+
 .animated.delay-4s {
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+.animated.delay-5s {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+
 }
 
 
