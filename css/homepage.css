@@ -97,7 +97,7 @@ padding-left: 2rem;
 .top-section {
   width: 100%;
   background-image: linear-gradient(var(--nude), white);
-  padding: 2rem 0 5rem 0;
+  padding: 2rem 0 10rem 0;
 }
 
 .hi {
@@ -126,7 +126,7 @@ bottom: -2.5rem;
 left: calc(50% - 1rem);
 }
 .see-work {
-  margin-top: 10rem;
+  margin-top: 15rem;
   text-align: center;
 }
 
