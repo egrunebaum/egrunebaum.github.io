@@ -5,8 +5,8 @@ html {
 /*GLOBAL COLORS*/
 :root {
   --navy: #2E5266;
-  --black: #383A3F;
---gold: #d28c0f;
+  --black: #1A1B1D;
+--gold: #EA9A10;
 --nude: #FFF9F7;
 
 }
@@ -106,6 +106,7 @@ ul, ol {
   line-height: 2.85rem;
   letter-spacing: .06rem;
   list-style-position: outside;
+  padding-left: 1rem;
 
 }
 ul{
@@ -128,7 +129,7 @@ ol{
 .section {
   display: grid;
   padding-top:8rem;
-  max-width: 90rem;
+  max-width: 80rem;
   margin:auto;
   /*justify-content: center;*/
 }

@@ -35,6 +35,19 @@ background-color: #4c2d57;
 .grid-columns-2{
   padding:3rem;
 }
+.quote p{
+  border-left: 2px solid var(--gold);
+  padding-left: 2rem;
+  color: var(--gold);
+  font-weight: 600;
+  font-family: 'nunito', sans-serif;
+  font-size: 2rem;
+  max-width: 90rem;
+  line-height: 2.85rem;
+  margin: 2rem 0 2rem;
+  font-style: italic;
+}
+
 
 .background-assemble-header {
   background-color: #4c2d57;

@@ -2,7 +2,7 @@
 /* Sticky Navigation - Outside Grid Wrapper */
 
 .nav-link {
-color: var(--navy);
+color: var(--black);
 }
 header {
   background-color: var(--nude);
@@ -81,7 +81,7 @@ header {
 .I-am-Emma {
   display: block;
   padding: 5rem 0 5rem 0;
-  max-width: 70rem;
+  max-width: 90rem;
   margin: auto;
   text-align: center;
 }
