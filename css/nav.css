@@ -6,7 +6,9 @@
 
 }
 
-
+ul .nav-link {
+  padding-left:0;
+}
 header {
   padding: 2rem 8rem 0 8rem;
   display: flex;
