@@ -230,7 +230,9 @@ left: calc(50% - 1rem);
 
 
   }
-
+.grid-row1{
+  grid-row:1;
+}
 
   .case-study-text{
     order: 2;
