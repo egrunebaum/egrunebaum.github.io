@@ -19,7 +19,7 @@ header {
 .case-study-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 120rem;
+  max-width: 110rem;
   align-items: center;
   justify-content: center;
   padding-top: 6rem;
@@ -230,7 +230,7 @@ left: calc(50% - 1rem);
 
 
   }
-  
+
 
   .case-study-text{
     order: 2;
