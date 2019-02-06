@@ -144,10 +144,6 @@ padding: 2rem 0rem 0 0rem;
 }
 
 }
-@media screen and (max-width:500px){
-.nav-link {
-  padding: 2.2rem 1.5rem 0rem 1.5rem;
-}
-}
+
 
 /* END NAVIGATION STYLES and MEDIA QUERIES */
