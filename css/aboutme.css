@@ -41,7 +41,7 @@ padding-left: 2rem;
 .hi-story {
   padding-top:2.5rem;
   font-family: 'Playfair Display', serif;
-  font-size: 7rem;
+  font-size: 7.5rem;
   color: var(--gold);
 
 }
@@ -59,12 +59,14 @@ padding-left: 2rem;
 }
 @media screen and (max-width:910px) {
   .hi-glad {
-    font-size: 6.5rem;
+    font-size: 5.9rem;
     text-align: center;
+    line-height: 6.3rem;
   }
   .hi-story{
-    font-size: 7rem;
+    font-size: 5.9rem;
     text-align: center;
+    line-height: 6.3rem;
   }
   .section-aboutme{
     display: grid;

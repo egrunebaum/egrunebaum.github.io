@@ -230,6 +230,7 @@ left: calc(50% - 1rem);
 
 
   }
+  
 
   .case-study-text{
     order: 2;
@@ -240,5 +241,9 @@ left: calc(50% - 1rem);
 .bonbids-case-study .section-wide{
   order:1;
 }
-
+.hi{
+font-size: 5.9rem;
+text-align: center;
+line-height: 6.3rem;
+}
 }
