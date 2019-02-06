@@ -23,7 +23,12 @@ background-color: #2183E2;
   padding-bottom:3rem;
   }
 
-
+.sub-header {
+  font-weight:600;
+  color:var(--navy);
+  size:2.2rem;
+  
+}
 .hero {
   display: grid;
   /*grid-template-columns: 1fr 1fr;*/
