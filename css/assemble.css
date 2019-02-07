@@ -25,10 +25,11 @@ background-color: #2183E2;
 
 .sub-header {
   font-weight:400;
-  color:var(--gold);
+  color:var(--navy);
   font-size:2.4rem;
   padding-bottom: 1.5rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .hero {
   display: grid;
@@ -40,10 +41,8 @@ background-color: #2183E2;
   /*margin-bottom: 10rem;*/
   justify-content: center;
 }
-.body{
-  margin: 0 2rem 0 2rem;
-}
-.body li{
+
+#body li{
   padding-bottom: .5rem;
 }
 .background-assemble-header {
