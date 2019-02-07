@@ -128,7 +128,7 @@ ol{
   padding-top: 1.2rem;
 }
 .section {
-  display: grid;
+
   padding-top:8rem;
   max-width: 80rem;
   margin:auto;
@@ -270,6 +270,12 @@ footer p {
     justify-content: space-between;
     align-items: center;
     margin: 0 10rem;
+  }
+
+  @media screen and (max-width:425px){
+    .button{
+      width:100%;
+    }
   }
 }
 
