@@ -40,6 +40,9 @@ background-color: #2183E2;
   /*margin-bottom: 10rem;*/
   justify-content: center;
 }
+.body{
+  margin: 0 2rem 0 2rem;
+}
 .body li{
   padding-bottom: .5rem;
 }

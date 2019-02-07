@@ -8,6 +8,9 @@ header {
 .nav-link {
 color: var(--black);
 }
+.body {
+  margin: 0 2rem 0 2rem;
+}
 .section-aboutme{
   display: grid;
   grid-template-columns: 1fr 1fr;
