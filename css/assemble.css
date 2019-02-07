@@ -416,6 +416,10 @@ width: 100%;
 }
 .typography {
   padding: 3rem;
+  text-align: center;
+}
+.typography p {
+  font-size:2.4rem;
 }
 .conclusion{
   padding-bottom: 1rem;
