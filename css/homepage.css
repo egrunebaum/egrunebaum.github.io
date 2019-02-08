@@ -136,7 +136,7 @@ left: calc(50% - 1rem);
 }
 
 /*ANIMATIONS*/
-@-webkit-keyframes fadeInDown {
+/*@-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
@@ -167,6 +167,20 @@ left: calc(50% - 1rem);
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+}*/
+@-webkit-keyframes bounce {
+ from {
+   left: 0px;
+ }
+ to {
+   left: 200px;
+ }
+}
+.bounce {
+ -webkit-animation-name: bounce;
+ -webkit-animation-duration: 4s;
+ -webkit-animation-iteration-count: 10;
+ -webkit-animation-direction: alternate;
 }
 
 .animated {
@@ -183,8 +197,8 @@ left: calc(50% - 1rem);
 @keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, -1%, 0);
-    transform: translate3d(0, -1%, 0);
+    -webkit-transform: translate3d(0, -0%, 0);
+    transform: translate3d(0, -0%, 0);
   }
 
   to {
@@ -220,15 +234,11 @@ left: calc(50% - 1rem);
 }
 
 
-.animated.delay-4s {
-  -webkit-animation-delay: 4.5s;
-  animation-delay: 4.5s;
+.animated.delay-half {
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
 }
-.animated.delay-5s {
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s;
 
-}
 
 
 
