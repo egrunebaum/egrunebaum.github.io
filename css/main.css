@@ -38,7 +38,7 @@ project-name {
 h1 {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 4.6rem;
+  font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -48,19 +48,12 @@ h1 {
   text-align: center;
 }
 
-.titles {
-  display: block;
-  color: var(--black);
-  font-family: 'nunito', sans-serif;
-  max-width: 120rem;
-  margin: auto;
-  margin-top: 10rem;
-}
+
 
 h3 {
   color: var(--navy);
   font-family: 'nunito', sans-serif;
-  font-size: 2.3rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .08rem;
@@ -71,7 +64,7 @@ h3 {
 h2 {
   color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 4.4rem;
+  font-size: 3.8rem;
   line-height: 5rem;
 }
 
@@ -87,7 +80,14 @@ h2, h3, h4 {
   /*max-width: 300px;*/
   margin: 0 0 0 0;
 }
-
+.titles {
+  display: block;
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  max-width: 120rem;
+  margin: auto;
+  margin-top: 10rem;
+}
 p {
   color: var(--black);
   font-family: 'nunito', sans-serif;
