@@ -1,21 +1,21 @@
 /*NAVIGATION START*/
 /* Sticky Navigation - Outside Grid Wrapper */
-
 .nav-link {
-color: var(--black);
+  color: var(--black);
 }
+
 header {
   background-color: var(--nude);
 }
 
 .bonbids-background {
-
   width: 100%;
 }
+
 .assemble-background {
-
   width: 100%;
 }
+
 .case-study-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,27 +27,26 @@ header {
   grid-gap: 5rem;
   margin: auto;
 }
-.case-study-section img{
-  width:100%;
+
+.case-study-section img {
+  width: 100%;
 }
-.assemble-screen-section{
-  display:block;
-  height:100%;
+
+.assemble-screen-section {
+  display: block;
+  height: 100%;
   margin: auto;
   align-items: center;
-
-
 }
+
 .section-wide {
   max-width: 120rem;
   margin: auto;
   align-items: center;
-
 }
-.assemble-explanation-section{
 
+.assemble-explanation-section {
   margin: auto;
-
 }
 
 .contact-section p {
@@ -58,8 +57,6 @@ header {
   line-height: 3rem;
 }
 
-
-
 .contact-section {
   padding: 6rem 0 6rem 0;
 }
@@ -69,7 +66,7 @@ header {
   /* grid-template-columns: 2fr 4fr; */
   padding: 3rem 0;
   width: 100%;
-  margin-top:6rem;
+  margin-top: 6rem;
   justify-content: center;
   background-color: var(--nude);
 }
@@ -83,15 +80,14 @@ header {
   padding: 5rem 0 5rem 0;
   max-width: 90rem;
   margin: auto;
-
 }
 
 .I-am-Emma p {
   line-height: 3rem;
   font-size: 2.2rem;
-text-align: center;
-padding-right: 2rem;
-padding-left: 2rem;
+  text-align: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .top-section {
@@ -104,8 +100,7 @@ padding-left: 2rem;
   font-family: 'Playfair Display', serif;
   font-size: 7.5rem;
   color: var(--navy);
-
-
+  text-align: center;
 }
 
 .work-link {
@@ -114,17 +109,19 @@ padding-left: 2rem;
   font-weight: 400;
   font-size: 2rem;
 }
-.work-link::after{
+
+.work-link::after {
   position: absolute;
   content: "";
   width: 0;
-height: 0;
-border-style: solid;
-border-width: 1rem 1rem 0 1rem;
-border-color: var(--navy) transparent transparent transparent;
-bottom: -2.5rem;
-left: calc(50% - 1rem);
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 1rem 0 1rem;
+  border-color: var(--navy) transparent transparent transparent;
+  bottom: -2.5rem;
+  left: calc(50% - 1rem);
 }
+
 .see-work {
   margin-top: 18rem;
   text-align: center;
@@ -169,57 +166,53 @@ left: calc(50% - 1rem);
   animation-name: fadeInDown;
 }*/
 @-webkit-keyframes bounce {
- from {
-   left: 0px;
- }
- to {
-   left: 200px;
- }
-}
-.bounce {
- -webkit-animation-name: bounce;
- -webkit-animation-duration: 4s;
- -webkit-animation-iteration-count: 10;
- -webkit-animation-direction: alternate;
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
 }
 
+.bounce {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 10;
+  -webkit-animation-direction: alternate;
+}
 
 .animated.slower {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
 }
 
-
-
-
-
-
 /*ANIMATION DONE*/
-
-@media screen and (max-width:840px){
-
+@media screen and (max-width:840px) {
   .case-study-section {
     display: grid;
     grid-template-columns: 1fr;
-
-
   }
-.grid-row1{
-  grid-row:1;
-}
 
-  .case-study-text{
+  .grid-row1 {
+    grid-row: 1;
+  }
+
+  .case-study-text {
     order: 2;
   }
-  .assemble-explanation-section{
-    width:100%;
+
+  .assemble-explanation-section {
+    width: 100%;
   }
-.bonbids-case-study .section-wide{
-  order:1;
-}
-.hi{
-font-size: 5.9rem;
-text-align: center;
-line-height: 6.3rem;
-}
+
+  .bonbids-case-study .section-wide {
+    order: 1;
+  }
+
+  .hi {
+    font-size: 5.9rem;
+    text-align: center;
+    line-height: 6.3rem;
+  }
 }

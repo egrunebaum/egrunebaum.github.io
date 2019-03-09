@@ -1,38 +1,43 @@
 /*main case study stylings*/
-
-
 .section-wide {
   max-width: 120rem;
   margin: auto;
   align-items: center;
 }
+
 header {
   background-color: #2183E2;
 }
+
 .nav-link {
-color: #FFF;
+  color: #FFF;
 }
+
 .top-section {
   padding: 7rem 0 7rem 0;
   display: block;
-background-color: #2183E2;
- width: 100%;
+  background-color: #2183E2;
+  width: 100%;
   margin: auto;
-  }
-  .top-section p {
-  padding-bottom:3rem;
-  }
+}
+
+.top-section p {
+  padding-bottom: 3rem;
+}
+
 #work {
   margin: 0 2rem;
 }
+
 .sub-header {
-  font-weight:400;
-  color:var(--navy);
-  font-size:2.4rem;
+  font-weight: 400;
+  color: var(--navy);
+  font-size: 2.4rem;
   padding-bottom: 1.5rem;
   text-transform: uppercase;
   text-align: center;
 }
+
 .hero {
   display: grid;
   /*grid-template-columns: 1fr 1fr;*/
@@ -44,12 +49,14 @@ background-color: #2183E2;
   justify-content: center;
 }
 
-#body li{
+#body li {
   padding-bottom: .5rem;
 }
-#body ul{
+
+#body ul {
   padding-left: 2rem;
 }
+
 .background-assemble-header {
   background-color: #2183E2;
   width: 100%;
@@ -69,44 +76,43 @@ background-color: #2183E2;
   grid-gap: .5rem;
   max-width: 120rem;
 }
-.case-study-screens img{
+
+.case-study-screens img {
   width: 100%;
 }
 
-
-.design-roles{
+.design-roles {
   padding: 3rem;
   background-color: var(--nude);
-  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
-  border-radius:1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+  border-radius: 1rem;
 }
-.design-role-title{
-  font-weight:400;
+
+.design-role-title {
+  font-weight: 400;
   color: var(--navy);
   font-size: 2.3rem;
 }
+
 .competitive-analysis {
   display: grid;
   grid-gap: 3rem;
   padding: 3rem;
   margin: auto;
 }
+
 .competitive-analysis img {
-display: block;
-  height:8rem;
+  display: block;
+  height: 8rem;
   margin: auto;
 }
 
 /*END MAIN STYLINGS*/
-
-
-
-
 .words {
   display: block;
   text-align: center;
   max-width: 90rem;
-  margin:0 2rem 0 2rem;
+  margin: 0 2rem 0 2rem;
 }
 
 /*USER STORIES*/
@@ -135,34 +141,31 @@ display: block;
 }
 
 .user-flows {
-  display:block;
+  display: block;
   padding: 3rem;
   margin: auto;
 }
+
 .user-flows img {
   width: 100%;
 }
 
 /*PERSONAS*/
-
-
 #david {
-
   padding: 3rem;
   background-color: var(--nude);
-  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
-  border-radius:1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+  border-radius: 1rem;
 }
 
 #sara {
   padding: 3rem;
   background-color: var(--nude);
-  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
-  border-radius:1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+  border-radius: 1rem;
 }
 
-
-.quote p{
+.quote p {
   border-left: 2px solid var(--gold);
   padding-left: 2rem;
   color: var(--gold);
@@ -181,7 +184,7 @@ display: block;
   font-size: 2.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   /*text-decoration: underline;*/
 }
 
@@ -194,29 +197,29 @@ display: block;
 }
 
 .persona-section {
-  padding-bottom:5rem;
-  padding-top:3em;
-
-
+  padding-bottom: 5rem;
+  padding-top: 3em;
 }
-#persona-name{
+
+#persona-name {
   font-size: 2.8rem;
-  font-weight:500;
+  font-weight: 500;
 }
+
 /*SURVEYS*/
 .surveys {
   background-color: var(--nude);
-  padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
 
 .pie-charts {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
-  padding:3rem;
+  padding: 3rem;
   margin: auto;
-  max-width:80rem;
-  text-align:center;
+  max-width: 80rem;
+  text-align: center;
 }
 
 .pie-chart-text p {
@@ -227,11 +230,9 @@ display: block;
   color: var(--gold);
   font-size: 5rem;
   font-weight: 400;
-  text-align:center;
-  padding-bottom:1rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
-
-
 
 .text-color p {
   color: var(--black);
@@ -249,21 +250,22 @@ display: block;
   margin-bottom: 4rem;
 }
 
-
 .percent-section-block2 {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap:5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
   max-width: 110rem;
   justify-content: center;
-  padding:2rem 0 3rem 0;
-  text-align:center;
+  padding: 2rem 0 3rem 0;
+  text-align: center;
   margin: auto;
 }
-.survey-percent5, .survey-percent7{
+
+.survey-percent5, .survey-percent7 {
   margin: 0 2rem 0 2rem;
 }
-.ab-testing img{
+
+.ab-testing img {
   width: 100%;
 }
 
@@ -271,35 +273,35 @@ display: block;
   display: block;
   width: 50%
 }
-.text-box {
 
-  margin:0 3rem 0 3rem;
+.text-box {
+  margin: 0 3rem 0 3rem;
 }
+
 .pie-charts img {
   display: block;
-  margin:auto;
-  padding-bottom:1.5rem;
+  margin: auto;
+  padding-bottom: 1.5rem;
   width: 55%;
 }
-.nude2-background{
+
+.nude2-background {
   width: 100%;
   background-color: var(--nude);
-  margin:auto;
-  margin-top:5rem;
-
-  border-radius:1rem;
-box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
 }
-.survey2-text{
+
+.survey2-text {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: 0 3rem 0 3rem;
-  padding-bottom:3rem;
-  grid-gap:5rem;
+  padding-bottom: 3rem;
+  grid-gap: 5rem;
 }
-
-
 
 /*END SURVEY*/
 /*BRANDING*/
@@ -309,8 +311,7 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
   grid-gap: 3rem;
   align-items: center;
   margin: auto;
-  padding:3rem;
-
+  padding: 3rem;
 }
 
 .creating-logo-steps {
@@ -344,9 +345,11 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
   margin-right: auto;
   text-align: center;
 }
+
 .freepik {
-  margin:3rem;
+  margin: 3rem;
 }
+
 /*USABILITY TESTING*/
 .usability-1-2 {
   display: grid;
@@ -355,14 +358,15 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
   grid-gap: 3rem;
   margin: auto;
   max-width: 120rem;
-  padding-top:2rem;
+  padding-top: 2rem;
 }
 
 .usability-1-2 img {
   margin: auto;
   width: 100%;
 }
-.usability img{
+
+.usability img {
   width: 3.5rem;
 }
 
@@ -400,49 +404,47 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
 .grid-columns-2 img {
   width: 100%;
 }
-.grid-columns-2{
-  padding:3rem;
+
+.grid-columns-2 {
+  padding: 3rem;
 }
+
 .colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap:5rem;
-  padding:3rem;
-justify-content: center;
+  grid-gap: 5rem;
+  padding: 3rem;
+  justify-content: center;
 }
-.colors img{
-margin: auto;
-width: 100%;
+
+.colors img {
+  margin: auto;
+  width: 100%;
 }
+
 .typography {
   padding: 3rem;
   text-align: center;
 }
+
 .typography p {
-  font-size:2.4rem;
-}
-.conclusion{
-  padding-bottom: 1rem;
-  font-weight:400;
+  font-size: 2.4rem;
 }
 
+.conclusion {
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
 
 /*MEDIA QUERIES START*/
-
-
 @media screen and (max-width:999px) {
-
-
   .uploading-file {
     padding-bottom: 4rem;
   }
 
-
   .usability p {
     padding: 0;
   }
-
-
 
   .user-stories {
     display: grid;
@@ -458,26 +460,10 @@ width: 100%;
     padding: 1rem 0rem 0 0rem;
   }
 
-
-
-
-
-
-
-
   .usability-1-2 {
     display: grid;
     grid-template-columns: 1fr;
-
   }
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width:1000px) {
@@ -488,8 +474,6 @@ width: 100%;
   #arrow-right {
     display: none;
   }
-
-
 }
 
 @media screen and (max-width:850px) {
@@ -500,17 +484,20 @@ width: 100%;
   #arrow-right {
     display: none;
   }
-  .layering-skin2{
-    display:block;
+
+  .layering-skin2 {
+    display: block;
   }
-  .layering-skin1{
-    display:none;
+
+  .layering-skin1 {
+    display: none;
   }
-  .layering-skin2 img{
+
+  .layering-skin2 img {
     width: 100%;
   }
 
-.grid-columns-2 {
+  .grid-columns-2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 3rem;
@@ -519,11 +506,13 @@ width: 100%;
   .section-personas {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:0rem;
+    grid-gap: 0rem;
   }
-.mind-mapping{
-  grid-gap: 0;
-}
+
+  .mind-mapping {
+    grid-gap: 0;
+  }
+
   .golden-ratio {
     display: grid;
     grid-template-rows: 1fr .5fr 1fr .5fr 1fr;
@@ -545,17 +534,16 @@ width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 3rem;
-
   }
-.before-after-with-arrow-justify img{
-  width:100%;
-}
+
+  .before-after-with-arrow-justify img {
+    width: 100%;
+  }
+
   .creating-logo {
     display: grid;
     grid-template-columns: 1fr;
-
   }
-
 
   .logo-sketches img {
     max-height: 70rem;
@@ -564,10 +552,7 @@ width: 100%;
   .mind-mapping img {
     max-height: 70rem;
   }
-
 }
-
-
 
 @media screen and (min-width:851px) {
   #arrow-down {
@@ -577,22 +562,23 @@ width: 100%;
   #arrow-right {
     display: block;
   }
-  .layering-skin1{
-    display:block;
 
+  .layering-skin1 {
+    display: block;
   }
-  .layering-skin1 img{
-    width:100%;
+
+  .layering-skin1 img {
+    width: 100%;
   }
-  .layering-skin2{
-    display:none;
+
+  .layering-skin2 {
+    display: none;
   }
+
   .competitive-analysis {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-
+  }
 
   .golden-ratio {
     display: grid;
@@ -610,15 +596,14 @@ width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
   }
+
   .grid-columns-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     margin: auto;
-
   }
 }
-
 
 @media screen and (min-width:651px) {
   .design-roles {
@@ -633,20 +618,15 @@ width: 100%;
   .deliverables {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-
   }
-
-
 }
 
 @media screen and (max-width:750px) {
-
-
-.colors{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width:650px) {
@@ -658,28 +638,24 @@ width: 100%;
     text-align: center;
   }
 
-  .survey2-text{
+  .survey2-text {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0rem;
-
-
   }
 
   .pie-charts {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap:2rem;
-
+    grid-gap: 2rem;
   }
 
-
-.percent-section-block2{
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 0 2rem 2rem 2rem;
-  grid-gap:2rem;
-}
+  .percent-section-block2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2rem 2rem 2rem;
+    grid-gap: 2rem;
+  }
 
   .words img {
     padding-bottom: 3rem;

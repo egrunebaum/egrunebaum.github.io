@@ -1,5 +1,5 @@
-.bonbid-bullet{
-  padding-bottom:.5rem;
+.bonbid-bullet {
+  padding-bottom: .5rem;
 }
 
 .section-wide {
@@ -7,41 +7,49 @@
   margin: auto;
   align-items: center;
 }
+
 header {
   background-color: #4c2d57;
 }
 
 .nav-link {
-color: #FFF;
+  color: #FFF;
 }
+
 .top-section {
   padding: 9rem 0 7rem 0;
   display: block;
-background-color: #4c2d57;
- width: 100%;
+  background-color: #4c2d57;
+  width: 100%;
   margin: auto;
 }
+
 .top-section p {
-  padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
+
 .words {
   display: block;
   text-align: center;
   max-width: 90rem;
-  margin:auto;
+  margin: auto;
 }
+
 .grid-columns-2 {
-    display: grid;
-    grid-gap: 3rem;
-  }
+  display: grid;
+  grid-gap: 3rem;
+}
+
 .grid-columns-2 img {
   width: 100%;
-  margin:auto;
+  margin: auto;
 }
-.grid-columns-2{
-  padding:3rem;
+
+.grid-columns-2 {
+  padding: 3rem;
 }
-.quote p{
+
+.quote p {
   border-left: 2px solid var(--gold);
   padding-left: 2rem;
   color: var(--gold);
@@ -53,7 +61,6 @@ background-color: #4c2d57;
   margin: 2rem 0 2rem;
   font-style: italic;
 }
-
 
 .background-assemble-header {
   background-color: #4c2d57;
@@ -74,45 +81,50 @@ background-color: #4c2d57;
   grid-gap: 2rem;
   max-width: 90rem;
 }
-.case-study-screens img{
+
+.case-study-screens img {
   width: 100%;
 }
 
-
-.design-roles{
+.design-roles {
   padding: 3rem;
   background-color: var(--nude);
-  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
-  border-radius:1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+  border-radius: 1rem;
 }
-.design-role-title{
-  font-weight:400;
+
+.design-role-title {
+  font-weight: 400;
   color: var(--navy);
   font-size: 2.3rem;
 }
+
 .competitive-analysis {
   display: grid;
   grid-gap: 5rem;
   padding: 3rem;
   margin: auto;
 }
-.competitive-analysis img{
-width:100%;
+
+.competitive-analysis img {
+  width: 100%;
 }
-.nude2-background{
+
+.nude2-background {
   width: 100%;
   background-color: var(--nude);
-  margin:auto;
-  margin-top:5rem;
-
-  border-radius:1rem;
-box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
 }
+
 .section-wide {
   max-width: 120rem;
   margin: auto;
   align-items: center;
 }
+
 /*PERSONAS*/
 #persona-name {
   display: block;
@@ -120,13 +132,11 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
 }
 
 #david {
-
   padding: 3rem;
   background-color: var(--nude);
-  box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
-  border-radius:1rem;
+  box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
+  border-radius: 1rem;
 }
-
 
 .persona-titles {
   color: var(--black);
@@ -146,49 +156,52 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
 }
 
 .persona-section {
-  padding-top:3em;
+  padding-top: 3em;
 }
-.words{
-  text-align:center;
+
+.words {
+  text-align: center;
 }
+
 .persona-titles {
   color: var(--black);
   font-family: 'nunito', sans-serif;
   font-size: 2.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   /*text-decoration: underline;*/
 }
+
 #persona-name {
   font-size: 2.8rem;
-  font-weight:500;
-  padding-bottom:1rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
 }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:850px) {
-.case-study-screens {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 3fr;
+  .case-study-screens {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
 }
-}
+
 @media screen and (min-width:851px) {
-
-
   .competitive-analysis {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-.grid-columns-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
-  margin: auto;
+  }
 
+  .grid-columns-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    margin: auto;
+  }
 }
-}
+
 @media screen and (min-width:651px) {
   .design-roles {
     display: grid;
@@ -202,11 +215,9 @@ box-shadow: 0px 0px 5px 0px rgba(222,222,223,1);
   .deliverables {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-
   }
-
-
 }
+
 @media screen and (max-width:650px) {
   .design-roles {
     display: grid;
