@@ -22,7 +22,9 @@ background-color: #2183E2;
   .top-section p {
   padding-bottom:3rem;
   }
-
+#work {
+  margin: 0 2rem;
+}
 .sub-header {
   font-weight:400;
   color:var(--navy);
@@ -44,6 +46,9 @@ background-color: #2183E2;
 
 #body li{
   padding-bottom: .5rem;
+}
+#body ul{
+  padding-left: 2rem;
 }
 .background-assemble-header {
   background-color: #2183E2;

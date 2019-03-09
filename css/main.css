@@ -17,6 +17,9 @@ html {
 #work li{
   margin-left: 2rem;
 }
+#body{
+  margin: 0 2rem;
+}
 .link{
   color: var(--black);
   font-weight: 400;
@@ -165,7 +168,6 @@ a {
   width: 34.5rem;
   color: #FFF;
   text-align: center;
-  font-size: 1.5rem;
   font-weight: 400;
   white-space: nowrap;
   background-color: var(--gold);
