@@ -49,13 +49,6 @@ header {
   justify-content: center;
 }
 
-#body li {
-  padding-bottom: .5rem;
-}
-
-#body ul {
-  padding-left: 2rem;
-}
 
 .background-assemble-header {
   background-color: #2183E2;
