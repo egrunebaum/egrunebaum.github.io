@@ -130,6 +130,13 @@ header {
   display: block;
   justify-content: center;
 }
+#persona-name .persona-name {
+font-size: 3rem;
+  font-weight:500;
+  padding-top: 2rem;
+  color: var(--navy);
+  font-family: 'nunito', sans-serif;
+}
 
 #david {
   padding: 3rem;

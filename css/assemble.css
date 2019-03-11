@@ -162,7 +162,7 @@ header {
   border-left: 2px solid var(--gold);
   padding-left: 2rem;
   color: var(--gold);
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'nunito', sans-serif;
   font-size: 2rem;
   max-width: 90rem;
@@ -197,6 +197,13 @@ header {
 #persona-name {
   font-size: 2.8rem;
   font-weight: 500;
+}
+#persona-name .persona-name {
+font-size: 3rem;
+  font-weight:500;
+  padding-top: 2rem;
+  color: var(--navy);
+  font-family: 'nunito', sans-serif;
 }
 
 /*SURVEYS*/
