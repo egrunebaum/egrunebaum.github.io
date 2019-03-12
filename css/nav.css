@@ -33,57 +33,9 @@ header {
   transform: translate(0, -100%);
 }
 
-.nav-wrapper {
-  position: relative;
-  overflow: hidden;
-  overflow-y: auto;
-  height: 100%;
-}
-
-.menu ul {
-  padding: 0;
-  margin-top: 1.5rem;
-}
-
-.menu li {
-  list-style-type: none;
-}
-
-.menu {
-  text-align: left;
-  margin-left: 2rem;
-  font-weight: 700;
-}
-
-.menu a {
-  position: relative;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 1.7rem;
-  display: inline-block;
-  margin-top: 2rem;
-  transition: color 0.2s ease-in-out;
-  letter-spacing: 0.1rem;
-}
-
-.menu a:before {
-  content: '';
-  height: 0;
-  position: absolute;
-  width: 0.4rem;
-  background-color: white;
-  left: -0.5em;
-  transition: all 0.2s ease-in-out;
-}
-
-.menu a:hover {
-  color: white;
-  font-weight: 600;
-  transition: 0.3s ease all;
-}
 
 /**
-Animations
+NAV LINKS
 **/
 .nav-link {
   padding: 2.2rem 2.2rem 0rem 2.2rem;
@@ -121,6 +73,31 @@ a {
   text-decoration: none;
 }
 
+/*NAV LINK underline
+_____________________________*/
+.two:hover ~ hr {
+  margin-left: 25%;
+}
+
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 20%;
+  margin: 0;
+  background: var(--gold);
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+/*MEDIA SCREENS
+_____________________________*/
 @media screen and (max-width:800px) {
   header {
     flex-direction: column;

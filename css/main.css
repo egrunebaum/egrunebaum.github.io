@@ -10,6 +10,28 @@ html {
   --nude: #FFF9F7;
 }
 
+/* Progress bar
+  ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+  .scroll-indicator {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  .progress-container {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+  }
+      .progress-bar {
+        height: 3px;
+        background: var(--gold);
+        width: 0%;
+      }
+
+
 #work {
   margin: 0 2rem 0 2rem;
   font-family: 'nunito', sans-serif;

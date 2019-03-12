@@ -1,16 +1,29 @@
-/*main case study stylings*/
+
+*, html {
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+      /*SECTION STYLING
+      ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+      header {
+        background-color: #2183E2;
+      }
+      .nav-link {
+        color: #FFF;
+      }
+
 .section-wide {
   max-width: 120rem;
   margin: auto;
   align-items: center;
-}
-
-header {
-  background-color: #2183E2;
-}
-
-.nav-link {
-  color: #FFF;
 }
 
 .top-section {
@@ -25,19 +38,8 @@ header {
   padding-bottom: 3rem;
 }
 
-#work {
-  margin: 0 2rem;
-}
-
-.sub-header {
-  font-weight: 400;
-  color: var(--navy);
-  font-size: 2.4rem;
-  padding-bottom: 1.5rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
+/*ASSEMBLE TOP PART
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .hero {
   display: grid;
   /*grid-template-columns: 1fr 1fr;*/
@@ -48,18 +50,6 @@ header {
   /*margin-bottom: 10rem;*/
   justify-content: center;
 }
-
-
-.background-assemble-header {
-  background-color: #2183E2;
-  width: 100%;
-  height: auto;
-  padding-bottom: 1rem;
-  /*background: url("../images/assemble-background.jpg");*/
-  margin: 0 0 4rem 0;
-  /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
-}
-
 .case-study-screens {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -73,6 +63,31 @@ header {
 .case-study-screens img {
   width: 100%;
 }
+
+
+.sub-header {
+  font-weight: 400;
+  color: var(--navy);
+  font-size: 2.4rem;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+
+.background-assemble-header {
+  background-color: #2183E2;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+  /*background: url("../images/assemble-background.jpg");*/
+  margin: 0 0 4rem 0;
+  /*background-image: linear-gradient(#FDF5F3, #FFFFFF);*/
+}
+
+
 
 .design-roles {
   padding: 3rem;
