@@ -27,7 +27,7 @@ html {
   }
       .progress-bar {
         height: 3px;
-        background: var(--gold);
+        background: var(--navy);
         width: 0%;
       }
 
@@ -156,6 +156,7 @@ ol {
 
 li {
   padding-bottom: .8rem;
+
 }
 
 .img-caption {

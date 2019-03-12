@@ -75,21 +75,28 @@ a {
 
 /*NAV LINK underline
 _____________________________*/
+.one:hover ~ hr {
+  margin-left: .5%;
+  width: 20%;
+}
 .two:hover ~ hr {
-  margin-left: 25%;
+  margin-left: 23.5%;
+  width: 20%;
 }
 
 .three:hover ~ hr {
-  margin-left: 50%;
+  margin-left: 49%;
+  width: 20%;
 }
 
 .four:hover ~ hr {
-  margin-left: 75%;
+  margin-left: 76.5%;
+  width: 20%;
 }
 
 hr {
-  height: .25rem;
-  width: 20%;
+  height: .2rem;
+  width: 0%;
   margin: 0;
   background: var(--gold);
   border: none;
