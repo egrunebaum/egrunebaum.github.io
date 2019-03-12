@@ -7,7 +7,12 @@
 header {
   background-color: var(--nude);
 }
-
+a{
+  color: var(--black);
+}
+a:hover{
+  color: var(--gold);
+}
 .bonbids-background {
   width: 100%;
 }
@@ -108,8 +113,16 @@ header {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  color: var(--black);
+}
+.see-work {
+  margin-top: 18rem;
+  text-align: center;
+
 }
 
+/*TRIANGLE
+_______________________*/
 .work-link::after {
   position: absolute;
   content: "";
@@ -122,15 +135,9 @@ header {
   left: calc(50% - 1rem);
 }
 
-.see-work {
-  margin-top: 18rem;
-  text-align: center;
-}
 
-.see-work i {
-  color: var(--navy);
-  width: 5rem;
-}
+
+
 
 /*ANIMATIONS*/
 /*@-webkit-keyframes fadeInDown {

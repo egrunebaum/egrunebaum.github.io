@@ -189,6 +189,9 @@ li {
 a {
   text-decoration: none;
 }
+a:hover{
+  color: var(--gold);
+}
 
 .image-description p {
   font-size: 1.8rem;

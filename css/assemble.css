@@ -19,7 +19,10 @@
       .nav-link {
         color: #FFF;
       }
-
+a {
+  color: var(--navy);
+  font-weight: 500;
+}
 .section-wide {
   max-width: 120rem;
   margin: auto;

@@ -29,8 +29,7 @@ header {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  transition: all 0.4s ease-in-out;
-  transform: translate(0, -100%);
+
 }
 
 
@@ -41,9 +40,8 @@ NAV LINKS
   padding: 2.2rem 2.2rem 0rem 2.2rem;
   text-decoration: none;
   text-transform: capitalize;
-  transition: 0.3s ease-in-out;
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .nav-link:active {
@@ -55,7 +53,7 @@ NAV LINKS
   display: block;
   font-size: 1.8rem;
   font-weight: 600;
-  transition: 0.1s
+
     /*ease-in-out*/
   ;
 }
@@ -66,26 +64,24 @@ NAV LINKS
 
 .nav-link:hover {
   color: var(--gold);
-  font-weight: 400;
+  font-weight: 500;
 }
 
-a {
-  text-decoration: none;
-}
+
 
 /*NAV LINK underline
 _____________________________*/
 .one:hover ~ hr {
-  margin-left: .5%;
+  margin-left: 1%;
   width: 20%;
 }
 .two:hover ~ hr {
-  margin-left: 23.5%;
+  margin-left: 23.4%;
   width: 20%;
 }
 
 .three:hover ~ hr {
-  margin-left: 49%;
+  margin-left: 49.3%;
   width: 20%;
 }
 
