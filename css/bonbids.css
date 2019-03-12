@@ -1,5 +1,10 @@
+
 .bonbid-bullet {
   padding-bottom: .5rem;
+}
+.bonbid-bullet-ol {
+  padding-bottom: .5rem;
+  padding-left:2rem;
 }
 
 .section-wide {
