@@ -189,7 +189,7 @@ li {
 a {
   text-decoration: none;
 }
-a:hover{
+#body a:hover{
   color: var(--gold);
 }
 
