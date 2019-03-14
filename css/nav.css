@@ -57,35 +57,44 @@ NAV LINKS
 
 /*NAV LINK underline
 _____________________________*/
+
+
 .one:hover ~ hr {
+  display: block;
   margin-left:11%;
   transition: width 0.1s ease-in-out;
 }
 .two:hover ~ hr {
+  display: block;
   margin-left: 34%;
   transition: width 0.1s ease-in-out;
 }
 
 .three:hover ~ hr {
+  display: block;
   margin-left: 59.5%;
   transition: width 0.1s ease-in-out;
 
 }
 
 .four:hover ~ hr {
+  display: block;
   margin-left: 85.5%;
   transition: width 0.1s ease-in-out;
 
 }
 
-hr {
+
+hr{
   height: .7rem;
   width: .7rem;
   background: var(--gold);
   border: none;
   border-radius: 100%;
   margin: 0;
+  display: none;
 }
+
 
 /*MEDIA SCREENS
 _____________________________*/

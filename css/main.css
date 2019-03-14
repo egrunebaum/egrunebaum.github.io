@@ -31,21 +31,6 @@ html {
         width: 0%;
       }
 
-
-#work {
-  margin: 0 2rem 0 2rem;
-  font-family: 'nunito', sans-serif;
-}
-
-#work li {
-  margin-left: 2rem;
-}
-
-#body {
-  margin: 0 2rem;
-}
-
-
 .link {
   color: var(--black);
   font-weight: 400;
@@ -57,13 +42,9 @@ html {
   color: var(--gold);
 }
 
-/* Typography */
-project-name {
-  color: var(--black);
-  font-family: 'Playfair Display', serif;
-  font-size: 7em;
-  line-height: 1rem;
-}
+/* h tag
+_________________________*/
+
 
 h1 {
   color: var(--black);
@@ -108,6 +89,7 @@ h2, h3, h4 {
   margin: 0 0 0 0;
 }
 
+
 .titles {
   display: block;
   color: var(--black);
@@ -116,7 +98,12 @@ h2, h3, h4 {
   margin: auto;
   margin-top: 10rem;
 }
-
+project-name {
+  color: var(--black);
+  font-family: 'Playfair Display', serif;
+  font-size: 7em;
+  line-height: 1rem;
+}
 p {
   color: var(--black);
   font-family: 'nunito', sans-serif;
@@ -158,6 +145,25 @@ li {
   padding-bottom: .8rem;
 
 }
+a{
+  text-decoration: none;
+}
+      a:hover{
+        color: var(--gold);
+      }
+
+#work {
+  margin: 0 2rem 0 2rem;
+  font-family: 'nunito', sans-serif;
+}
+
+#work li {
+  margin-left: 2rem;
+}
+
+#body {
+  margin: 0 2rem;
+}
 
 .img-caption {
   color: var(--black);
@@ -184,15 +190,6 @@ li {
   margin: auto;
   /*justify-content: center;*/
 }
-
-/* Buttons */
-a {
-  text-decoration: none;
-}
-#body a:hover{
-  color: var(--gold);
-}
-
 .image-description p {
   font-size: 1.8rem;
   weight: 300;
@@ -203,6 +200,9 @@ a {
   text-align: center;
   color: var(--black)
 }
+
+/* Buttons
+___________________________________ */
 
 .button {
   display: inline-block;
@@ -274,7 +274,8 @@ a {
   margin: 2rem 0 1rem 0;
 }
 
-/* NO MEDIA QUERIES FOR TABLET */
+/*footer
+_____________________*/
 footer {
   background-color: var(--navy);
   grid-column: 1 / -1;
@@ -302,6 +303,9 @@ footer p {
   font-size: 1.7rem
 }
 
+
+/*MEDIA screens
+_____________________________*/
 @media screen and (max-width:909px) {
   .nude2-background {
     margin-right: 2rem;
