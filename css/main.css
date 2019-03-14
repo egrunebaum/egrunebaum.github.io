@@ -148,9 +148,7 @@ li {
 a{
   text-decoration: none;
 }
-      a:hover{
-        color: var(--gold);
-      }
+
 
 #work {
   margin: 0 2rem 0 2rem;

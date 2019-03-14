@@ -7,12 +7,7 @@
 header {
   background-color: var(--nude);
 }
-a:hover{
-  color: var(--gold);
-}
-nav-link a:hover{
-  color: red;
-}
+
 .bonbids-background {
   width: 100%;
 }
@@ -113,12 +108,13 @@ nav-link a:hover{
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: var(--black);
+}
+a {
+  color: var(--black)
 }
 .see-work {
   margin-top: 18rem;
   text-align: center;
-
 }
 
 /*TRIANGLE

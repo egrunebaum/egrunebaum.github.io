@@ -1,12 +1,7 @@
 
-*, html {
-    -webkit-font-smoothing: antialiased;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#body a:hover{
+  color: var(--gold);
 }
 
 

@@ -7,3 +7,8 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+$(function () {
+    $('nav-link').on('click', function () {
+        $(this).toggleClass('700');
+    });
+});
