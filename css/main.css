@@ -130,23 +130,22 @@ ul, ol {
 
 ul {
   list-style-type: disc;
+  padding-bottom:1rem;
 
 }
 
-#body ol {
+#body ol, ul{
   padding-left: 3rem;
 }
 #body li {
-  padding-left: 1rem;
+  padding-left: .5rem;
 }
+
 ol {
   list-style-type: decimal;
-}
-
-li {
-  padding-bottom: .8rem;
 
 }
+
 a{
   text-decoration: none;
 }
