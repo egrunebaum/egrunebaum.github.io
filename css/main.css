@@ -135,15 +135,14 @@ ul, ol {
 
 }
 
-#body ol, {
-  padding-left: 3rem;
-}
+
 #body li {
   padding-left: .5rem;
 }
 
 ol {
   list-style-type: decimal;
+  padding-left: 3rem;
 
 }
 
