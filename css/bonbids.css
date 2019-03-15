@@ -102,10 +102,11 @@ ___________________*/
   width: 100%;
 }
 .single-image img{
-  width: 90%;
-margin: auto;
 display: block;
-padding: 3rem 3rem;
+width: 90%;
+margin: auto;
+padding-top:2rem;
+padding-bottom:2rem;
 }
 .image-description p{
   padding: 1rem 2rem 3rem 2rem;
@@ -234,16 +235,7 @@ font-size: 2.6rem;
 }
 
 /*MEDIA QUERIES*/
-@media screen and (min-width:1000px) {
-  #arrow-down {
-    display: none;
-  }
 
-  #arrow-right {
-    display: block;
-  }
-}
-}
 @media screen and (max-width:850px) {
   .case-study-screens {
     display: grid;
@@ -259,7 +251,7 @@ font-size: 2.6rem;
     }
     .before-after-with-arrow {
       display: grid;
-      grid-template-rows: 1fr .1fr 1fr;
+      grid-template-rows: 1fr .1fr .3fr;
     }
 
     .before-after-with-arrow-justify {
@@ -278,7 +270,13 @@ font-size: 2.6rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  #arrow-down {
+    display: none;
+  }
 
+  #arrow-right {
+    display: block;
+  }
   .grid-columns-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
