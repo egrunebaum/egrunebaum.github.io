@@ -12,11 +12,6 @@
   padding-left:2rem;
 }
 
-.section-wide {
-  max-width: 120rem;
-  margin: auto;
-  align-items: center;
-}
 
 header {
   background-color: #4c2d57;
@@ -72,6 +67,51 @@ header {
   font-style: italic;
 }
 
+
+/* before after arrow
+___________________*/
+.before-after-with-arrow {
+  display: grid;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  max-width: 120rem;
+  padding: 2rem;
+}
+
+.before-after-with-arrow-justify {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+#arrow-right {
+  padding: 1.5rem;
+}
+
+#arrow-down {
+  padding: 1.8rem;
+}
+
+.uploading1 img {
+  width: 100%;
+}
+
+.uploading2 img {
+  width: 100%;
+}
+.single-image img{
+  width: 90%;
+margin: auto;
+display: block;
+padding: 3rem 3rem;
+}
+.image-description p{
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+
 .background-assemble-header {
   background-color: #4c2d57;
   width: 100%;
@@ -124,16 +164,15 @@ header {
   width: 100%;
   background-color: var(--nude);
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
 }
-
-.section-wide {
-  max-width: 120rem;
-  margin: auto;
-  align-items: center;
+li .nude2-background {
+  margin-top:2rem;
 }
+
+
 
 /*PERSONAS*/
 #persona-name {
@@ -191,15 +230,47 @@ font-size: 2.6rem;
   color: var(--gold);
   font-weight:500;
   text-transform: capitalize;
+  padding-right:.5rem;
 }
 
 /*MEDIA QUERIES*/
+@media screen and (min-width:1000px) {
+  #arrow-down {
+    display: none;
+  }
+
+  #arrow-right {
+    display: block;
+  }
+}
+}
 @media screen and (max-width:850px) {
   .case-study-screens {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
   }
+    #arrow-down {
+      display: block;
+    }
+
+    #arrow-right {
+      display: none;
+    }
+    .before-after-with-arrow {
+      display: grid;
+      grid-template-rows: 1fr .1fr 1fr;
+    }
+
+    .before-after-with-arrow-justify {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 3rem;
+    }
+
+    .before-after-with-arrow-justify img {
+      width: 100%;
+    }
 }
 
 @media screen and (min-width:851px) {
@@ -213,6 +284,16 @@ font-size: 2.6rem;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     margin: auto;
+  }
+  .before-after-with-arrow {
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr;
+  }
+
+  .before-after-with-arrow-justify {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
   }
 }
 

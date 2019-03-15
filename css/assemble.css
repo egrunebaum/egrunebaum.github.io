@@ -318,26 +318,9 @@ font-size: 2.6rem;
 
 /*END SURVEY*/
 /*BRANDING*/
-.creating-logo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
-  align-items: center;
-  margin: auto;
-  padding: 3rem;
-}
 
-.creating-logo-steps {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
-  align-items: center;
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 100%;
-}
+
+
 
 .golden-ratio {
   display: grid;
@@ -389,6 +372,7 @@ font-size: 2.6rem;
   margin: auto;
   text-align: center;
   max-width: 120rem;
+padding: 3rem 3rem;
 }
 
 .before-after-with-arrow-justify {
@@ -405,7 +389,9 @@ font-size: 2.6rem;
 #arrow-down {
   padding: 1.8rem;
 }
-
+.image-description p{
+  padding: 1rem 2rem 0 2rem;
+}
 .uploading1 img {
   width: 100%;
 }
@@ -444,10 +430,7 @@ font-size: 2.6rem;
   font-size: 2.4rem;
 }
 
-.conclusion {
-  padding-bottom: 1rem;
-  font-weight: 400;
-}
+
 
 /*MEDIA QUERIES START*/
 @media screen and (max-width:999px) {
@@ -479,15 +462,6 @@ font-size: 2.6rem;
   }
 }
 
-@media screen and (min-width:1000px) {
-  #arrow-down {
-    display: block;
-  }
-
-  #arrow-right {
-    display: none;
-  }
-}
 
 @media screen and (max-width:850px) {
   #arrow-down {
@@ -553,10 +527,7 @@ font-size: 2.6rem;
     width: 100%;
   }
 
-  .creating-logo {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+
 
   .logo-sketches img {
     max-height: 70rem;

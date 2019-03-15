@@ -32,7 +32,7 @@ html {
       }
 
 .link {
-  color: var(--black);
+  color: var(--navy);
   font-weight: 400;
   text-decoration: underline;
   transition: 0.3s ease-in-out;
@@ -120,7 +120,7 @@ ul, ol {
   font-family: 'nunito', sans-serif;
   font-size: 2rem;
   font-weight: 300;
-  max-width: 900rem;
+  max-width: 90rem;
   line-height: 2.85rem;
   letter-spacing: .06rem;
   list-style-position: outside;
@@ -133,12 +133,14 @@ ul {
 
 }
 
+#body ol {
+  padding-left: 3rem;
+}
 #body li {
-  margin-left: 3rem;
+  padding-left: 1rem;
 }
 ol {
   list-style-type: decimal;
-
 }
 
 li {
@@ -155,9 +157,7 @@ a{
   font-family: 'nunito', sans-serif;
 }
 
-#work li {
-  margin-left: 2rem;
-}
+
 
 #body {
   margin: 0 2rem;
@@ -178,25 +178,35 @@ a{
   padding-top: 8rem;
   max-width: 80rem;
   margin: auto;
-  /*justify-content: center;*/
 }
 
+.section-wide {
+  max-width: 120rem;
+  margin: auto;
+  align-items: center;
+}
 .section-padding-change {
   display: grid;
-  padding-top: 3.5rem;
-  max-width: 90rem;
+  max-width: 80rem;
   margin: auto;
   /*justify-content: center;*/
 }
 .image-description p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   weight: 300;
   max-width: 120rem;
   font-style: italic;
   margin: auto;
-  padding: 1rem 2rem 0 2rem;
   text-align: center;
   color: var(--black)
+}
+.three-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
 }
 
 /* Buttons
@@ -300,6 +310,11 @@ footer p {
 footer p {
   font-size: 1.7rem
 }
+.conclusion {
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: var(--gold);
+}
 
 
 /*MEDIA screens
@@ -310,7 +325,12 @@ _____________________________*/
     margin-left: 2rem;
   }
 }
-
+@media screen and (max-width:850px){
+.three-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}
 @media screen and (min-width:800px) {
   .footer-info {
     display: flex;
