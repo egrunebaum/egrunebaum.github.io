@@ -41,8 +41,7 @@ header {
 }
 
 .grid-columns-2 {
-  display: grid;
-  grid-gap: 3rem;
+  padding: 3rem;
 }
 
 .grid-columns-2 img {
@@ -50,9 +49,7 @@ header {
   margin: auto;
 }
 
-.grid-columns-2 {
-  padding: 3rem;
-}
+
 
 .quote p {
   border-left: 2px solid var(--gold);
@@ -76,7 +73,7 @@ ___________________*/
   margin: auto;
   text-align: center;
   max-width: 120rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .before-after-with-arrow-justify {
@@ -319,4 +316,5 @@ font-size: 2.6rem;
     grid-gap: 5rem;
     text-align: center;
   }
+
 }
