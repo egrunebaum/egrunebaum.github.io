@@ -107,7 +107,7 @@ project-name {
 p {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 2.7rem;
   letter-spacing: .02rem;
@@ -212,7 +212,20 @@ a{
   margin: auto;
   padding: 3rem;
 }
+.three-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  margin: auto;
+  padding: 3rem;
+}
 
+.three-grid img{
+  max-width: 100%;
+}
+.three-grid2 img{
+  max-width: 100%;
+}
 /* Buttons
 ___________________________________ */
 
@@ -265,7 +278,6 @@ ___________________________________ */
   background-color: var(--gold);
   color: #FFF;
   transition: 0.5s ease-in-out;
-  border-color: var(--gold);
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
