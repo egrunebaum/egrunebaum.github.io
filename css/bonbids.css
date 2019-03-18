@@ -38,6 +38,7 @@ header {
   text-align: center;
   max-width: 90rem;
   margin: auto;
+  padding:0 2rem;
 }
 
 .grid-columns-2 {
@@ -205,9 +206,6 @@ font-size: 2.6rem;
   padding-top: 3em;
 }
 
-.words {
-  text-align: center;
-}
 
 .persona-titles {
   color: var(--black);
@@ -224,10 +222,9 @@ font-size: 2.6rem;
   font-weight: 500;
   padding-bottom: 1rem;
 }
-.frustration-solution {
+.gold-bold {
   color: var(--gold);
   font-weight:500;
-  text-transform: capitalize;
   padding-right:.5rem;
 }
 

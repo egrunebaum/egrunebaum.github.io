@@ -111,7 +111,6 @@ p {
   font-weight: 300;
   line-height: 2.7rem;
   letter-spacing: .02rem;
-  margin: auto;
   padding: 1.5rem 0 1rem 0;
 }
 
@@ -172,7 +171,11 @@ a{
   text-align: center;
   padding-top: 1.2rem;
 }
-
+.gold-bold {
+  color: var(--gold);
+  font-weight:500;
+  padding-right:.5rem;
+}
 .section {
   padding-top: 8rem;
   max-width: 80rem;
@@ -309,11 +312,7 @@ footer p {
 footer p {
   font-size: 1.7rem
 }
-.conclusion {
-  padding-bottom: 1rem;
-  font-weight: 500;
-  color: var(--gold);
-}
+
 
 
 /*MEDIA screens
