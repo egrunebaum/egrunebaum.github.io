@@ -189,7 +189,7 @@ a{
   margin: auto;
   align-items: center;
 }
-.section-padding-change {
+.section-less-padding {
   display: grid;
   max-width: 80rem;
   margin: auto;

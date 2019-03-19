@@ -51,7 +51,13 @@ header {
 }
 
 
-
+.section .section-wide{
+  margin-left: -23rem;
+   margin-right: -20rem;
+}
+.section .section{
+  margin-left:-3rem;
+}
 .quote p {
   border-left: 2px solid var(--gold);
   padding-left: 2rem;
