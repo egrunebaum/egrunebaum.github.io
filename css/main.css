@@ -188,6 +188,7 @@ a{
   max-width: 120rem;
   margin: auto;
   align-items: center;
+  padding-top: 2rem;
 }
 .section-less-padding {
   display: grid;
@@ -252,7 +253,7 @@ ___________________________________ */
 .button:hover {
   color: #FFF;
   background-color: var(--gold);
-  transition: .7s ease-in-out;
+  transition: .2s ease-in-out;
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
@@ -342,6 +343,12 @@ _____________________________*/
   display: grid;
   grid-template-columns: 1fr;
 }
+.three-grid2 {
+  grid-gap:2rem;
+}
+.three-grid {
+  grid-gap:2rem;
+}
 }
 @media screen and (min-width:800px) {
   .footer-info {
@@ -350,6 +357,7 @@ _____________________________*/
     align-items: center;
     margin: 0 10rem;
   }
+
 
   @media screen and (max-width:425px) {
     .button {
