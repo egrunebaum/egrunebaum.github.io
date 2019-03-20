@@ -168,7 +168,10 @@ padding-bottom:2rem;
 }
 
 .competitive-analysis img {
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+  height: 8rem;
 }
 
 .nude2-background {
