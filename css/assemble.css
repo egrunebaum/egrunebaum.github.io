@@ -66,7 +66,6 @@ a {
 .sub-header {
   font-weight: 400;
   color: var(--navy);
-  font-size: 2.4rem;
   padding-bottom: 1.5rem;
   text-transform: uppercase;
   text-align: center;
@@ -97,7 +96,6 @@ a {
 .design-role-title {
   font-weight: 400;
   color: var(--navy);
-  font-size: 2.3rem;
 }
 
 .competitive-analysis {
@@ -177,9 +175,7 @@ a {
   color: var(--gold);
   font-weight: 500;
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   max-width: 90rem;
-  line-height: 3rem;
   margin: 2rem 0 2rem;
   font-style: italic;
 }
@@ -187,7 +183,6 @@ a {
 .persona-titles {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
   padding-bottom: 1rem;
@@ -208,11 +203,9 @@ a {
 }
 
 #persona-name {
-  font-size: 2.8rem;
   font-weight: 500;
 }
 #persona-name .persona-name {
-font-size: 2.6rem;
   font-weight:500;
   padding-top: 2rem;
   color: var(--navy);
@@ -241,7 +234,6 @@ font-size: 2.6rem;
 
 .survey-percent {
   color: var(--gold);
-  font-size: 5rem;
   font-weight: 400;
   text-align: center;
   padding-bottom: 1rem;
@@ -426,9 +418,7 @@ padding: 3rem 3rem;
   text-align: center;
 }
 
-.typography p {
-  font-size: 2.4rem;
-}
+
 
 
 
@@ -589,6 +579,51 @@ padding: 3rem 3rem;
   }
 }
 
+
+@media screen and (min-width:769px) {
+  .sub-header{
+    font-size: 2.4rem;
+  }
+  .design-role-title{
+      font-size: 2.3rem;
+  }
+  .persona-titles, .quote p{
+      font-size: 1.8rem;
+  }
+  .survey-percent{
+    font-size: 5rem;
+  }
+  .typography p {
+    font-size: 2.4rem;
+  }
+  .quote p{
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width:768px) {
+  .sub-header, .design-role-title{
+    font-size: 2rem;
+  }
+  .persona-titles, .quote p{
+      font-size: 1.55rem;
+  }
+  .colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .survey-percent{
+    font-size: 4.25rem;
+  }
+  .typography p {
+    font-size: 2rem;
+  }
+  .quote p{
+    line-height: 2.55rem;
+  }
+
+
+}
 @media screen and (min-width:651px) {
   .design-roles {
     display: grid;
@@ -604,15 +639,6 @@ padding: 3rem 3rem;
     padding-left: 2.5rem;
   }
 }
-
-@media screen and (max-width:750px) {
-  .colors {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-}
-
 @media screen and (max-width:650px) {
   .design-roles {
     display: grid;

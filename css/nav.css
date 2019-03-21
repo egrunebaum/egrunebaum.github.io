@@ -28,7 +28,6 @@ NAV LINKS
   padding: 2.2rem 2.2rem 0rem 2.2rem;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 1.8rem;
   font-weight: 300;
 
 }
@@ -39,10 +38,7 @@ NAV LINKS
 
 .nav-links {
   display: block;
-  font-size: 1.8rem;
   font-weight: 600;
-
-    /*ease-in-out*/
   ;
 }
 
@@ -106,6 +102,16 @@ _____________________________*/
     padding-top: 2rem;
   }
 }
+@media screen and (min-width:769px) {
+  .nav-link, .nav-links {
+      font-size: 1.8rem;
+  }
+}
+@media screen and (max-width:768px) {
+  .nav-link, .nav-links {
+      font-size: 1.6rem;
+  }
+}
 @media screen and (min-width:501px) {
 .one:hover ~ hr {
   margin-left:10.2%;
@@ -127,7 +133,7 @@ _____________________________*/
 }
 @media screen and (max-width:500px) {
   .nav-link {
-    padding: 2.2rem 1rem 0rem 1rem;
+    padding: 2.2rem 1.8rem 0rem 1.8rem;
   }
   .one:hover ~ hr {
     margin-left:10.5%;

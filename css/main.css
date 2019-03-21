@@ -49,7 +49,6 @@ _________________________*/
 h1 {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 3.8rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -62,24 +61,19 @@ h1 {
 h3 {
   color: var(--navy);
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .08rem;
-  line-height: 1.4;
+
 }
 
 h2 {
   color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 3.85rem;
-  line-height: 5rem;
 }
 
 h4 {
   color: var(--gold);
-  font-size: 5rem;
-  line-height: 2rem;
   padding-bottom: 1.1rem;
   letter-spacing: .7rem;
 }
@@ -101,15 +95,12 @@ h2, h3, h4 {
 project-name {
   color: var(--black);
   font-family: 'Playfair Display', serif;
-  font-size: 7em;
   line-height: 1rem;
 }
 p {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   font-weight: 300;
-  line-height: 3rem;
   letter-spacing: .02rem;
   padding: 1.5rem 0 1rem 0;
 }
@@ -117,10 +108,8 @@ p {
 ul, ol {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   font-weight: 300;
   max-width: 90rem;
-  line-height: 3rem;
   letter-spacing: .06rem;
   list-style-position: outside;
 
@@ -152,22 +141,20 @@ a{
 
 
 #work {
-  margin: 0 2rem 0 2rem;
+  margin: 0 1.5rem
   font-family: 'nunito', sans-serif;
 }
 
 
 
 #body {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 
 .img-caption {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 1.4rem;
   font-weight: 300;
-  line-height: 3rem;
   letter-spacing: .06rem;
   text-align: center;
   padding-top: 1.2rem;
@@ -197,7 +184,6 @@ a{
   /*justify-content: center;*/
 }
 .image-description p {
-  font-size: 1.6rem;
   weight: 300;
   max-width: 120rem;
   font-style: italic;
@@ -233,7 +219,7 @@ ___________________________________ */
 .button {
   display: inline-block;
   cursor: pointer;
-  width: 34.5rem;
+  width: 37.5rem;
   color: #FFF;
   text-align: center;
   font-weight: 400;
@@ -260,7 +246,7 @@ ___________________________________ */
 .contact-button {
   display: inline-block;
   cursor: pointer;
-  width: 34.5rem;
+  width: 33.5rem;
   color: var(--gold);
   text-align: center;
   font-weight: 500;
@@ -287,10 +273,6 @@ ___________________________________ */
   padding-bottom: 8rem;
 }
 
-.button, .contact-button {
-  padding: 2rem 0;
-  font-size: 2rem;
-}
 
 .button {
   background-color: transparent;
@@ -324,9 +306,7 @@ footer p {
   transition: 0.3s ease-in-out;
 }
 
-footer p {
-  font-size: 1.7rem
-}
+
 
 
 
@@ -350,20 +330,106 @@ _____________________________*/
   grid-gap:2rem;
 }
 }
-@media screen and (min-width:800px) {
+@media screen and (min-width:769px) {
   .footer-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 10rem;
   }
+  #persona-name{
+    font-size:2.8rem
+  }
+  #persona-name .persona-name{
+    font-size:2.6rem
+  }
+  p, ul, ol, h3, .button, .contact-button{
+    font-size: 2rem;
+  }
+  p, ul, ol, .img-caption{
+      line-height: 3rem;
+  }
+  h3 {
+    line-height: 1.4;
+  }
+  footer p {
+    font-size: 1.7rem
+  }
+h1{
+  font-size:3.8rem;
+}
+  h2{
+    font-size: 3.8rem;
+    line-height: 5rem;
+  }
+  h4 {
+    font-size:5rem;
+      line-height: 2rem;
+  }
+  project-name{
+font-size: 7rem;
+  }
+  .img-caption{
+      font-size: 1.4rem;
+  }
+  .image-description p {
+      font-size: 1.6rem;
+  }
+  .button, .contact-button {
+    padding: 2rem 0;
+  }
 
+}
+@media screen and (max-width:768px) {
+  #persona-name{
+    font-size:2.4rem
+  }
+  #persona-name .persona-name{
+    font-size:2.2rem
+  }
+p, ul, ol, h3, .button, .contact-button{
+  font-size: 1.7rem;
+}
+p, ul, ol, .img-caption{
+    line-height: 2.55rem;
+}
+footer p {
+  font-size: 1.5rem
+}
+h1{
+  font-size: 3.2rem;
+}
+h2{
+  font-size: 3.3rem;
+  line-height: 4.25rem;
+}
+h3 {
+  line-height: 1.2;
+}
+h4 {
+  font-size:4.3rem;
+  line-height:1.7rem;
+}
+project-name{
+font-size: 6rem;
+}
+.img-caption{
+    font-size: 1.2rem;
+}
+.image-description p {
+    font-size: 1.35rem;
+}
+.button, .contact-button {
+  padding: 1.7rem 0;
+}
 
+}
   @media screen and (max-width:425px) {
     .button {
       width: 100%;
     }
   }
+
 }
 
 /* ANIMATIONS */

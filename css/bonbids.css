@@ -7,10 +7,6 @@ a:hover{
 .bonbid-bullet {
   padding-bottom: .5rem;
 }
-.bonbid-bullet-ol {
-  padding-bottom: .5rem;
-  padding-left:1rem;
-}
 
 
 header {
@@ -64,7 +60,6 @@ header {
   color: var(--gold);
   font-weight: 600;
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   max-width: 90rem;
   line-height: 3rem;
   margin: 2rem 0 2rem;
@@ -157,7 +152,6 @@ padding-bottom:2rem;
 .design-role-title {
   font-weight: 400;
   color: var(--navy);
-  font-size: 2.3rem;
 }
 
 .competitive-analysis {
@@ -194,7 +188,6 @@ li .nude2-background {
   justify-content: center;
 }
 #persona-name .persona-name {
-font-size: 2.6rem;
   font-weight:500;
   padding-top: 2rem;
   color: var(--navy);
@@ -225,7 +218,6 @@ font-size: 2.6rem;
 .persona-titles {
   color: var(--black);
   font-family: 'nunito', sans-serif;
-  font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
   padding-bottom: 1rem;
@@ -233,7 +225,6 @@ font-size: 2.6rem;
 }
 
 #persona-name {
-  font-size: 2.8rem;
   font-weight: 500;
   padding-bottom: 1rem;
 }
@@ -306,7 +297,22 @@ font-size: 2.6rem;
     grid-gap: 3rem;
   }
 }
-
+@media screen and (min-width:769px) {
+  .persona-titles, .quote p{
+    font-size: 2rem;
+  }
+  .design-role-title{
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width:768px) {
+.persona-titles, .quote p{
+  font-size: 1.6rem;
+}
+.design-role-title{
+  font-size: 1.95rem;
+}
+}
 @media screen and (min-width:651px) {
   .design-roles {
     display: grid;

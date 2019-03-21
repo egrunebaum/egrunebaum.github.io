@@ -52,19 +52,15 @@ header {
 .contact-section p {
   text-align: center;
   color: var(--black);
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   line-height: 3rem;
 }
 
-.contact-section {
-  padding: 6rem 0 6rem 0;
-}
+
 
 .contact-section-background {
-  display: grid;
-  /* grid-template-columns: 2fr 4fr; */
-  padding: 3rem 0;
+padding-top:8rem;
   width: 100%;
   margin-top: 6rem;
   justify-content: center;
@@ -83,11 +79,8 @@ header {
 }
 
 .I-am-Emma p {
-  line-height: 3rem;
-  font-size: 2.2rem;
   text-align: center;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding: 1.5rem;
 }
 
 .top-section {
@@ -98,16 +91,15 @@ header {
 
 .hi {
   font-family: 'Playfair Display', serif;
-  font-size: 7.5rem;
   color: var(--navy);
   text-align: center;
+  padding-bottom:1rem;
 }
 
 .work-link {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 2rem;
 }
 a {
   color: var(--black)
@@ -217,5 +209,30 @@ _______________________*/
     font-size: 5.9rem;
     text-align: center;
     line-height: 6.3rem;
+  }
+}
+@media screen and (min-width:769px) {
+  .I-am-Emma p {
+    line-height: 3rem;
+    font-size: 2.2rem;
+  }
+  .hi{
+      font-size: 7.5rem;
+  }
+  .work-link{
+      font-size: 2rem;
+  }
+}
+@media screen and (max-width:768px) {
+  .I-am-Emma p {
+    line-height: 2.55rem;
+    font-size: 1.9rem;
+  }
+
+  .work-link{
+      font-size: 1.7rem;
+  }
+  .contact-section p{
+    line-height: 2.55rem;
   }
 }
