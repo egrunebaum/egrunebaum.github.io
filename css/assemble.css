@@ -169,16 +169,6 @@ a {
   border-radius: 1rem;
 }
 
-.quote p {
-  border-left: 2px solid var(--gold);
-  padding-left: 2rem;
-  color: var(--gold);
-  font-weight: 500;
-  font-family: 'nunito', sans-serif;
-  max-width: 90rem;
-  margin: 2rem 0 2rem;
-  font-style: italic;
-}
 
 .persona-titles {
   color: var(--black);
