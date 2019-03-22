@@ -53,16 +53,6 @@ header {
 .grid-columns-4 img, .grid-columns-2-mobile img {
   width: 100%;
 }
-
-.quote p {
-  border-left: 2px solid var(--gold);
-  padding-left: 1.5rem;
-  color: var(--gold);
-  font-weight: 600;
-  font-family: 'nunito', sans-serif;
-  max-width: 90rem;
-  margin-bottom: 1.5rem;
-  font-style: italic;
 }
 
 
@@ -214,19 +204,7 @@ li .nude2-background {
 }
 
 
-.persona-titles {
-  color: var(--black);
-  font-family: 'nunito', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding-bottom: 1rem;
-  /*text-decoration: underline;*/
-}
 
-#persona-name {
-  font-weight: 500;
-  padding-bottom: 1rem;
-}
 
 
 /*MEDIA QUERIES*/

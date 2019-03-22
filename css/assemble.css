@@ -169,16 +169,6 @@ a {
   border-radius: 1rem;
 }
 
-
-.persona-titles {
-  color: var(--black);
-  font-family: 'nunito', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding-bottom: 1rem;
-  /*text-decoration: underline;*/
-}
-
 .section-personas {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -192,9 +182,6 @@ a {
   padding-top: 3em;
 }
 
-#persona-name {
-  font-weight: 500;
-}
 #persona-name .persona-name {
   font-weight:500;
   padding-top: 2rem;
