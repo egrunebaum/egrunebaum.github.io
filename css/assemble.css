@@ -312,7 +312,7 @@ a {
 }
 
 .freepik {
-  margin: 3rem;
+  margin: auto;
 }
 
 /*USABILITY TESTING*/
@@ -343,6 +343,7 @@ a {
   max-width: 120rem;
 padding: 3rem 3rem;
 }
+
 
 .before-after-with-arrow-justify {
   display: grid;
@@ -481,7 +482,7 @@ padding: 3rem 3rem;
 
   .before-after-with-arrow {
     display: grid;
-    grid-template-rows: 1fr .1fr 1fr;
+    grid-template-rows: 1fr .4fr .5fr;
   }
 
   .before-after-with-arrow-justify {
@@ -492,6 +493,7 @@ padding: 3rem 3rem;
 
   .before-after-with-arrow-justify img {
     width: 100%;
+    margin: auto;
   }
 
 
@@ -635,7 +637,7 @@ padding: 3rem 3rem;
   .pie-charts {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-gap: 6rem;
   }
 
   .percent-section-block2 {

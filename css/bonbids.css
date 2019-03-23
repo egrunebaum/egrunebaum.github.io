@@ -217,24 +217,31 @@ li .nude2-background {
   }
     #arrow-down {
       display: block;
+      margin: auto;
     }
 
     #arrow-right {
       display: none;
+      margin: auto;
     }
     .before-after-with-arrow {
       display: grid;
       grid-template-rows: 1fr .1fr .3fr;
+      padding: 2rem;
+
     }
 
     .before-after-with-arrow-justify {
       display: grid;
       grid-template-rows: 1fr 1fr;
       grid-gap: 3rem;
+      padding: 2rem;
+
     }
 
     .before-after-with-arrow-justify img {
       width: 100%;
+      margin:2rem;
     }
 }
 
@@ -245,10 +252,12 @@ li .nude2-background {
   }
   #arrow-down {
     display: none;
+    margin: auto;
   }
 
   #arrow-right {
     display: block;
+    margin: auto;
   }
   .grid-columns-2 {
     display: grid;
@@ -266,12 +275,14 @@ li .nude2-background {
   .before-after-with-arrow {
     display: grid;
     grid-template-columns: 1fr .1fr 1fr;
+    padding: 2rem;
   }
 
   .before-after-with-arrow-justify {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
+    padding: 2rem;
   }
 }
 @media screen and (min-width:769px) {
