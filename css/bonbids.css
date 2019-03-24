@@ -285,7 +285,7 @@ li .nude2-background {
     padding: 2rem;
   }
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:896px) {
   .persona-titles, .quote p{
     font-size: 2rem;
   }
@@ -296,7 +296,7 @@ li .nude2-background {
     font-size: 2.3rem;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:895px) {
 .persona-titles, .quote p{
   font-size: 1.6rem;
 }

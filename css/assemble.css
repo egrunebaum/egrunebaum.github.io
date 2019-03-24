@@ -33,7 +33,7 @@ a {
 }
 
 .top-section p {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 /*ASSEMBLE TOP PART
@@ -65,8 +65,8 @@ a {
 
 .sub-header {
   font-weight: 400;
-  color: var(--navy);
-  padding-bottom: 1.5rem;
+  color: var(--gold);
+  padding: 4rem 0 0 0;
   text-transform: uppercase;
   text-align: center;
 }
@@ -87,7 +87,7 @@ a {
 
 
 .design-roles {
-  padding: 3rem;
+  padding: 2rem;
   background-color: var(--nude);
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
   border-radius: 1rem;
@@ -101,7 +101,7 @@ a {
 .competitive-analysis {
   display: grid;
   grid-gap: 3rem;
-  padding: 3rem;
+  padding: 2rem;
   margin: auto;
 }
 
@@ -146,7 +146,7 @@ a {
 
 .user-flows {
   display: block;
-  padding: 3rem;
+  padding: 2rem;
   margin: auto;
 }
 
@@ -156,14 +156,14 @@ a {
 
 /*PERSONAS*/
 #david {
-  padding: 3rem;
+  padding: 2rem;
   background-color: var(--nude);
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
   border-radius: 1rem;
 }
 
 #sara {
-  padding: 3rem;
+  padding: 2rem;
   background-color: var(--nude);
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
   border-radius: 1rem;
@@ -192,14 +192,14 @@ a {
 /*SURVEYS*/
 .surveys {
   background-color: var(--nude);
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .pie-charts {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
-  padding: 3rem;
+  padding: 2rem;
   margin: auto;
   max-width: 80rem;
   text-align: center;
@@ -281,7 +281,7 @@ a {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   margin: 0 3rem 0 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   grid-gap: 5rem;
 }
 
@@ -341,7 +341,7 @@ a {
   margin: auto;
   text-align: center;
   max-width: 120rem;
-padding: 3rem 3rem;
+padding: 2rem;
 }
 
 
@@ -375,14 +375,14 @@ padding: 3rem 3rem;
 }
 
 .grid-columns-2 {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .colors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 5rem;
-  padding: 3rem;
+  padding: 2rem;
   justify-content: center;
 }
 
@@ -392,7 +392,7 @@ padding: 3rem 3rem;
 }
 
 .typography {
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -402,13 +402,6 @@ padding: 3rem 3rem;
 
 /*MEDIA QUERIES START*/
 @media screen and (max-width:999px) {
-  .uploading-file {
-    padding-bottom: 4rem;
-  }
-
-  .usability p {
-    padding: 0;
-  }
 
   .user-stories {
     display: grid;
@@ -559,7 +552,7 @@ padding: 3rem 3rem;
 }
 
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:896px) {
   .sub-header{
     font-size: 2.4rem;
   }
@@ -580,7 +573,7 @@ padding: 3rem 3rem;
     font-size: 2rem;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:895px) {
   .sub-header, .design-role-title{
     font-size: 2rem;
   }

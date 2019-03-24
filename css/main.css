@@ -274,7 +274,8 @@ ___________________________________ */
 
 .center-btns {
   text-align: center;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
+  padding-top:3rem;
 }
 
 
@@ -310,7 +311,8 @@ footer p {
   transition: 0.3s ease-in-out;
 }
 
-
+/*RETURN TO Top
+____________________________________________________*/
 
 
 
@@ -334,7 +336,7 @@ _____________________________*/
   grid-gap:2rem;
 }
 }
-@media screen and (min-width:769px) {
+@media screen and (min-width:896px) {
   .footer-info {
     display: flex;
     justify-content: space-between;
@@ -353,6 +355,7 @@ _____________________________*/
   p, ul, ol, .img-caption{
       line-height: 3.3rem;
   }
+
   h3 {
     line-height: 1.4;
   }
@@ -385,7 +388,7 @@ font-size: 7rem;
   }
 
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:895px) {
   #persona-name{
     font-size:2.4rem
   }
