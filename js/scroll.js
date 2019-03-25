@@ -25,3 +25,14 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         scrollTop : 0                       // Scroll to top of body
     }, 500);
 });
+// ===== STOP SCROLL UP AT FOOTER ====
+$(document).scroll(function() {
+    checkOffset();
+});
+function checkOffset() {
+    if($('#return-to-top').offset().top + $('#return-to-top').height()
+                                           >= $('#footer').offset().top - 10)
+        $('#return-to-top').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
+        $('#return-to-top').css('position', 'fixed'); // restore when you scroll up
+}

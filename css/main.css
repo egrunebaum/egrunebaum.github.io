@@ -378,7 +378,7 @@ _____________________________*/
 }
 }
 @media screen and (min-width:896px) {
-  .footer-info {
+  #footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
