@@ -84,7 +84,6 @@ header {
 .top-section {
   width: 100%;
   background-image: linear-gradient(var(--nude), white);
-  padding: 2rem 0 10rem 0;
 }
 
 .hi {
