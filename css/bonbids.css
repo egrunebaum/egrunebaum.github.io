@@ -1,13 +1,10 @@
-
-
-
-a:hover{
+a:hover {
   color: var(--gold);
 }
+
 .bonbid-bullet {
   padding-bottom: .5rem;
 }
-
 
 header {
   background-color: #4c2d57;
@@ -34,13 +31,15 @@ header {
   text-align: center;
   max-width: 90rem;
   margin: auto;
-  padding:0 2rem;
+  padding: 0 2rem;
 }
-.grid-columns-2-mobile{
+
+.grid-columns-2-mobile {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
 }
+
 .grid-columns-2, .grid-columns-4, .grid-columns-2-mobile {
   padding: 3rem;
 }
@@ -54,7 +53,6 @@ header {
   width: 100%;
 }
 }
-
 
 /* before after arrow
 ___________________*/
@@ -71,8 +69,8 @@ ___________________*/
   text-align: center;
   max-width: 120rem;
   padding: 3rem;
-
 }
+
 .before-after-with-arrow-justify {
   display: grid;
   justify-content: center;
@@ -95,17 +93,18 @@ ___________________*/
 .uploading2 img {
   width: 100%;
 }
-.single-image img{
-display: block;
-width: 90%;
-margin: auto;
-padding-top:2rem;
-padding-bottom:2rem;
-}
-.image-description p{
-  padding: 1rem 2rem 3rem 2rem;
+
+.single-image img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
+.image-description p {
+  padding: 1rem 2rem 3rem 2rem;
+}
 
 .background-assemble-header {
   background-color: #4c2d57;
@@ -165,19 +164,19 @@ padding-bottom:2rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
 }
+
 li .nude2-background {
-  margin-top:2rem;
+  margin-top: 2rem;
 }
-
-
 
 /*PERSONAS*/
 #persona-name {
   display: block;
   justify-content: center;
 }
+
 #persona-name .persona-name {
-  font-weight:500;
+  font-weight: 500;
   padding-top: 2rem;
   color: var(--navy);
   font-family: 'nunito', sans-serif;
@@ -189,7 +188,6 @@ li .nude2-background {
   box-shadow: 0px 0px 5px 0px rgba(222, 222, 223, 1);
   border-radius: 1rem;
 }
-
 
 .section-personas {
   display: grid;
@@ -203,45 +201,41 @@ li .nude2-background {
   padding-top: 3em;
 }
 
-
-
-
 /*MEDIA QUERIES*/
-
 @media screen and (max-width:850px) {
   .case-study-screens {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
   }
-    #arrow-down {
-      display: block;
-      margin: auto;
-    }
 
-    #arrow-right {
-      display: none;
-      margin: auto;
-    }
-    .before-after-with-arrow {
-      display: grid;
-      grid-template-rows: 1fr .1fr .3fr;
-      padding: 2rem;
+  #arrow-down {
+    display: block;
+    margin: auto;
+  }
 
-    }
+  #arrow-right {
+    display: none;
+    margin: auto;
+  }
 
-    .before-after-with-arrow-justify {
-      display: grid;
-      grid-template-rows: 1fr 1fr;
-      grid-gap: 3rem;
-      padding: 2rem;
+  .before-after-with-arrow {
+    display: grid;
+    grid-template-rows: 1fr .1fr .3fr;
+    padding: 2rem;
+  }
 
-    }
+  .before-after-with-arrow-justify {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 2rem;
+  }
 
-    .before-after-with-arrow-justify img {
-      width: 100%;
-      margin:2rem;
-    }
+  .before-after-with-arrow-justify img {
+    width: 100%;
+    margin: 2rem;
+  }
 }
 
 @media screen and (min-width:851px) {
@@ -249,6 +243,7 @@ li .nude2-background {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   #arrow-down {
     display: none;
     margin: auto;
@@ -258,12 +253,14 @@ li .nude2-background {
     display: block;
     margin: auto;
   }
+
   .grid-columns-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem;
     margin: auto;
   }
+
   .grid-columns-4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -271,6 +268,7 @@ li .nude2-background {
     grid-gap: 3rem;
     margin: auto;
   }
+
   .before-after-with-arrow {
     display: grid;
     grid-template-columns: 1fr .1fr 1fr;
@@ -284,28 +282,35 @@ li .nude2-background {
     padding: 2rem;
   }
 }
+
 @media screen and (min-width:896px) {
-  .persona-titles, .quote p{
+  .persona-titles, .quote p {
     font-size: 2rem;
   }
-  .quote p{
-      line-height: 3rem;
+
+  .quote p {
+    line-height: 3rem;
   }
-  .design-role-title{
+
+  .design-role-title {
     font-size: 2.3rem;
   }
 }
+
 @media screen and (max-width:895px) {
-.persona-titles, .quote p{
-  font-size: 1.6rem;
-}
-.quote p{
+  .persona-titles, .quote p {
+    font-size: 1.6rem;
+  }
+
+  .quote p {
     line-height: 2.55rem;
+  }
+
+  .design-role-title {
+    font-size: 1.95rem;
+  }
 }
-.design-role-title{
-  font-size: 1.95rem;
-}
-}
+
 @media screen and (min-width:651px) {
   .design-roles {
     display: grid;
@@ -330,12 +335,14 @@ li .nude2-background {
     grid-gap: 5rem;
     text-align: center;
   }
+
   .grid-columns-2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2rem;
     margin: auto;
   }
+
   .grid-columns-4 {
     display: grid;
     grid-template-columns: 1fr 1fr;

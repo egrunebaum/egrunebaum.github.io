@@ -1,12 +1,13 @@
 *, html {
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 header {
   background-color: var(--nude);
 }
@@ -55,9 +56,8 @@ header {
 }
 
 .me-pic {
-margin: 0 1.5rem;
+  margin: 0 1.5rem;
 }
-
 
 .tldr {
   margin-right: 2rem;
@@ -86,13 +86,12 @@ margin: 0 1.5rem;
 }
 
 @media screen and (max-width:910px) {
-
-
   .section-aboutme {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
+
 @media screen and (min-width:896px) {
   .I-am-Emma p {
     line-height: 1.5;
@@ -113,6 +112,7 @@ margin: 0 1.5rem;
     font-size: 3rem;
   }
 }
+
 @media screen and (max-width:895px) {
   .I-am-Emma p {
     line-height: 1.5;
@@ -124,8 +124,6 @@ margin: 0 1.5rem;
     line-height: 6.3rem;
     text-align: center;
   }
-
-
 
   .I-am-Emma p {
     font-size: 2.55rem;

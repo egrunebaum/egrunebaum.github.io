@@ -57,10 +57,8 @@ header {
   line-height: 3rem;
 }
 
-
-
 .contact-section-background {
-padding-top:8rem;
+  padding-top: 8rem;
   width: 100%;
   margin-top: 6rem;
   justify-content: center;
@@ -101,9 +99,11 @@ padding-top:8rem;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
 }
+
 a {
   color: var(--black)
 }
+
 .see-work {
   margin-top: 12rem;
   text-align: center;
@@ -123,12 +123,7 @@ _______________________*/
   left: calc(50% - 1rem);
 }
 
-
-
-
-
 /*ANIMATIONS*/
-
 @-webkit-keyframes bounce {
   from {
     left: 0px;
@@ -179,30 +174,34 @@ _______________________*/
     text-align: center;
     line-height: 6.3rem;
   }
-
 }
+
 @media screen and (min-width:896px) {
   .I-am-Emma p {
     line-height: 3rem;
     font-size: 2.2rem;
   }
-  .hi{
-      font-size: 7.5rem;
+
+  .hi {
+    font-size: 7.5rem;
   }
-  .work-link{
-      font-size: 2rem;
+
+  .work-link {
+    font-size: 2rem;
   }
 }
+
 @media screen and (max-width:895px) {
   .I-am-Emma p {
     line-height: 2.55rem;
     font-size: 1.9rem;
   }
 
-  .work-link{
-      font-size: 1.7rem;
+  .work-link {
+    font-size: 1.7rem;
   }
-  .contact-section p{
+
+  .contact-section p {
     line-height: 2.55rem;
   }
 }
