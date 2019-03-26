@@ -1,6 +1,5 @@
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
+window.onscroll = function () {"use strict"; myFunction();
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -26,13 +25,13 @@ $('#return-to-top').click(function() {      // When arrow is clicked
     }, 500);
 });
 // ===== STOP SCROLL UP AT FOOTER ====
-$(document).scroll(function() {
+$(document).scroll(function () {
     checkOffset();
 });
 function checkOffset() {
-    if($('#return-to-top').offset().top + $('#return-to-top').height()
-                                           >= $('#footer').offset().top - 10)
-        $('#return-to-top').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
+    if ($('#return-to-top').offset().top + $('#return-to-top').height()
+   >= $('#footer').offset().top - 10)
+        $ ('#return-to-top').css('position', 'absolute');
+    if ($ (document).scrollTop() + window.innerHeight < $ ('#footer').offset().top)
         $('#return-to-top').css('position', 'fixed'); // restore when you scroll up
 }
