@@ -58,7 +58,7 @@ ____________________________________________________*/
 
 .link {
   color: var(--gold);
-  font-weight: 300;
+  font-weight: 400;
   transition: 0.3s ease-in-out;
 }
 
@@ -74,7 +74,7 @@ _________________________*/
 h1 {
   color: var(--black);
   font-family: 'raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: .06rem;
   line-height: normal;
@@ -87,7 +87,7 @@ h3 {
   color: var(--navy);
   font-family: 'raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .08rem;
 }
 
@@ -124,7 +124,7 @@ project-name {
 p {
   color: var(--black);
   font-family: 'raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .02rem;
   padding: 1.5rem 0 1rem 0;
 }
@@ -132,7 +132,7 @@ p {
 ul, ol {
   color: var(--black);
   font-family: 'raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   max-width: 90rem;
   letter-spacing: .06rem;
   list-style-position: outside;
@@ -170,7 +170,7 @@ a {
 .img-caption {
   color: var(--black);
   font-family: 'raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .06rem;
   text-align: center;
   padding-top: 1.2rem;
@@ -181,9 +181,7 @@ a {
   font-weight: 500;
   padding-right: .5rem;
 }
-.underline {
-  font-weight: 600;
-}
+
 
 .section {
   padding-top: 8rem;
@@ -395,7 +393,7 @@ _____________________________*/
   }
 
   p, ul, ol, h3, .button, .contact-button {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   p, ul, ol, .img-caption {
@@ -403,7 +401,7 @@ _____________________________*/
   }
 
   h3 {
-    line-height: 1.4;
+    line-height: 1.8;
   }
 
   footer p {
@@ -412,7 +410,7 @@ _____________________________*/
 
   h1 {
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   h2 {
@@ -422,7 +420,7 @@ _____________________________*/
 
   h4 {
     font-size: 5rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
 
   project-name {
@@ -451,7 +449,7 @@ _____________________________*/
     font-size: 2.2rem
   }
 
-  p, ul, ol, h3, .button, .contact-button {
+  p, ul, h3, ol, .button, .contact-button {
     font-size: 1.6rem;
   }
 
@@ -478,7 +476,7 @@ _____________________________*/
 
   h4 {
     font-size: 4.3rem;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
     padding-bottom: .7rem;
   }
 
