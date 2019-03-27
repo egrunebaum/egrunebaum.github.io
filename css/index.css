@@ -95,8 +95,8 @@ header {
 
 .work-link {
   position: relative;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+  font-family: 'raleway', sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -178,7 +178,7 @@ _______________________*/
 @media screen and (min-width:896px) {
   .I-am-Emma p {
     line-height: 3rem;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 
   .hi {
@@ -193,7 +193,7 @@ _______________________*/
 @media screen and (max-width:895px) {
   .I-am-Emma p {
     line-height: 2.55rem;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
   .work-link {

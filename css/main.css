@@ -66,15 +66,14 @@ ____________________________________________________*/
   color: var(--black);
 }
 
-.underline {
-  border-bottom: .17rem solid var(--navy);
-}
+
+
 
 /* h tag
 _________________________*/
 h1 {
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -86,7 +85,7 @@ h1 {
 
 h3 {
   color: var(--navy);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: .08rem;
@@ -111,7 +110,7 @@ h2, h3, h4 {
 .titles {
   display: block;
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   margin: auto;
   margin-top: 10rem;
 }
@@ -124,7 +123,7 @@ project-name {
 
 p {
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   font-weight: 300;
   letter-spacing: .02rem;
   padding: 1.5rem 0 1rem 0;
@@ -132,7 +131,7 @@ p {
 
 ul, ol {
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   font-weight: 300;
   max-width: 90rem;
   letter-spacing: .06rem;
@@ -161,7 +160,7 @@ a {
 }
 
 #work {
-  margin: 0 1.5rem font-family: 'nunito', sans-serif;
+  margin: 0 1.5rem font-family: 'raleway', sans-serif;
 }
 
 #body {
@@ -170,18 +169,20 @@ a {
 
 .img-caption {
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   font-weight: 300;
   letter-spacing: .06rem;
   text-align: center;
   padding-top: 1.2rem;
 }
 
-.bold {
+.bold, .underline{
   color: var(--black);
   font-weight: 500;
   padding-right: .5rem;
-  padding-bottom: .7rem;
+}
+.underline {
+  font-weight: 600;
 }
 
 .section {
@@ -243,7 +244,7 @@ a {
   padding-left: 1.5rem;
   color: var(--gold);
   font-weight: 500;
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   max-width: 90rem;
   margin-bottom: 1.5rem;
   font-style: italic;
@@ -251,7 +252,7 @@ a {
 
 .persona-titles {
   color: var(--black);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   text-transform: uppercase;
   padding-bottom: 1rem;
 }
@@ -269,7 +270,7 @@ ___________________________________ */
   width: 37.5rem;
   color: #FFF;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   white-space: nowrap;
   background-color: var(--gold);
   border: 0.2rem solid var(--gold);
@@ -277,7 +278,7 @@ ___________________________________ */
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin-right: 2rem;
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   letter-spacing: .08rem;
   align-items: center;
   padding: 2rem;
@@ -304,7 +305,7 @@ ___________________________________ */
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin: 1rem;
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
   letter-spacing: .08rem;
 }
 
@@ -398,7 +399,7 @@ _____________________________*/
   }
 
   p, ul, ol, .img-caption {
-    line-height: 3.3rem;
+    line-height: 3rem;
   }
 
   h3 {
@@ -406,7 +407,7 @@ _____________________________*/
   }
 
   footer p {
-    font-size: 1.7rem
+    font-size: 1.6rem
   }
 
   h1 {
@@ -451,15 +452,15 @@ _____________________________*/
   }
 
   p, ul, ol, h3, .button, .contact-button {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   p, ul, ol, .img-caption {
-    line-height: 2.8rem;
+    line-height: 2.4rem;
   }
 
   footer p {
-    font-size: 1.5rem
+    font-size: 1.4rem
   }
 
   h1 {

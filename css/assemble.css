@@ -63,7 +63,7 @@ a {
 }
 
 .sub-header {
-  font-weight: 400;
+  font-weight: 300;
   color: var(--gold);
   padding: 4rem 0 0 0;
   text-transform: uppercase;
@@ -88,7 +88,7 @@ a {
 }
 
 .design-role-title {
-  font-weight: 400;
+  font-weight: 300;
   color: var(--navy);
 }
 
@@ -180,7 +180,7 @@ a {
   font-weight: 500;
   padding-top: 2rem;
   color: var(--navy);
-  font-family: 'nunito', sans-serif;
+  font-family: 'raleway', sans-serif;
 }
 
 /*SURVEYS*/
@@ -205,7 +205,7 @@ a {
 
 .survey-percent {
   color: var(--gold);
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   padding-bottom: 1rem;
 }
