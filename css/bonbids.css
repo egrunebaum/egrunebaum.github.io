@@ -138,8 +138,9 @@ ___________________*/
 }
 
 .design-role-title {
-  font-weight: 400;
+  font-weight: 500;
   color: var(--navy);
+  padding-bottom: 0;
 }
 
 .competitive-analysis {

@@ -1,6 +1,4 @@
-a:hover {
-  color: var(--gold);
-}
+
 
 /*SECTION STYLING
       ––––––––––––––––––––––––––––––––––––––––––––––––––*/
@@ -90,6 +88,7 @@ a {
 .design-role-title {
   font-weight: 500;
   color: var(--navy);
+  padding-bottom: 0;
 }
 
 .competitive-analysis {
