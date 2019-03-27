@@ -99,10 +99,6 @@ header {
   font-weight: 400;
 }
 
-a {
-  color: var(--black)
-}
-
 .see-work {
   margin-top: 12rem;
   text-align: center;

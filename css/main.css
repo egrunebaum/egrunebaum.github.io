@@ -10,7 +10,9 @@ html {
   --nude: #FFF9F7;
   --aqua: #57CBB0;
 }
-
+a:hover {
+  color: var(--gold);
+}
 /*RETURN TO Top
 ____________________________________________________*/
 #return-to-top {
