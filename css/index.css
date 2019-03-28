@@ -69,9 +69,13 @@ header {
   float: center;
 }
 
+.button {
+  width: 27.5rem;
+}
+
 .I-am-Emma {
   display: block;
-  padding: 10rem 0 10rem 0;
+  padding: 12rem 0 5rem 0;
   max-width: 90rem;
   margin: auto;
 }
@@ -95,12 +99,12 @@ header {
 
 .work-link {
   position: relative;
-  font-family: 'raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
 }
 
 .see-work {
-  margin-top: 12rem;
+  margin-top: 16rem;
   text-align: center;
 }
 

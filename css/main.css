@@ -11,9 +11,11 @@ html {
   --red: #db5461;
   --aqua: #57CBB0;
 }
+
 a:hover {
   color: var(--gold);
 }
+
 /*RETURN TO Top
 ____________________________________________________*/
 #return-to-top {
@@ -61,7 +63,7 @@ ____________________________________________________*/
 
 .link {
   color: var(--gold);
-  font-weight: 400;
+  font-weight: 300;
   transition: 0.3s ease-in-out;
 }
 
@@ -69,15 +71,24 @@ ____________________________________________________*/
   color: var(--black);
 }
 
+.learned p {
+  padding-top: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
 
-
+.learned a {
+  color: var(--black);
+}
 
 /* h tag
 _________________________*/
 h1 {
   color: var(--black);
-  font-family: 'raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .06rem;
   line-height: normal;
@@ -88,9 +99,9 @@ h1 {
 
 h3 {
   color: var(--navy);
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .08rem;
 }
 
@@ -113,7 +124,7 @@ h2, h3, h4 {
 .titles {
   display: block;
   color: var(--black);
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   margin: auto;
   margin-top: 10rem;
 }
@@ -126,16 +137,16 @@ project-name {
 
 p {
   color: var(--black);
-  font-family: 'raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
   letter-spacing: .02rem;
   padding: 1.5rem 0 1rem 0;
 }
 
 ul, ol {
   color: var(--black);
-  font-family: 'raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
   max-width: 90rem;
   letter-spacing: .06rem;
   list-style-position: outside;
@@ -163,7 +174,7 @@ a {
 }
 
 #work {
-  margin: 0 1.5rem font-family: 'raleway', sans-serif;
+  margin: 0 1.5rem font-family: 'nunito', sans-serif;
 }
 
 #body {
@@ -172,22 +183,22 @@ a {
 
 .img-caption {
   color: var(--black);
-  font-family: 'raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'nunito', sans-serif;
+  font-weight: 300;
   letter-spacing: .06rem;
   text-align: center;
   padding-top: 1.2rem;
 }
 
-.bold{
+.bold {
   color: var(--black);
-  font-weight: 500;
+  font-weight: 600;
   padding-right: .5rem;
 }
-.underline {
-  font-weight:600;
-}
 
+.underline {
+  border-bottom: .16rem solid var(--navy);
+}
 
 .section {
   padding-top: 8rem;
@@ -248,21 +259,28 @@ a {
   padding-left: 1.5rem;
   color: var(--gold);
   font-weight: 500;
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   max-width: 90rem;
   margin-bottom: 1.5rem;
-  font-style: italic;
 }
 
 .persona-titles {
   color: var(--black);
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   text-transform: uppercase;
   padding-bottom: 1rem;
 }
 
 #persona-name {
-  font-weight: 500;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.persona-titles-bold {
+  font-weight:500;
+  color: var(--black);
+  font-family: 'nunito', sans-serif;
+  text-transform: uppercase;
   padding-bottom: 1rem;
 }
 
@@ -271,7 +289,6 @@ ___________________________________ */
 .button {
   display: inline-block;
   cursor: pointer;
-  width: 37.5rem;
   color: #FFF;
   text-align: center;
   font-weight: 500;
@@ -282,7 +299,7 @@ ___________________________________ */
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin-right: 2rem;
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
   align-items: center;
   padding: 2rem;
@@ -309,7 +326,7 @@ ___________________________________ */
   /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin: 1rem;
-  font-family: 'raleway', sans-serif;
+  font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
 }
 
@@ -323,7 +340,7 @@ ___________________________________ */
 .center-btns {
   text-align: center;
   padding-bottom: 6rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .button {
@@ -401,9 +418,11 @@ _____________________________*/
   p, ul, ol, .button, .contact-button {
     font-size: 1.9rem;
   }
-h3{
-  font-size: 2.1rem;
-}
+
+  h3 {
+    font-size: 2rem;
+  }
+
   p, ul, ol, .img-caption {
     line-height: 3rem;
   }
@@ -418,7 +437,6 @@ h3{
 
   h1 {
     font-size: 4rem;
-    font-weight: 400;
   }
 
   h2 {
@@ -458,10 +476,11 @@ h3{
   }
 
   p, ul, h3, ol, .button, .contact-button {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
+
   h3 {
-    font-size:1.75rem;
+    font-size: 1.78rem;
   }
 
   p, ul, ol, .img-caption {

@@ -26,6 +26,10 @@ header {
   padding-bottom: 3rem;
 }
 
+.button {
+  width: 37.5rem;
+}
+
 .words {
   display: block;
   text-align: center;
@@ -51,7 +55,6 @@ header {
 
 .grid-columns-4 img, .grid-columns-2-mobile img {
   width: 100%;
-}
 }
 
 /* before after arrow
@@ -177,10 +180,10 @@ li .nude2-background {
 }
 
 #persona-name .persona-name {
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 2rem;
   color: var(--navy);
-  font-family: 'raleway', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 #david {

@@ -12,6 +12,10 @@ header {
   background-color: var(--nude);
 }
 
+.button {
+  width: 27.5rem;
+}
+
 .top-section {
   width: 100%;
   background-image: linear-gradient(var(--nude), white);
@@ -79,6 +83,11 @@ header {
   margin-top: 6rem;
   justify-content: center;
   background-color: var(--nude);
+}
+
+.quote p {
+  line-height: 3rem;
+  font-size: 1.9rem;
 }
 
 @media screen and (max-width:910px) {
