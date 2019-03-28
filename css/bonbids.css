@@ -288,7 +288,7 @@ li .nude2-background {
 }
 
 @media screen and (min-width:896px) {
-  .persona-titles, .quote p {
+  .persona-titles, .quote, .persona-titles-bold p {
     font-size: 2rem;
   }
 
@@ -302,7 +302,7 @@ li .nude2-background {
 }
 
 @media screen and (max-width:895px) {
-  .persona-titles, .quote p {
+  .persona-titles, .quote, .persona-titles p {
     font-size: 1.6rem;
   }
 
@@ -311,7 +311,7 @@ li .nude2-background {
   }
 
   .design-role-title {
-    font-size: 1.75rem;
+    font-size: 1.9rem;
   }
 }
 

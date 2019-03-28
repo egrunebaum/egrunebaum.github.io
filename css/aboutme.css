@@ -85,11 +85,16 @@ header {
   background-color: var(--nude);
 }
 
-.quote p {
-  line-height: 3rem;
-  font-size: 1.9rem;
-}
 
+.quote p {
+  border-left: 2px solid var(--navy);
+  padding-left: 1.5rem;
+  color: var(--navy);
+  font-weight: 600;
+  font-family: 'nunito', sans-serif;
+  max-width: 90rem;
+  margin-bottom: 1.5rem;
+}
 @media screen and (max-width:910px) {
   .section-aboutme {
     display: grid;
