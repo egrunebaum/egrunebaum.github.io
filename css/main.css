@@ -398,16 +398,18 @@ _____________________________*/
     font-size: 2.6rem;
   }
 
-  p, ul, ol, h3, .button, .contact-button {
+  p, ul, ol, .button, .contact-button {
     font-size: 1.9rem;
   }
-
+h3{
+  font-size: 2.1rem;
+}
   p, ul, ol, .img-caption {
     line-height: 3rem;
   }
 
   h3 {
-    line-height: 1.8;
+    line-height: 1.4;
   }
 
   footer p {
@@ -457,6 +459,9 @@ _____________________________*/
 
   p, ul, h3, ol, .button, .contact-button {
     font-size: 1.6rem;
+  }
+  h3 {
+    font-size:1.75rem;
   }
 
   p, ul, ol, .img-caption {
