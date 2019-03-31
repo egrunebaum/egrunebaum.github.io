@@ -87,13 +87,8 @@ header {
 
 
 .quote p {
-  border-left: 2px solid var(--navy);
-  padding-left: 1.5rem;
+  border-left: var(--navy);
   color: var(--navy);
-  font-weight: 600;
-  font-family: 'nunito', sans-serif;
-  max-width: 90rem;
-  margin-bottom: 1.5rem;
 }
 @media screen and (max-width:910px) {
   .section-aboutme {

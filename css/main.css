@@ -75,7 +75,7 @@ ____________________________________________________*/
   padding-top: 5rem;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
 }
 
@@ -197,7 +197,7 @@ a {
 }
 
 .underline {
-  border-bottom: .16rem solid var(--navy);
+border-bottom: .13rem solid var(--navy);
 }
 
 .section {
@@ -255,10 +255,9 @@ a {
 }
 
 .quote p {
-  border-left: 2px solid var(--gold);
   padding-left: 1.5rem;
   color: var(--gold);
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'nunito', sans-serif;
   max-width: 90rem;
   margin-bottom: 1.5rem;
@@ -296,7 +295,6 @@ ___________________________________ */
   background-color: var(--gold);
   border: 0.2rem solid var(--gold);
   border-radius: 3rem;
-  /*box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);*/
   transition: .7s ease-in-out;
   margin-right: 2rem;
   font-family: 'nunito', sans-serif;
@@ -308,7 +306,6 @@ ___________________________________ */
 .button:hover {
   color: #FFF;
   background-color: var(--gold);
-  transition: .2s ease-in-out;
   box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.16), 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
@@ -436,7 +433,7 @@ _____________________________*/
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   h2 {
@@ -492,7 +489,7 @@ _____________________________*/
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 
   h2 {
