@@ -286,21 +286,23 @@ border-bottom: .13rem solid var(--navy);
 /* Buttons
 ___________________________________ */
 .button {
-  display: inline-block;
+  display: block;
+  align-items: center;
   cursor: pointer;
+  max-width: 30rem;
   color: #FFF;
   text-align: center;
   font-weight: 500;
   white-space: nowrap;
-  background-color: var(--gold);
+  background-color: transparent;
+  color: var(--gold);
+  margin: auto;
+  margin-top:3rem;
   border: 0.2rem solid var(--gold);
   border-radius: 3rem;
   transition: .7s ease-in-out;
-  margin-right: 2rem;
   font-family: 'nunito', sans-serif;
   letter-spacing: .08rem;
-  align-items: center;
-  padding: 2rem;
 }
 
 .button:hover {
@@ -340,12 +342,7 @@ ___________________________________ */
   padding-top: 2rem;
 }
 
-.button {
-  background-color: transparent;
-  color: var(--gold);
-  box-shadow: none;
-  margin: 2rem 0 1rem 0;
-}
+
 
 /*footer
 _____________________*/
