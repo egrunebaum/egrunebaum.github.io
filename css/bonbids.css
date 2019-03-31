@@ -13,7 +13,9 @@ header {
 .nav-link {
   color: #FFF;
 }
-
+.button {
+  margin: auto;
+}
 .top-section {
   padding: 9rem 0 7rem 0;
   display: block;

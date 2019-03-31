@@ -12,7 +12,9 @@ header {
   background-color: var(--nude);
 }
 
-
+.button {
+  margin: auto;
+}
 
 .top-section {
   width: 100%;

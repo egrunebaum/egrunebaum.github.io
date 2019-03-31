@@ -289,14 +289,13 @@ ___________________________________ */
   display: block;
   align-items: center;
   cursor: pointer;
-  max-width: 30rem;
+  max-width: 32.5rem;
   color: #FFF;
   text-align: center;
   font-weight: 500;
   white-space: nowrap;
   background-color: transparent;
   color: var(--gold);
-  margin: auto;
   margin-top:3rem;
   border: 0.2rem solid var(--gold);
   border-radius: 3rem;
@@ -456,7 +455,7 @@ _____________________________*/
   }
 
   .button, .contact-button {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
   }
 }
 
@@ -517,7 +516,7 @@ _____________________________*/
   }
 
   .button, .contact-button {
-    padding: 1.8rem 0;
+    padding: 1.5rem 0;
   }
 }
 

@@ -11,7 +11,9 @@ header {
 a:hover {
   color: var(--gold);
 }
-
+.button {
+  margin: auto;
+}
 .quote p {
   border-left:var(--gold);
   color: var(--gold);
