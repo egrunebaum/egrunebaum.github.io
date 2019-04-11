@@ -87,8 +87,8 @@ header {
 
 
 .quote p {
-  border-left: var(--navy);
-  color: var(--navy);
+  border-left: var(--black);
+  color: var(--black);
 }
 @media screen and (max-width:910px) {
   .section-aboutme {
